@@ -1,11 +1,17 @@
 import Header from "./components/Barra de navegacion/Header";
 import Hero from "./components/Hero/Hero";
 
+
 function App() {
   return (
     <div>
       <Header />
-      <Hero />
+
+      <Hero/>
+      
+
+
+      
     </div>
   );
 }

@@ -2,7 +2,7 @@ import logoTipo from '../../assets/image/logoCruz.png';
 const Header = () => {
     return (
             
-            <header className='w-full bg-sky-500/25 fixed'>
+            <header className='w-full bg-sky-500/30 fixed z-10'>
                         {/* Barra Navegacion */}
                 <nav className="flex container mx-auto items-center uppercase h-20 justify-between  ">
                         {/* Logotipo */}
