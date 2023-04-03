@@ -4,16 +4,14 @@ import Whatsapp from '../../assets/whatsapp.svg';
 
 const Header = () => {
     return (
-            
-            <header className='w-full bg-sky-500/30 fixed z-10'>
-                        {/* Barra Navegacion */}
-                <nav className="flex container mx-auto items-center uppercase h-20 justify-between">
+
+            <nav className="flex w-full fixed top-0 left-0 right-0 container m-auto bg-gray-900/80 items-center z-50 uppercase">
                         {/* Logotipo */}
                         <div>
-                            <img src={logoTipo} className="w-16"/>
+                            <img src={logoTipo} className="w-20"/>
                         </div>
                         {/* links */}
-                        <ul className="text-white items-center md:flex md:cursor-pointer font-bold hidden text-sm/[7px]">
+                        <ul className="text-white mx-auto items-center md:flex md:cursor-pointer font-bold hidden text-sm/[7px]">
                             <li className="m-4">
                                 inicio
                             </li>
@@ -35,7 +33,7 @@ const Header = () => {
                             </li>
                         </ul>
                         {/* Links mobile */}
-                        <ul className="text-white bg-slate-500 fixed top-20 w-full h-full text-center  left-0  font-bold md:hidden text-xl justify-center">
+                        <ul className="text-white fixed top-20 w-full h-full text-center  left-0  font-bold md:hidden text-xl justify-center">
                             <li className="m-14">
                                 inicio
                             </li>
@@ -56,23 +54,17 @@ const Header = () => {
                     
                         {/* Boton hamburguesa */}
                         <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 mr-6 text-white md:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 mr-6 md:hidden text-white bg-black">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
                             </svg>
            
                         </div>
 
                         <div>
-                            <img src={Whatsapp} className="w-6 invert cursor-pointer"/>
+                            <img src={Whatsapp} className="w-6 mr-7 items-center invert cursor-pointer"/>
                         </div>
 
-
-                    
-
-                        
-
                 </nav>
-        </header>
     )
   };
 

@@ -3,18 +3,16 @@ import Boton from "../boton/button";
 
 const Titulo = () => {
   return (
-    <section className="overflow-hidden container mt-28 sm:grid sm:grid-cols-none sm:items-center">
-      <div className="p-8 mt-40 md:p-12 lg:px-16 lg:py-24">
-        <div className="mx-auto max-w-xl text-center sm:text-right">
-          <h2 className="text-2xl font-bold text-white md:text-3xl">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit
-          </h2>
+    <section className="grid grid-cols-2 container mt-40 mx-auto bg-blue-300/30">
+      <div className="bg-red-100/50">
+        <div className="mx-auto">
+          <h1 className="font-bold text-white text-8xl">
+            EL ENCUENTRO 
+          </h1>
 
           <p className="hidden text-gray-200 md:mt-4 md:block">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas
-            tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim
-            et fermentum, augue. Aliquet amet volutpat quisque ut interdum
-            tincidunt duis.
+          El lugar de tu encuentro con Dios! son muy bienvenidos a nuestra casa, tu casa!
+          Cada persona que llega a la comunidad es desafiada a entregarse a Jesús y dejar que Él sea su Señor.
           </p>
 
           <div className="mt-4 md:mt-8">

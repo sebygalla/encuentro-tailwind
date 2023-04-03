@@ -8,8 +8,8 @@ const Hero = () => {
   return (
 
     <section>
-      <img src={portada} className="w-screen h-screen bg-cover object-cover z-auto"/>
-      <div className="absolute inset-0 bg-gray-900 bg-opacity-50">
+      <img src={portada} className="w-screen h-screen bg-cover object-cover"/>
+      <div className="absolute top-20 left-0 right-0 bottom-0 m-auto">
         <Titulo/>
       </div>    
     </section>
