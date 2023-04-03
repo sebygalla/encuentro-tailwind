@@ -19,14 +19,14 @@ function SomosNosotros() {
         iglesia, las verdades de la Alianza. Este hecho de Dios con nosotros
         sería escaso si no se extendiera a todos los aspectos de nuestra vida.
       </div>
-      <div className="w-100 h-100 bg-gray-600/20 flex flex-wrap justify-end">
+      <div className="w-100 h-100 flex flex-wrap justify-end">
         <img src={nosotrosPastor} className="w-70 object-cover" />
         <blockquote className="italic mr-20">
           Pr. Javier Corsi | "Me rindo a su voluntad para ganar"
         </blockquote>
       </div>
 
-      <div className="w-100 h-100  bg-gray-600/20 flex flex-wrap justify-start">
+      <div className="w-100 h-100 flex flex-wrap justify-start">
         <img src={nosotrosPastora} className="w-70 object-cover"/>
         <blockquote className="italic ml-20">
           Pr. Javier Corsi | "Me rindo a su voluntad para ganar"
