@@ -9,7 +9,7 @@ import cardCinco from "../../assets/image/cards actividades/card5.jpg";
 
 function CardActividades() {
   return (
-    <section className="container mx-auto mb-10 flex flex-wrap  justify-between">
+    <section className="container mx-auto mb-10 flex flex-wrap gap-4 justify-between">
 
       {/* card 1 */}
       <a href="#" className="w-96 relative block group">
