@@ -1,37 +1,53 @@
-import logoTipo from "../../assets/image/logoCruz.png";
-import Whatsapp from "../../assets/whatsapp.svg";
-import HeaderMenuMobile from "../Barra de navegacion/menuMobile";
+import { useState } from "react";
+import logoTipo from "../../assets/image/tomi-04.png";
+import { FaAlignRight, FaKaggle } from "react-icons/fa";
 
 const Header = () => {
+  const [showMenu, setShowMenu] = useState (false);
+
+
   return (
-    <>
-      <nav className="flex w-screen fixed m-auto bg-gray-900/80 items-center justify-between z-30 uppercase">
-        {/* Logotipo */}
-        <div>
-          <img src={logoTipo} className="w-20 ml-5" />
-        </div>
 
-        <HeaderMenuMobile />
+    <header className="flex item-center w-full h-[120px] p-4 bg-slate-900/50 justify-between
+    xl:justify-end z-50'">
+      {/* logotipo */}
+      <div className="w-1/5  h-[80px] text-center bg-orange-400">
+        <img src={logoTipo} className="w-[80px]" />
+      </div>
 
-        {/* Boton hamburguesa */}
-        <div>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-6 h-6 mr-14 xl:hidden text-white bg-black">
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25"
-            />
-          </svg>
-        </div>
+      {/* navegacion */}
+      <nav className={`fixed text-white text-sm  uppercase xl:static w-full h-full ${ showMenu ? "left-0" : "-left-full"} top-0 flex-1 flex flex-col xl:flex-row p-8  items-center bg-slate-900 z-50 justify-start  gap-8 transition-all duration-500`}>
+        
+        {/* close */}
+        <button className="xl:hidden">
+          <FaKaggle />
+        </button>
+
+        <a href="#" className="">
+          inicio
+        </a>
+
+        <a href="#" className="">
+          nosotros
+        </a>
+
+        <a href="#" className="">
+          ministerios
+        </a>
+
+        <a href="#" className="">
+          contacto
+        </a>
       </nav>
-     
-    </>
+
+      {/* hamburguesa */}
+      <button onDoubleClick={()=>{
+        setShowMenu(!showMenu)
+      }} className="text-xl xl:hidden">
+        <FaAlignRight />
+      </button>
+
+    </header>
   );
 };
 

@@ -13,10 +13,7 @@ function App() {
       <Header/>
       <Hero/>
       <SomosNosotros/>
-      <CardActividadesDos/>
-  
-    
-      
+      <CardActividadesDos/> 
     </div>
   );
 }

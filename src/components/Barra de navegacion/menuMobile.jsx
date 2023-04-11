@@ -3,17 +3,17 @@ const HeaderMenuMobile = () => {
   return (
     
 
-          <ul className="text-white mx-auto text-xs font-semibold items-center xl:flex bg-red-200/50 z-50 ">
-              <li className="m-4">inicio</li>
-              <span className="item-center hidden xl:flex">|</span>
-              <li className="m-4 ">nosotros</li>
-              <span className="item-center hidden xl:flex">|</span>
-              <li className="m-4 ">actividades</li>
-              <span className="item-center hidden xl:flex">|</span>
-              <li className="m-4  ">ministerios</li>
-              <span className="item-center hidden xl:flex">|</span>
-              <li className="m-4  ">contacto</li>
-          </ul>
+          <nav className="text-white mx-auto text-xs font-semibold items-center bg-red-200/50 z-50  xl:flex">
+              <a href="#" className="m-4">inicio</a>
+              <span className="item-center">|</span>
+              <a href="#" className="m-4 ">nosotros</a>
+              <span className="item-center">|</span>
+              <a href="#" className="m-4 ">actividades</a>
+              <span className="item-center">|</span>
+              <a href="#" className="m-4  ">ministerios</a>
+              <span className="item-center">|</span>
+              <a href="#" className="m-4  ">contacto</a>
+          </nav>
   );
   
 };
