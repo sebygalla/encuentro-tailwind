@@ -6,7 +6,7 @@ const Titulo = () => {
     <section className="grid grid-cols-2 container mt-40 mx-auto bg-blue-300/30">
       <div className="bg-red-100/50">
         <div className="mx-auto">
-          <h1 className="font-bold text-white text-8xl">
+          <h1 className="font-bold text-white text-6xl xl:text-8xl ">
             EL ENCUENTRO 
           </h1>
 
