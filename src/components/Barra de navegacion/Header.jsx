@@ -1,6 +1,7 @@
 import { useState } from "react";
 import logoTipo from "../../assets/image/tomi-04.png";
-import logoTipoDos from "../../assets/image/tomi-02.png";
+
+// iconos menu and close
 import { BsJustifyRight, BsX } from "react-icons/bs";
 
 const Header = () => {
@@ -17,7 +18,7 @@ const Header = () => {
       <nav
         className={`fixed h-full w-full font-['Poppins'] text-lg  uppercase text-white xl:static xl:text-[12px] ${
           showMenu ? "left-0" : "-left-full"
-        } top-0 z-50 flex flex-1 flex-col  items-center justify-center gap-6 bg-slate-900 p-8 transition-all duration-500  xl:flex-row xl:justify-end xl:gap-3`}>
+        } top-0 z-50 flex flex-1 flex-col  items-center justify-center gap-6 p-8 transition-all duration-500  xl:flex-row xl:justify-end xl:gap-3`}>
         <a href="#" className=" ">
           inicio
         </a>

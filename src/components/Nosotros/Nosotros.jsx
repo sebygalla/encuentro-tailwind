@@ -4,8 +4,8 @@ import nosotrosPastora from "../../assets/image/nosotros 2.jpg";
 
 function SomosNosotros() {
   return (
-    <div className="container bg-gray-300/25 p-9 mx-auto my-20 grid grid-cols-2 gap-9">
-      <div className="text-base p-12">
+    <div className="container bg-gray-300/25 p-9 mx-auto my-20 grid xl:grid-cols-2 gap-9 font-['Poppins']">
+      <div className="text-sm xl:text-lg xl:text-justify p-0">
         Cada persona que llega a la comunidad es desafiada a entregarse a Jesús
         y dejar que Él sea su Señor. Esto solo es posible por lo que Dios hizo
         con el hombre a través de Jesús. Nuestro nuevo nacimiento viene por un
@@ -21,19 +21,12 @@ function SomosNosotros() {
       </div>
       <div className="w-100 h-100 flex flex-wrap justify-end">
         <img src={nosotrosPastor} className="w-70 object-cover" />
-        <blockquote className="italic mr-20">
+        <blockquote className="italic mr-20 text-gray-400 text-[12px]">
           Pr. Javier Corsi | "Me rindo a su voluntad para ganar"
         </blockquote>
       </div>
 
-      <div className="w-100 h-100 flex flex-wrap justify-start">
-        <img src={nosotrosPastora} className="w-70 object-cover"/>
-        <blockquote className="italic ml-20">
-          Pr. Javier Corsi | "Me rindo a su voluntad para ganar"
-        </blockquote>
-      </div>
-
-      <div className="p-12">
+      <div className="text-sm xl:text-lg xl:text-justify p-0">
         Dios se ha desbordado en su expresión de amor y lo ha extendido , a la
         formación de una familia, un cuerpo, su iglesia, que nace por mediación
         de Jesucristo en la nueva alianza (1 P 2, 4-10) y que es el único capaz
@@ -48,6 +41,13 @@ function SomosNosotros() {
         (Efesios 4:15) y se establece claramente la delegación de autoridad.
         Dios nos enseña cómo mantener el cuerpo unido ayudándonos unos a otros
         (Efesios 4:16)
+      </div>
+
+      <div className="w-100 h-100 flex flex-wrap justify-start">
+        <img src={nosotrosPastora} className="w-70 object-cover"/>
+        <blockquote className="italic ml-20 text-gray-400 text-[12px]">
+          Pr. Javier Corsi | "Me rindo a su voluntad para ganar"
+        </blockquote>
       </div>
     </div>
   );
