@@ -4,7 +4,7 @@ import nosotrosPastora from "../../assets/image/nosotros 2.jpg";
 
 function SomosNosotros() {
   return (
-    <div className="container bg-gray-300/25 p-9 mx-auto my-20 grid xl:grid-cols-2 gap-9 font-['Poppins']">
+    <div className="container p-9 mx-auto my-20 grid xl:grid-cols-2 gap-9 font-['Poppins']">
       <div className="text-sm xl:text-lg xl:text-justify p-0">
         Cada persona que llega a la comunidad es desafiada a entregarse a Jesús
         y dejar que Él sea su Señor. Esto solo es posible por lo que Dios hizo

@@ -8,7 +8,7 @@ const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <header className="item-center z-50' flex w-full justify-between bg-slate-900/80 absolute p-4 xl:justify-end">
+    <header className="item-center' flex w-full justify-between bg-black fixed p-4 xl:justify-end z-50">
       {/* logotipo */}
       <div className="w-1/5 text-center">
         <img src={logoTipo} className="w-[70px]" />

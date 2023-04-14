@@ -6,9 +6,9 @@ module.exports = {
     ],
     theme: {
       fontFamily: {
-        'body': ['"Open Sans"', 'Poppins', 'Monserrat'],
-      
+        'body': ['Open Sans', 'Poppins', 'Monserrat'],
       },
+  
     },
     plugins: [],
  };
