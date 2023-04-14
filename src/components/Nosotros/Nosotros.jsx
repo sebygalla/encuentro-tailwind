@@ -5,7 +5,7 @@ import nosotrosPastora from "../../assets/image/nosotros 2.jpg";
 function SomosNosotros() {
   return (
     <div className="container p-9 mx-auto my-20 grid xl:grid-cols-2 gap-9 font-['Poppins']">
-      <div className="text-sm xl:text-lg xl:text-justify p-0">
+      <div className="text-sm xl:text-base xl:text-justify p-0">
         Cada persona que llega a la comunidad es desafiada a entregarse a Jesús
         y dejar que Él sea su Señor. Esto solo es posible por lo que Dios hizo
         con el hombre a través de Jesús. Nuestro nuevo nacimiento viene por un
@@ -20,13 +20,13 @@ function SomosNosotros() {
         sería escaso si no se extendiera a todos los aspectos de nuestra vida.
       </div>
       <div className="w-100 h-100 flex flex-wrap justify-end">
-        <img src={nosotrosPastor} className="w-70 object-cover" />
-        <blockquote className="italic mr-20 text-gray-400 text-[12px]">
+        <img src={nosotrosPastor} className="w-80 object-cover" />
+        <blockquote className="italic  text-gray-400 text-[12px]">
           Pr. Javier Corsi | "Me rindo a su voluntad para ganar"
         </blockquote>
       </div>
 
-      <div className="text-sm xl:text-lg xl:text-justify p-0">
+      <div className="text-sm xl:text-base xl:text-justify p-0">
         Dios se ha desbordado en su expresión de amor y lo ha extendido , a la
         formación de una familia, un cuerpo, su iglesia, que nace por mediación
         de Jesucristo en la nueva alianza (1 P 2, 4-10) y que es el único capaz
@@ -43,9 +43,9 @@ function SomosNosotros() {
         (Efesios 4:16)
       </div>
 
-      <div className="w-100 h-100 flex flex-wrap justify-start">
-        <img src={nosotrosPastora} className="w-70 object-cover"/>
-        <blockquote className="italic ml-20 text-gray-400 text-[12px]">
+      <div className="w-100 h-100 flex flex-wrap justify-end">
+        <img src={nosotrosPastor} className="w-80 object-cover"/>
+        <blockquote className="italic text-gray-400 text-[12px]">
           Pr. Javier Corsi | "Me rindo a su voluntad para ganar"
         </blockquote>
       </div>
