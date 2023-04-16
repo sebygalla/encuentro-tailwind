@@ -1,14 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    content: [
-      "./index.html",
-      "./src/**/*.{js,ts,jsx,tsx}",
-    ],
-    theme: {
-      fontFamily: {
-        'body': ['Open Sans', 'Poppins', 'Monserrat'],
-      },
-  
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    fontFamily: {
+      body: ["Open Sans", "Poppins", "Monserrat"],
     },
-    plugins: [],
- };
+
+    extend: {
+    
+    },
+  },
+  plugins: [],
+};

@@ -48,7 +48,7 @@ const Header = () => {
         onClick={() => {
           setShowMenu(!showMenu);
         }}
-        className="z-50 text-4xl text-white xl:hidden">
+        className="z-50 text-2xl text-white xl:hidden">
         
         {showMenu ? <BsX /> : <BsJustifyRight />}
       </button>
