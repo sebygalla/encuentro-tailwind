@@ -1,6 +1,6 @@
 import React from "react";
-import Portada from "../../assets/image/portada7.png";
-import portadaMobile from "../../assets/image/portadaMobile.png"
+import Portada from "../../assets/image/portada9.png";
+import PortadaMobile from "../../assets/image/portadaMobile.png"
 import Titulo from "../Titulo/Titulo";
 
 const Hero = () => {
@@ -8,12 +8,11 @@ const Hero = () => {
     <section className="border-0 xl:border-2">
       <img
         src={Portada}
-        className="hidden xl:flex xl:h-full xl:w-full  xl:bg-cover xl:object-cover"
+        className="hidden md:hidden md:h-full md:w-full  md:bg-cover md:object-cover"
       />
-            <img
-        src={portadaMobile}
-        className="xl:hidden h-full w-full  bg-cover object-cover"
-      />
+      <img src={PortadaMobile} className="xl:hidden"/>
+      
+ 
       <div className="absolute bottom-0 left-0 right-0 top-20 -z-0 m-auto hidden xl:flex">
         <Titulo />
       </div>
