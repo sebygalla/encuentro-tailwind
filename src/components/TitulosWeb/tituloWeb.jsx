@@ -1,9 +1,8 @@
-import React from "react";
 
 const TituloWeb = () => {
   return (
-    <div className="mx-auto bg-blue-400">
-      <h1 className="text-4xl text-black">NOSOTROS</h1>
+    <div className=" mt-20 font-['Poppins']">
+      <h1 className="text-7xl text-center text-black">NOSOTROS</h1>
     </div>
   );
 };

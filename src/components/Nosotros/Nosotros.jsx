@@ -19,7 +19,7 @@ function SomosNosotros() {
         iglesia, las verdades de la Alianza. Este hecho de Dios con nosotros
         sería escaso si no se extendiera a todos los aspectos de nuestra vida.
       </div>
-      <div className="w-100 h-100 flex flex-wrap justify-end">
+      <div className="md:w-100 md:h-100 flex flex-wrap justify-center md:justify-end">
         <img src={nosotrosPastor} className="w-80 object-cover" />
         <blockquote className="italic  text-gray-400 text-[12px]">
           Pr. Javier Corsi | "Me rindo a su voluntad para ganar"
@@ -43,7 +43,7 @@ function SomosNosotros() {
         (Efesios 4:16)
       </div>
 
-      <div className="w-100 h-100 flex flex-wrap justify-end">
+      <div className="w-100 h-100 flex flex-wrap justify-center md:justify-end">
         <img src={nosotrosPastor} className="w-80 object-cover"/>
         <blockquote className="italic text-gray-400 text-[12px]">
           Pr. Javier Corsi | "Me rindo a su voluntad para ganar"

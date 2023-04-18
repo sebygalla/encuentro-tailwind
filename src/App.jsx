@@ -2,7 +2,8 @@ import Header from "./components/Barra de navegacion/Header";
 import Hero from "./components/Hero/Hero";
 import SomosNosotros from "./components/Nosotros/Nosotros";
 import CardActividadesDos from "./components/CardDos/CardActividadesDos";
-import TituloWeb from "../src/components/TitulosWeb/TituloWeb";
+import TituloWeb from "../src/components/TitulosWeb/tituloWeb";
+import Testimonial from "../src/components/Testimonial/testimonial";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <TituloWeb/>
       <SomosNosotros/>
       <CardActividadesDos/> 
+      <Testimonial/>
     </div>
   );
 }
