@@ -10,8 +10,8 @@ const Header = () => {
   return (
     <header className="item-center fixed z-50 flex w-full  justify-between bg-blue-900/50 p-4  xl:justify-end">
       {/* logotipo */}
-      <div className="w-1/5 text-center xl:ml-10">
-        <img src={logoTipo} className="w-[70px] xl:w-[70px]" />
+      <div className="w-1/5 text-cente xl:ml-10">
+        <img src={logoTipo} className="w-[120px] xl:w-[70px]" />
       </div>
 
       {/* navegacion */}
@@ -53,7 +53,7 @@ const Header = () => {
         onClick={() => {
           setShowMenu(!showMenu);
         }}
-        className="z-50 text-3xl text-white xl:hidden">
+        className="z-50 text-4xl  text-white xl:hidden">
         {showMenu ? <BsX /> : <BsJustifyRight />}
       </button>
     </header>

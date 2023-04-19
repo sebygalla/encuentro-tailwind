@@ -1,7 +1,8 @@
-import React from "react";
+
 import Portada from "../../assets/image/portada9.png";
 import PortadaMobile from "../../assets/image/portadaMobile.png"
 import HeroTitle from "../Titulo/Titulo";
+import Redes from "../Redes/Redes";
 
 
 const Hero = () => {
@@ -13,6 +14,9 @@ const Hero = () => {
       />
       <img src={PortadaMobile} className="md:hidden"/>
       <HeroTitle/>
+      <Redes/>
+
+
       
     </section>
   );
