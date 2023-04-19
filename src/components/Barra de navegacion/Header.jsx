@@ -8,10 +8,10 @@ const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <header className="item-center   flex w-full justify-between fixed top-0 p-4 xl:justify-end z-50 bg-gradient-to-r from-green-400 to-blue-500">
+    <header className="item-center flex w-full justify-between fixed  p-4 xl:justify-end z-50  bg-blue-500/50">
       {/* logotipo */}
       <div className="w-1/5 text-center xl:ml-10">
-        <img src={logoTipo} className="w-[50px] xl:w-[60px]" />
+        <img src={logoTipo} className="w-[60px] xl:w-[60px]" />
       </div>
 
       {/* navegacion */}
@@ -48,7 +48,7 @@ const Header = () => {
         onClick={() => {
           setShowMenu(!showMenu);
         }}
-        className="z-50 text-2xl text-white xl:hidden">
+        className="z-50 text-3xl text-white xl:hidden">
         
         {showMenu ? <BsX /> : <BsJustifyRight />}
       </button>
