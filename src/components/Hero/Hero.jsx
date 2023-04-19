@@ -6,7 +6,7 @@ import HeroTitle from "../Titulo/Titulo";
 
 const Hero = () => {
   return (
-    <section className="border-0 xl:border-2">
+    <section className="border-0 mt-[81px] xl:border-2">
       <img
         src={Portada}
         className="hidden md:flex md:h-full md:w-full  md:bg-cover md:object-cover"
