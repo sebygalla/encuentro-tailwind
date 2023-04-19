@@ -8,16 +8,16 @@ const Hero = () => {
     <section className="border-0 xl:border-2">
       <img
         src={Portada}
-        className="hidden md:hidden md:h-full md:w-full  md:bg-cover md:object-cover"
+        className="hidden md:flex md:h-full md:w-full  md:bg-cover md:object-cover"
       />
-      <img src={PortadaMobile} className="xl:hidden"/>
+      <img src={PortadaMobile} className="md:hidden"/>
       
  
       <div className="absolute bottom-0 left-0 right-0 top-20 -z-0 m-auto hidden xl:flex">
         <Titulo />
       </div>
 
-      <div className="xl:hidden">
+      <div className="xl:hidden md:flex">
         <Titulo />
       </div>
     </section>
