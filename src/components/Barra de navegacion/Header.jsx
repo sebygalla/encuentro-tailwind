@@ -8,17 +8,17 @@ const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <header className="item-center flex w-full justify-between fixed  p-4 xl:justify-end z-50  bg-blue-500/50">
+    <header className="item-center fixed z-50 flex w-full  justify-between bg-blue-900/50 p-4  xl:justify-end">
       {/* logotipo */}
       <div className="w-1/5 text-center xl:ml-10">
-        <img src={logoTipo} className="w-[60px] xl:w-[60px]" />
+        <img src={logoTipo} className="w-[70px] xl:w-[70px]" />
       </div>
 
       {/* navegacion */}
       <nav
-        className={`fixed h-full w-full font-['Poppins'] text-lg mr-6  uppercase text-white xl:static xl:text-[12px] ${
+        className={`fixed mr-6 h-full w-full font-['Poppins'] text-lg  uppercase text-white xl:static xl:text-[12px] ${
           showMenu ? "left-0" : "-left-full"
-        } top-0 z-50 flex flex-1 flex-col bg-blue-900 xl:bg-transparent  items-center justify-center xl:h-0 gap-6 p-8 transition-all duration-500  xl:flex-row xl:justify-end xl:gap-3`}>
+        } top-0 z-50 flex flex-1 flex-col items-center justify-center  gap-6 bg-blue-900 p-8 transition-all duration-500 xl:h-0 xl:flex-row  xl:justify-end xl:gap-3 xl:bg-transparent`}>
         <a href="#" className=" ">
           inicio
         </a>
@@ -38,9 +38,14 @@ const Header = () => {
         <span className="hidden xl:block">|</span>
 
         <a href="#" className="">
-          contacto
+          ministerios
         </a>
 
+        <span className="hidden xl:block">|</span>
+
+        <a href="#" className="">
+          contacto
+        </a>
       </nav>
 
       {/* open and close hamburguer */}
@@ -49,7 +54,6 @@ const Header = () => {
           setShowMenu(!showMenu);
         }}
         className="z-50 text-3xl text-white xl:hidden">
-        
         {showMenu ? <BsX /> : <BsJustifyRight />}
       </button>
     </header>
