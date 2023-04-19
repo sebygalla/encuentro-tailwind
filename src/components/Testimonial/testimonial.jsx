@@ -1,6 +1,7 @@
 import React from "react";
-
-
+import Javier from "../../assets/image/avatarJavier.png"
+import Nadia from "../../assets/image/nadia.jpg"
+import Angelito from "../../assets/image/angelito.png"
 const Testimonial = () => {
   return (
     <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-8 p-8">
@@ -14,7 +15,7 @@ const Testimonial = () => {
     </p>
     <div className="flex items-center gap-4">
       <img
-        src="https://img.freepik.com/foto-gratis/freelancer-mujer-glamorosa-disfrutando-manana-trabajando-portatil-foto-dama-latina-alegre-camisa-cuadros-posando-gafas_197531-10658.jpg"
+        src={Javier}
         className="w-16 h-16 object-cover rounded-full ring-4 ring-gray-300"
       />
       <div>
@@ -25,6 +26,7 @@ const Testimonial = () => {
       </div>
     </div>
   </div>
+
   {/* Testimonio */}
   <div className="flex flex-col gap-6 bg-gray-100 p-8 rounded-xl drop-shadow-xl">
     <p className="text-gray-500">
@@ -35,7 +37,7 @@ const Testimonial = () => {
     </p>
     <div className="flex items-center gap-4">
       <img
-        src="https://img.freepik.com/foto-gratis/foto-feliz-adorable-mujer-africana-rizada-sentada-frente-computadora-portatil-abierta-cafeteria-acera-satisfecha-hacer-buena-presentacion_273609-3488.jpg"
+        src={Nadia}
         className="w-16 h-16 object-cover rounded-full ring-4 ring-gray-300"
       />
       <div>
@@ -48,6 +50,7 @@ const Testimonial = () => {
       </div>
     </div>
   </div>
+
     {/* Testimonio */}
   <div className="flex flex-col gap-6 bg-gray-100 p-8 rounded-xl drop-shadow-xl">
     <p className="text-gray-500">
@@ -58,7 +61,7 @@ const Testimonial = () => {
     </p>
     <div className="flex items-center gap-4">
       <img
-        src="https://img.freepik.com/foto-gratis/retrato-hombre-negocios-mascarilla-usando-su-computadora-portatil-mientras-sentado-escaleras-al-aire-libre-concepto-negocio-nuevo-concepto-estilo-vida-normal_58466-14709.jpg"
+        src={Angelito}
         className="w-16 h-16 object-cover rounded-full ring-4 ring-gray-300"
       />
       <div>
