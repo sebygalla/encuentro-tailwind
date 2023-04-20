@@ -1,6 +1,6 @@
 
 import Portada from "../../assets/image/portada9.png";
-import PortadaMobile from "../../assets/image/portadaMobile.png"
+import PortadaMobile from "../../assets/image/portada10.png"
 import HeroTitle from "../Titulo/Titulo";
 import Redes from "../Redes/Redes";
 

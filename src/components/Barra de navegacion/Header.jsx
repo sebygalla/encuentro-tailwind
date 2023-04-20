@@ -1,6 +1,7 @@
 import { useState } from "react";
 import logoTipo from "../../assets/image/tomi-04.png";
 
+
 // iconos menu and close
 import { BsJustifyRight, BsX } from "react-icons/bs";
 
@@ -10,8 +11,8 @@ const Header = () => {
   return (
     <header className="item-center fixed z-50 flex w-full  justify-between bg-blue-900/50 p-4  xl:justify-end">
       {/* logotipo */}
-      <div className="w-1/5 text-cente xl:ml-10">
-        <img src={logoTipo} className="w-[120px] xl:w-[70px]" />
+      <div className="w-1/5 text-center xl:ml-10">
+        <img src={logoTipo} className="-m-3 w-[70px] xl:w-[60px]" />
       </div>
 
       {/* navegacion */}
