@@ -3,16 +3,17 @@ import logoTipo from "../../assets/image/tomi-04.png";
 
 
 // iconos menu and close
-import { BsJustifyRight, BsX } from "react-icons/bs";
+import { BsX } from "react-icons/bs";
+import { HiMenuAlt3 } from "react-icons/hi";
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <header className="item-center fixed z-50 flex w-full  justify-between bg-blue-900/50 p-4  xl:justify-end">
+    <header className="item-center fixed z-50 flex w-full  justify-between bg-black/30  xl:justify-end">
       {/* logotipo */}
       <div className="w-1/5 text-center xl:ml-10">
-        <img src={logoTipo} className="-m-3 w-[70px] xl:w-[60px]" />
+        <img src={logoTipo} className="-ml-1 w-[70px] xl:w-[80px]" />
       </div>
 
       {/* navegacion */}
@@ -55,7 +56,7 @@ const Header = () => {
           setShowMenu(!showMenu);
         }}
         className="z-50 text-4xl  text-white xl:hidden">
-        {showMenu ? <BsX /> : <BsJustifyRight />}
+        {showMenu ? <BsX /> : <HiMenuAlt3 />}
       </button>
     </header>
   );

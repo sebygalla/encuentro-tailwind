@@ -7,7 +7,7 @@ import Redes from "../Redes/Redes";
 
 const Hero = () => {
   return (
-    <section className=" ">
+    <section className="p-1 ">
       <img
         src={Portada}
         className="hidden md:flex md:h-full md:w-full  md:bg-cover md:object-cover"
