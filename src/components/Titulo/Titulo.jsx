@@ -1,6 +1,6 @@
 const HeroTitle = () => {
   return (
-    <section className=" absolute  top-[45%] px-8 py-3 text-white md:top-[15%] xl:top-[40%] xl:ml-8">
+    <section className=" absolute  top-[65%] px-8 py-3 text-white md:top-[15%] xl:top-[40%] xl:ml-8">
       <div className="grid  max-w-4xl grid-cols-1 gap-0 font-['Poppins'] md:gap-0 xl:gap-4 text-left md:text-left">
         <h2 className="text-sm font-medium uppercase">tristán suárez</h2>
       

@@ -10,17 +10,17 @@ const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <header className="item-center fixed z-50 flex w-full  justify-between bg-black/30  xl:justify-end">
+    <header className="item-center fixed z-50 flex w-full  justify-between bg-gray-800/50  xl:justify-end">
       {/* logotipo */}
-      <div className="w-1/5 text-center xl:ml-10">
-        <img src={logoTipo} className="-ml-1 w-[70px] xl:w-[80px]" />
+      <div className="w-1/5 text-center xl:ml-10 ml-0">
+        <img src={logoTipo} className="-ml-1 w-[70px] xl:w-[80px] xl:p-1" />
       </div>
 
       {/* navegacion */}
       <nav
         className={`fixed mr-6 h-full w-full font-['Poppins'] text-lg  uppercase text-white xl:static xl:text-[12px] ${
           showMenu ? "left-0" : "-left-full"
-        } top-0 z-50 flex flex-1 flex-col items-center justify-center  gap-6 bg-blue-900 p-8 transition-all duration-500 xl:h-0 xl:flex-row  xl:justify-end xl:gap-3 xl:bg-transparent`}>
+        } top-0 z-50 flex flex-1 flex-col justify-center  gap-6 bg-blue-900 p-8 transition-all duration-500 xl:h-0 xl:flex-row  xl:justify-end xl:gap-3 xl:bg-transparent`}>
         <a href="#" className=" ">
           inicio
         </a>
@@ -55,7 +55,7 @@ const Header = () => {
         onClick={() => {
           setShowMenu(!showMenu);
         }}
-        className="z-50 text-4xl  text-white xl:hidden">
+        className="z-50 text-3xl mr-2  text-white xl:hidden">
         {showMenu ? <BsX /> : <HiMenuAlt3 />}
       </button>
     </header>

@@ -1,11 +1,11 @@
 import React from "react";
 import Javier from "../../assets/image/avatarJavier.png";
 import Nadia from "../../assets/image/nadia.jpg";
-import Angelito from "../../assets/image/angelito.png";
+
 import TituloWeb from "../TitulosWeb/tituloWeb";
 const Testimonial = () => {
   return (
-    <><TituloWeb />
+    <><TituloWeb title ='Testimonios' />
     <div className="grid w-full grid-cols-1 items-center gap-8 p-10 md:grid-cols-2 lg:grid-cols-3">
 
       {/* Testimonio */}
@@ -60,7 +60,7 @@ const Testimonial = () => {
         </p>
         <div className="flex items-center gap-4">
           <img
-            src={Angelito}
+            src={Nadia}
             className="h-16 w-16 rounded-full object-cover ring-4 ring-gray-300" />
           <div>
             <h3 className="font-bold text-gray-100">Angel Sayago</h3>

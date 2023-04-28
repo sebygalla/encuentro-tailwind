@@ -1,18 +1,17 @@
 
 import Portada from "../../assets/image/portada9.png";
-import PortadaMobile from "../../assets/image/portada10.png"
+import PortadaMobile from "../../assets/image/main3.png"
 import HeroTitle from "../Titulo/Titulo";
 import Redes from "../Redes/Redes";
 
 
 const Hero = () => {
   return (
-    <section className="p-1 ">
-      <img
-        src={Portada}
-        className="hidden md:flex md:h-full md:w-full  md:bg-cover md:object-cover"
-      />
-      <img src={PortadaMobile} className="md:hidden"/>
+    <section>
+      <img className="w-full md:flex hidden" src="../../src/assets/image/main2.png"></img>
+
+      <img className="md:hidden" src="../../src/assets/image/main3.png"></img>
+  
       <HeroTitle/>
       <Redes/>
 
