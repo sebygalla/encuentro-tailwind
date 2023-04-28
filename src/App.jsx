@@ -1,6 +1,7 @@
 import Header from "./components/Barra de navegacion/Header";
 import Hero from "./components/Hero/Hero";
 import Testimonial from "../src/components/Testimonial/testimonial";
+import Footer from "./components/Footer/Footer";
 
 
 
@@ -11,6 +12,7 @@ function App() {
       <Hero/>
      
       <Testimonial/>
+      <Footer />
     </div>
   );
 }
