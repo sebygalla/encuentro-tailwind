@@ -2,7 +2,7 @@ import logoTipo from "../../assets/image/tomi-04.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-600 dark:bg-gray-900">
+    <footer className="bg-blue-600 dark:bg-gray-900 text-center">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
@@ -17,7 +17,7 @@ const Footer = () => {
               </span>
             </a>
           </div>
-          <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 sm:gap-6">
+          <div className="grid grid-cols-1 text-center gap-8 sm:grid-cols-3 sm:gap-6">
             <div>
               <h2 className="mb-6 text-sm font-semibold uppercase text-gray-200 dark:text-white">
                 Resources
