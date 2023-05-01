@@ -5,7 +5,7 @@ import Nadia from "../../assets/image/nadia.jpg";
 import TituloWeb from "../TitulosWeb/tituloWeb";
 const Testimonial = () => {
   return (
-    <><TituloWeb title ='Testimonios' />
+    <><TituloWeb title ='Testimonios 💪' />
     <div className="grid w-full grid-cols-1 items-center gap-8 p-10 md:grid-cols-2 lg:grid-cols-3">
 
       {/* Testimonio */}

@@ -2,14 +2,14 @@ import logoTipo from "../../assets/image/tomi-04.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-500/50 dark:bg-gray-900">
+    <footer className="bg-blue-600 dark:bg-gray-900">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <a href="https://flowbite.com/" class="flex items-center">
               <img
                 src={logoTipo}
-                className="mr-3 h-20"
+                className="h-[90px]"
                 alt="FlowBite Logo"
               />
               <span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">
@@ -19,13 +19,13 @@ const Footer = () => {
           </div>
           <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 sm:gap-6">
             <div>
-              <h2 className="mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">
+              <h2 className="mb-6 text-sm font-semibold uppercase text-gray-200 dark:text-white">
                 Resources
               </h2>
-              <ul className="font-medium text-gray-600 dark:text-gray-400">
+              <ul className="font-medium text-gray-200 dark:text-gray-400">
                 <li className="mb-4">
                   <a href="https://flowbite.com/" class="hover:underline">
-                    Flowbite
+                    React
                   </a>
                 </li>
                 <li>
@@ -36,10 +36,10 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">
+              <h2 className="mb-6 text-sm font-semibold uppercase text-gray-200 dark:text-white">
                 Follow us
               </h2>
-              <ul className="font-medium text-gray-600 dark:text-gray-400">
+              <ul className="font-medium text-gray-200 dark:text-gray-400">
                 <li className="mb-4">
                   <a
                     href="https://github.com/themesberg/flowbite"
@@ -57,10 +57,10 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">
+              <h2 className="mb-6 text-sm font-semibold uppercase text-gray-200 dark:text-white">
                 Legal
               </h2>
-              <ul className="font-medium text-gray-600 dark:text-gray-400">
+              <ul className="font-medium text-gray-200 dark:text-gray-400">
                 <li className="mb-4">
                   <a href="#" className="hover:underline">
                     Privacy Policy
@@ -77,17 +77,17 @@ const Footer = () => {
         </div>
         <hr className="my-6 border-gray-200 dark:border-gray-700 sm:mx-auto lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-gray-500 dark:text-gray-400 sm:text-center">
+          <span className="text-sm text-gray-200 dark:text-gray-400 sm:text-center">
             © 2023{" "}
             <a href="https://flowbite.com/" className="hover:underline">
-              Flowbite™
+              Sebygalla™
             </a>
             . All Rights Reserved.
           </span>
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
             <a
               href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+              className="text-gray-200 hover:text-gray-900 dark:hover:text-white">
               <svg
                 className="h-5 w-5"
                 fill="currentColor"
@@ -103,7 +103,7 @@ const Footer = () => {
             </a>
             <a
               href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+              className="text-gray-200 hover:text-gray-900 dark:hover:text-white">
               <svg
                 className="h-5 w-5"
                 fill="currentColor"
@@ -119,7 +119,7 @@ const Footer = () => {
             </a>
             <a
               href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+              className="text-gray-200 hover:text-gray-900 dark:hover:text-white">
               <svg
                 className="h-5 w-5"
                 fill="currentColor"
@@ -131,7 +131,7 @@ const Footer = () => {
             </a>
             <a
               href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+              className="text-gray-200 hover:text-gray-900 dark:hover:text-white">
               <svg
                 className="h-5 w-5"
                 fill="currentColor"
@@ -147,7 +147,7 @@ const Footer = () => {
             </a>
             <a
               href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+              className="text-gray-200 hover:text-gray-900 dark:hover:text-white">
               <svg
                 className="h-5 w-5"
                 fill="currentColor"

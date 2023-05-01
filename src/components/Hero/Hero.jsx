@@ -1,5 +1,5 @@
 
-import Portada from "../../assets/image/portada9.png";
+import Portada from "../../assets/image/portada18.png";
 import PortadaMobile from "../../assets/image/main3.png"
 import HeroTitle from "../Titulo/Titulo";
 import Redes from "../Redes/Redes";
@@ -9,7 +9,7 @@ import PortadaMobileDos from "../../assets/image/main5.jpg"
 const Hero = () => {
   return (
     <section>
-      <img className="w-full md:flex hidden" src={Portada}></img>
+      <img className="md:flex hidden" src={Portada}></img>
 
       <img className="md:hidden" src={PortadaMobileDos}></img>
   
