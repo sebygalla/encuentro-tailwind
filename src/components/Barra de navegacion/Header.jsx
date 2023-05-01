@@ -9,7 +9,7 @@ const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <header className="item-center fixed z-50 flex w-full h-[100px]  justify-between bg-green-200 xl:justify-end">
+    <header className="item-center fixed z-50 flex w-full md:h-[100px] h-[90px]  justify-between bg-green-200 xl:justify-end">
       {/* logotipo */}
       <div className="flex  bg-slate-500">
         <img src={logoTipo} className=" bg-red-800" />
@@ -67,7 +67,7 @@ const Header = () => {
           setShowMenu(!showMenu);
         }}
         className="z-50 mr-6 text-3xl  text-black xl:hidden">
-        {showMenu ? <BsX /> : <HiMenuAlt3 />}
+        {showMenu ? <BsX className="text-4xl" /> : <HiMenuAlt3 />}
       </button>
     </header>
   );
