@@ -9,7 +9,7 @@ import TituloWeb from "../TitulosWeb/tituloWeb";
 
 function CardActividades() {
   return (
-    <section className="grid md:grid-cols-2 xl:flex flex-wrap items-center justify-center p-10 gap-5 mt-10">
+    <section className="grid md:grid-cols-2 xl:flex flex-wrap items-center justify-center p-10 gap-5 mt-10 bg-red-900/30">
 
       
 

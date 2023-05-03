@@ -1,10 +1,10 @@
 const HeroTitle = () => {
   return (
-    <section className=" absolute md:ml-10 top-[55%] px-8 py-3 text-white md:top-[20%] xl:top-[40%] xl:ml-8">
-      <div className="grid  max-w-4xl grid-cols-1 font-['Poppins'] md:gap-0 xl:gap-4 text-center md:text-left -gap-2">
+    <section className="w-full px-5 absolute xl:top-[50%] text-white left-[50%] transform -translate-x-1/2 -translate-y-1/2 md:top-[70%] top-[70%]">
+      <div className="max-w-4xl font-['Poppins'] md:gap-0 xl:gap-4 text-center xl:text-left">
         <h2 className="text-sm font-semibold uppercase text-blue-900">tristán suárez</h2>
       
-        <h1 className="text-[45px] font-semibold xl:text-8xl">
+        <h1 className="text-[50px] font-semibold xl:text-[90px]">
           EL ENCUENTRO
         </h1>
         <p className="font-light">
