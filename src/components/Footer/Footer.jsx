@@ -9,7 +9,7 @@ const Footer = () => {
             <a href="https://flowbite.com/" class="flex items-center">
               <img
                 src={logoTipo}
-                className="h-[90px]"
+                className="h-[70px] md:w-[100px] md:h-[80px] -ml-5"
                 alt="Cruz Logo"
               />
               <span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">
@@ -20,7 +20,7 @@ const Footer = () => {
           <div className="grid grid-cols-1 text-left gap-8 sm:grid-cols-3 sm:gap-6">
             <div>
               <h2 className="mb-6 text-sm font-semibold uppercase text-gray-200 dark:text-white">
-                Resources
+                Recursos
               </h2>
               <ul className="font-medium text-gray-200 dark:text-gray-400">
                 <li className="mb-4">
@@ -37,7 +37,7 @@ const Footer = () => {
             </div>
             <div>
               <h2 className="mb-6 text-sm font-semibold uppercase text-gray-200 dark:text-white">
-                Follow us
+                Seguinos
               </h2>
               <ul className="font-medium text-gray-200 dark:text-gray-400">
                 <li className="mb-4">
@@ -63,12 +63,12 @@ const Footer = () => {
               <ul className="font-medium text-gray-200 dark:text-gray-400">
                 <li className="mb-4">
                   <a href="#" className="hover:underline">
-                    Privacy Policy
+                    Politica de privacidad
                   </a>
                 </li>
                 <li>
                   <a href="#" className="hover:underline">
-                    Terms &amp; Conditions
+                    Terminos &amp; Condiciones
                   </a>
                 </li>
               </ul>
@@ -79,11 +79,12 @@ const Footer = () => {
         <div className="sm:flex sm:items-center sm:justify-between text-left">
           <span className="text-sm text-gray-200 dark:text-gray-400">
             © 2023{" "}
-            <a href="https://flowbite.com/" className="hover:underline">
-              Sebygalla™
+            <a href="#" className="hover:underline">
+              sebygalla
             </a>
-            . All Rights Reserved.
+            . Todos los derechos reservados.
           </span>
+
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
             <a
               href="#"
