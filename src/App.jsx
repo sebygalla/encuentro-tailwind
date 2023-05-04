@@ -11,7 +11,7 @@ function App() {
     <div>
       <Header/>
       <Hero/>
-      <TituloWeb title ='Actividades 🤹‍♀️' />
+      <TituloWeb title ='Actividades 👨‍👩‍👦‍👦' />
       <CardActividades/>
       <Testimonial/>
       <Footer />

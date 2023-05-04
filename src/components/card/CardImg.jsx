@@ -9,7 +9,7 @@ import TituloWeb from "../TitulosWeb/tituloWeb";
 
 function CardActividades() {
   return (
-    <section className="grid md:grid-cols-2 xl:flex flex-wrap items-center justify-evenly p-10 gap-5 mt-10">
+    <section className="grid md:grid-cols-2 xl:flex flex-wrap xl:gap-10 flex-grow items-center justify-evenly p-10 gap-5 mt-10">
 
       
 
@@ -93,7 +93,7 @@ function CardActividades() {
         <div class="p-5">
           <a href="#">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              Matrimonios Jovenes 2023
+              Matrimonios Jovenes
             </h5>
           </a>
           <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
@@ -117,7 +117,7 @@ function CardActividades() {
         <div class="p-5">
           <a href="#">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              Matrimonios Adultos
+              Matrimonios grandes
             </h5>
           </a>
           <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
