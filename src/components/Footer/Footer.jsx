@@ -10,14 +10,14 @@ const Footer = () => {
               <img
                 src={logoTipo}
                 className="h-[90px]"
-                alt="FlowBite Logo"
+                alt="Cruz Logo"
               />
               <span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">
                 
               </span>
             </a>
           </div>
-          <div className="grid grid-cols-1 text-center gap-8 sm:grid-cols-3 sm:gap-6">
+          <div className="grid grid-cols-1 text-left gap-8 sm:grid-cols-3 sm:gap-6">
             <div>
               <h2 className="mb-6 text-sm font-semibold uppercase text-gray-200 dark:text-white">
                 Resources
@@ -76,8 +76,8 @@ const Footer = () => {
           </div>
         </div>
         <hr className="my-6 border-gray-200 dark:border-gray-700 sm:mx-auto lg:my-8" />
-        <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-gray-200 dark:text-gray-400 sm:text-center">
+        <div className="sm:flex sm:items-center sm:justify-between text-left">
+          <span className="text-sm text-gray-200 dark:text-gray-400">
             © 2023{" "}
             <a href="https://flowbite.com/" className="hover:underline">
               Sebygalla™
