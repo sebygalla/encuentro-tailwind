@@ -1,11 +1,10 @@
 import React from "react";
-import cardUno from "../../assets/image/cards actividades/card1.jpg";
-import cardDos from "../../assets/image/cards actividades/card2.jpeg";
+import cardUno from "../../assets/image/cards actividades/card7.jpg";
+import cardDos from "../../assets/image/cards actividades/card8.jpg";
 import cardTres from "../../assets/image/cards actividades/card3.jpg";
 import cardCuatro from "../../assets/image/cards actividades/card4.jpg";
 import cardCinco from "../../assets/image/cards actividades/card5.jpg";
-import manos from "../../assets/image/main2.png"
-import TituloWeb from "../TitulosWeb/tituloWeb";
+
 
 function CardActividades() {
   return (
@@ -16,7 +15,7 @@ function CardActividades() {
        {/* card 1 */}
        <div class="max-w-sm rounded-lg border border-gray-200 bg-white shadow dark:border-gray-700 dark:bg-gray-800">
         <a href="#">
-          <img class="rounded-t-lg" src={cardDos} alt="" />
+          <img class="rounded-t-lg contrast-200" src={cardUno} alt="" />
         </a>
         <div class="p-5">
           <a href="#">
@@ -40,7 +39,7 @@ function CardActividades() {
        {/* card 2 */}
        <div class="max-w-sm rounded-lg border border-gray-200 bg-white shadow dark:border-gray-700 dark:bg-gray-800">
         <a href="#">
-          <img class="rounded-t-lg" src={cardDos} alt="" />
+          <img class="rounded-t-lg contrast-200" src={cardDos} alt="" />
         </a>
         <div class="p-5">
           <a href="#">
@@ -64,7 +63,7 @@ function CardActividades() {
        {/* card 3 */}
        <div class="max-w-sm rounded-lg border border-gray-200 bg-white shadow dark:border-gray-700 dark:bg-gray-800">
         <a href="#">
-          <img class="rounded-t-lg" src={cardDos} alt="" />
+          <img class="rounded-t-lg contrast-150" src={cardTres} alt="" />
         </a>
         <div class="p-5">
           <a href="#">
@@ -88,7 +87,7 @@ function CardActividades() {
        {/* card 4 */}
        <div class="max-w-sm rounded-lg border border-gray-200 bg-white shadow dark:border-gray-700 dark:bg-gray-800">
         <a href="#">
-          <img class="rounded-t-lg" src={cardTres} alt="" />
+          <img class="rounded-t-lg contrast-200" src={cardCuatro} alt="" />
         </a>
         <div class="p-5">
           <a href="#">
@@ -112,7 +111,7 @@ function CardActividades() {
        {/* card 5 */}
        <div class="max-w-sm rounded-lg border border-gray-200 bg-white shadow dark:border-gray-700 dark:bg-gray-800">
         <a href="#">
-          <img class="rounded-t-lg" src={cardDos} alt="" />
+          <img class="rounded-t-lg contrast-150" src={cardCinco} alt="" />
         </a>
         <div class="p-5">
           <a href="#">

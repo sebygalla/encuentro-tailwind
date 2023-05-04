@@ -8,7 +8,7 @@ const HeroTitle = () => {
         <h1 className="text-[50px] -mt-3 font-semibold xl:text-[120px] md:text-[60px]">
           EL ENCUENTRO
         </h1>
-        <p className="xl:-m-7 -mt-2 font-light text-1xl md:text-xl xl:text-3xl tracking-[.25em]">
+        <p className="xl:-m-7 -mt-2 font-light text-1xl md:text-xl xl:text-xl xl:tracking-[.6em]">
           Tristán Suárez
         </p>
         <button className="text-md xl:ml-0 md:ml-0  rounded-md md:mt-6 mt-5 xl:mt-14 px-4 py-2 bg-blue-900">
