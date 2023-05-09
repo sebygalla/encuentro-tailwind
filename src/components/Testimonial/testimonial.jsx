@@ -3,7 +3,7 @@ import React from "react";
 const Testimonial = (props) => {
   return (
     
-    <div className="flex flex-col bg-orange-600 gap-6 rounded-xl p-8">
+    <div className="flex flex-col bg-orange-600 gap-6 rounded-xl p-8 shadow">
       <p className="text-white">{props.testimonio}</p>
       <div className="flex items-center gap-4">
         <img

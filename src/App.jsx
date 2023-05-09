@@ -2,18 +2,34 @@ import Header from "./components/Barra de navegacion/Header";
 import Hero from "./components/Hero/Hero";
 import Testimonial from "../src/components/Testimonial/testimonial";
 import Footer from "./components/Footer/Footer";
-import CardActividades from "./components/card/CardImg";
 import TituloWeb from "./components/TitulosWeb/tituloWeb";
 import Nadia from "../src/assets/image/nadia.jpg";
 import Javier from "../src/assets/image/avatarJavier.png";
+import Actividades from "./components/Card/Actividades";
+import Ninos from "../src/assets/image/cards actividades/card6.jpg"
 
 function App() {
   return (
     <div className="bg-gray-200 absolute">
       <Header />
       <Hero />
-      <TituloWeb title="Actividades 👨‍👩‍👦‍👦 " />
-      <CardActividades />
+      <div className="bg-orange-400 m-20">
+    
+        <TituloWeb title="Actividades 👨‍👩‍👦‍👦 " />
+
+        <div className="bg-green-400 p-5">
+        <Actividades  
+              title="Niños"
+              text="The cake at the Sacher hotel is amongst the finest in all the lands es un servicio."  
+              imagen={Ninos}
+              />
+        </div>
+    
+      
+      </div>
+     
+
+ 
 
 
       <div className=" bg-testimonio bg-cover md:bg-container bg-center relative overflow-hidden contrast-125 p-10">
