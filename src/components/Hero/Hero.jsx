@@ -1,24 +1,10 @@
-
-import Portada from "../../assets/image/portada21.png";
-import PortadaMobile from "../../assets/image/portadaMobileTres.png"
 import HeroTitle from "../Titulo/Titulo";
-import Redes from "../Redes/Redes";
-
-
 
 const Hero = () => {
   return (
-    <section className="bg-gradient-to-tr from-yellow-600 to-red-900 relative overflow-hidden contrast-125">
-      <img className="md:flex hidden mix-blend-overlay inset-0 w-full object-cover" src={Portada}></img>
-
-      <img className="flex mix-blend-overlay inset-0 w-full object-cover md:hidden" src={PortadaMobile}></img>
-  
-      <HeroTitle/>
-      <Redes/>
-
-
-      
-    </section>
+    <div className="bg-portada z-10 bg-cover max-w-full h-[80vh] md:h-[50vh] xl:h-[100vh] relative bg-no-repeat bg-[left_-30rem_top_2rem] md:bg-center">
+      <HeroTitle /> 
+    </div>
   );
 };
 

@@ -1,6 +1,5 @@
 import Header from "./components/Barra de navegacion/Header";
 import Hero from "./components/Hero/Hero";
-import Heros from "./components/Hero/Heros";
 import Testimonial from "../src/components/Testimonial/testimonial";
 import Footer from "./components/Footer/Footer";
 import CardActividades from "./components/card/CardImg";
@@ -10,7 +9,7 @@ import Javier from "../src/assets/image/avatarJavier.png";
 
 function App() {
   return (
-    <div className="bg-gray-200">
+    <div className="bg-gray-200 absolute">
       <Header />
       <Hero />
       <TituloWeb title="Actividades 👨‍👩‍👦‍👦 " />
