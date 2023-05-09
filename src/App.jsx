@@ -16,7 +16,7 @@ function App() {
       <CardActividades />
 
 
-      <div className=" bg-gray-900 p-10">
+      <div className=" bg-testimonio bg-container bg-center relative overflow-hidden contrast-125 p-10">
         
         <TituloWeb title="Testimonios 💪 " />
         <div className="mb-10 mt-10 grid gap-5 xl:p-20 md:grid-cols-2 p-2 xl:grid-cols-3">

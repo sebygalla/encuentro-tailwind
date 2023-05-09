@@ -10,6 +10,10 @@ module.exports = {
     },
 
     extend: {
+      backgroundImage: {
+        'testimonio': "url('../src/assets/image/portada2.jpg')",
+        
+      }
 
   
     },
