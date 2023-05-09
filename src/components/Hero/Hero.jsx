@@ -2,8 +2,10 @@ import HeroTitle from "../Titulo/Titulo";
 
 const Hero = () => {
   return (
-    <div className="bg-portada z-10 bg-cover max-w-full h-[80vh] md:h-[50vh] xl:h-[100vh] relative bg-no-repeat bg-[left_-33rem_top_2rem] md:bg-center">
-      <HeroTitle /> 
+    <div className="relative z-10 h-[80vh] max-w-full bg-portada bg-cover bg-no-repeat md:h-[80vh] md:bg-center xl:h-[100vh]">
+      
+        <HeroTitle />
+    
     </div>
   );
 };

@@ -1,7 +1,7 @@
 const HeroTitle = () => {
   return (
-    <section className="w-full px-5 absolute xl:top-[55%] text-white left-[50%] transform -translate-x-1/2 -translate-y-1/2 md:top-[65%] top-[70%]">
-      <div className="mx-auto max-w-4xl font-['Poppins'] md:gap-0 xl:gap-4 text-center">
+    <section className="w-full px-5 absolute xl:top-[70%] text-white left-[50%] transform -translate-x-1/2 -translate-y-1/2 md:top-[65%] top-[70%]">
+      <div className="mx-auto max-w-4xl font-['Poppins'] md:gap-0 xl:gap-4 text-left">
 
         <h2 className="xl:text-2xl text-lg font-bold uppercase text-blue-900">Iglesia Cristiana <span className="xl:text-4xl text-2xl">⛪</span></h2>
       
