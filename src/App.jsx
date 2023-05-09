@@ -1,5 +1,6 @@
 import Header from "./components/Barra de navegacion/Header";
 import Hero from "./components/Hero/Hero";
+import Heros from "./components/Hero/Heros";
 import Testimonial from "../src/components/Testimonial/testimonial";
 import Footer from "./components/Footer/Footer";
 import CardActividades from "./components/card/CardImg";
@@ -16,7 +17,7 @@ function App() {
       <CardActividades />
 
 
-      <div className=" bg-testimonio bg-container bg-center relative overflow-hidden contrast-125 p-10">
+      <div className=" bg-testimonio bg-cover md:bg-container bg-center relative overflow-hidden contrast-125 p-10">
         
         <TituloWeb title="Testimonios 💪 " />
         <div className="mb-10 mt-10 grid gap-5 xl:p-20 md:grid-cols-2 p-2 xl:grid-cols-3">

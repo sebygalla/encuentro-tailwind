@@ -3,7 +3,7 @@ import Portada from "../../assets/image/portada21.png";
 import PortadaMobile from "../../assets/image/portadaMobileTres.png"
 import HeroTitle from "../Titulo/Titulo";
 import Redes from "../Redes/Redes";
-import PortadaMobileDos from "../../assets/image/main5.png"
+
 
 
 const Hero = () => {
