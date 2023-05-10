@@ -7,19 +7,24 @@ import Nadia from "../src/assets/image/nadia.jpg";
 import Javier from "../src/assets/image/avatarJavier.png";
 import Actividades from "./components/Card/Actividades";
 import Ninos from "../src/assets/image/cards actividades/card7.jpg";
-import Preadolescentes from "../src/assets/image/cards actividades/card8.jpg"
-import Jovenes from "../src/assets/image/cards actividades/card3.jpg"
-import MatriJovenes from "../src/assets/image/cards actividades/card4.jpg"
-import MatriAdultos from "../src/assets/image/cards actividades/card5.jpg"
+import Preadolescentes from "../src/assets/image/cards actividades/card8.jpg";
+import Jovenes from "../src/assets/image/cards actividades/card3.jpg";
+import MatriJovenes from "../src/assets/image/cards actividades/card4.jpg";
+import MatriAdultos from "../src/assets/image/cards actividades/card5.jpg";
+import Rehma from "../src/components/rehma/Rehma";
+import Hero2 from "./components/Hero/Hero2";
 
 function App() {
   return (
     <div className="absolute bg-gray-200">
       <Header />
-      <Hero />
+      <Hero2 />
+      <div className="bg-yellow-300 p-20">
+       
+      </div>
 
       <TituloWeb title="Actividades 👨‍👩‍👦‍👦 " />
-      <div className="relative mx-auto mt-24 flex flex-col items-center justify-between overflow-hidden container">
+      <div className="container relative mx-auto mt-24 flex flex-col items-center justify-between overflow-hidden">
         <div className="mx-auto mb-36 grid gap-10 md:grid-cols-2 xl:grid-cols-3">
           <Actividades
             title="Niños"
