@@ -7,10 +7,10 @@ const HeroTitle = () => {
 
         <h2 className="xl:text-2xl text-lg font-bold uppercase text-blue-900">Iglesia Cristiana <span className="xl:text-4xl text-2xl">⛪</span></h2>
       
-        <h1 className="text-[40px] -mt-3 font-semibold xl:text-[120px] md:text-[90px]">
+        <h1 className="text-[40px] -mt-3 font-semibold xl:text-[90px] md:text-[90px]">
           EL ENCUENTRO
         </h1>
-        <p className=" -mt-2 font-semibold text-1xl md:text-xl xl:text-md xl:tracking-[.9em]">
+        <p className=" -mt-2 font-semibold text-1xl md:text-xl xl:text-sm xl:tracking-[.9em]">
           Tristán Suárez
         </p>
 
