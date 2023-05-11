@@ -19,7 +19,7 @@ function App() {
     <div className="absolute bg-gray-200">
       <Header />
       <Hero2 />
-      <div className="bg-yellow-300 p-20">
+      <div className="p-20">
        
       </div>
 
