@@ -11,9 +11,11 @@ module.exports = {
 
     extend: {
       backgroundImage: {
-        'portada': "url('../src/assets/image/pastor.jpg')",
+        'portada': "url('../src/assets/image/main2.png')",
+        'portada-dos': "url('../src/assets/image/image2.jpg')",
         'testimonio': "url('../src/assets/image/portada20.png')",
-        'portadaMobile': "url('../src/assets/image/portada9.png')",
+        'fondo': "url('../src/assets/image/fondo.webp')",
+        
         
       }
 

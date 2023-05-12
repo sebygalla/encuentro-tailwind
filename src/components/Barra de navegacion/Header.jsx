@@ -9,15 +9,15 @@ const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <header className="item-center fixed z-50 flex w-full md:h-[100px] h-[90px]  justify-between bg-white xl:justify-end shadow">
+    <header className="item-center fixed z-50 flex w-full md:h-[70px] h-[90px]  justify-between bg-white xl:justify-end shadow">
       {/* logotipo */}
       <div className=" flex items-center justify-center">
-        <img className="h-20" src={logoTipo}/>
+        <img className="h-[60px]" src={logoTipo}/>
       </div>
 
       {/* navegacion */}
       <nav
-        className={`fixed h-full w-full font-['Poppins'] text-lg font-semibold  uppercase text-black xl:static xl:text-[12px] ${
+        className={`fixed h-full w-full font-['Poppins']  font-semibold  uppercase text-black xl:static items-center text-[11px] ${
           showMenu ? "left-0" : "-left-full"
         } top-0 z-50 flex  flex-col text-center justify-center  gap-6 bg-blue-900 p-8 transition-all duration-500 xl:h-0 xl:flex-row  xl:justify-end xl:gap-3 xl:bg-transparent`}>
         <a href="#" className=" ">

@@ -4,8 +4,8 @@
 
 @layer utilities {
     .shadow {
-        -webkit-box-shadow: 6px 6px 12px -3px rgba(0, 0, 0, 0.74);
-        -moz-box-shadow: 6px 6px 12px -3px rgba(0, 0, 0, 0.74);
-        box-shadow: 6px 6px 12px -3px rgba(0, 0, 0, 0.74);
+        -webkit-box-shadow: 6px 6px 12px -3px rgba(0, 0, 0, 0.4);
+        -moz-box-shadow: 6px 6px 12px -3px rgba(0, 0, 0, 0.4);
+        box-shadow: 6px 6px 12px -3px rgba(0, 0, 0, 0.4);
     }
 }

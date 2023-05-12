@@ -2,19 +2,19 @@ import BotonDos from "../boton/Boton";
 
 const HeroTitle = () => {
   return (
-    <section className="w-full px-5 absolute xl:top-[70%] text-white left-[50%] xl:left-[50%] transform -translate-x-1/2 -translate-y-1/2 md:top-[60%] top-[55%]">
-      <div className="mx-auto max-w-4xl font-['Poppins'] md:gap-0 xl:gap-4 text-center">
+    <section className="w-full ml-20 z-40">
+      <div className="mx-auto max-w-4xl font-['Poppins'] md:gap-0 xl:gap-4 text-left flex flex-col ">
 
-        <h2 className="xl:text-2xl text-md font-semibold uppercase text-blue-900">Iglesia Cristiana <span className="xl:text-4xl text-2xl">⛪</span></h2>
+        <h2 className="xl:text-3xl text-md font-semibold uppercase text-black text-left">Iglesia Cristiana <span className="xl:text-4xl text-2xl">⛪</span></h2>
       
-        <h1 className="text-[50px] -mt-3 font-semibold xl:text-[90px] md:text-[90px]">
+        <h1 className="text-6xl font-semibold text-left tracking-[5px]">
           EL ENCUENTRO
         </h1>
-        <p className=" -mt-2 font-semibold text-1xl md:text-xl xl:text-sm xl:tracking-[.9em] tracking-[.3em]">
+        <p className="text-left tracking-[.9em] font-semibold">
           Tristán Suárez
         </p>
 
-        <div className="w-[50%] mx-auto ">
+        <div className="text-left mt-6">
           <BotonDos text="VER MÁS!" />
         </div>
 

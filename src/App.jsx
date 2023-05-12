@@ -1,5 +1,4 @@
 import Header from "./components/Barra de navegacion/Header";
-import Hero from "./components/Hero/Hero";
 import Testimonial from "../src/components/Testimonial/testimonial";
 import Footer from "./components/Footer/Footer";
 import TituloWeb from "./components/TitulosWeb/tituloWeb";
@@ -11,14 +10,13 @@ import Preadolescentes from "../src/assets/image/cards actividades/card8.jpg";
 import Jovenes from "../src/assets/image/cards actividades/card3.jpg";
 import MatriJovenes from "../src/assets/image/cards actividades/card4.jpg";
 import MatriAdultos from "../src/assets/image/cards actividades/card5.jpg";
-import Rehma from "../src/components/rehma/Rehma";
-import Hero2 from "./components/Hero/Hero2";
+import Hero3 from "./components/Hero/Hero3";
 
 function App() {
   return (
     <div className="absolute bg-gray-200">
       <Header />
-      <Hero2 />
+      <Hero3 />
       <div className="p-20">
        
       </div>
