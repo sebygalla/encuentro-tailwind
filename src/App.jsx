@@ -10,6 +10,7 @@ import Preadolescentes from "../src/assets/image/cards actividades/card8.jpg";
 import Jovenes from "../src/assets/image/cards actividades/card3.jpg";
 import MatriJovenes from "../src/assets/image/cards actividades/card4.jpg";
 import MatriAdultos from "../src/assets/image/cards actividades/card5.jpg";
+
 import Hero3 from "./components/Hero/Hero3";
 
 function App() {
