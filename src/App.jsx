@@ -18,12 +18,8 @@ function App() {
     <div className="absolute bg-gray-200">
       <Header />
       <Hero3 />
-      <div className="p-20">
-       
-      </div>
-
       <TituloWeb title="Actividades 👨‍👩‍👦‍👦 " />
-      <div className="container relative mx-auto mt-24 flex flex-col items-center justify-between overflow-hidden">
+      <div className="container relative mx-auto mt-20 flex flex-col items-center justify-between overflow-hidden">
         <div className="mx-auto mb-36 grid gap-10 md:grid-cols-2 xl:grid-cols-3">
           <Actividades
             title="Niños"
