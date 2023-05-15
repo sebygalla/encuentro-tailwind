@@ -1,6 +1,7 @@
 import { useState } from "react";
 import logoTipo from "../../assets/image/tomi-05.png";
 
+
 // iconos menu and close
 import { BsX } from "react-icons/bs";
 import { HiMenuAlt3 } from "react-icons/hi";
@@ -60,6 +61,8 @@ const Header = () => {
           contacto
         </a>
       </nav>
+
+    
 
       {/* open and close hamburguer */}
       <button

@@ -1,5 +1,6 @@
 import logoTipo from "../../assets/image/logoCruz.png";
 
+
 const Hero3 = () => {
   return (
     <section class="relative bg-portada-dos bg-cover bg-center bg-no-repeat w-full h-[100vh] flex items-center justify-center md:gap-6 gap-3 bg-fixed">
@@ -15,13 +16,14 @@ const Hero3 = () => {
       
       
 
-        <div className="text-white z-10 md:text-center text-left">    
+        <div className="text-white z-10 md:text-center text-center">    
           <h1 className="md:text-4xl text-[24px] md:tracking-[5px] ml-2">IGLESIA EL ENCUENTRO</h1>
-          <h3 className="md:text-md text-[11px] md:tracking-[13px] tracking-[7.5px] ml-2">Tristán Suárez - 2023</h3>
+          <h3 className="md:text-md text-[11px] md:tracking-[13px] tracking-[4.5px] ml-2">Tristán Suárez - 2023</h3>
         </div>
       </div>
 
       <svg className=" w-screen absolute -bottom-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#E5E7EB" fill-opacity="1" d="M0,256L1440,0L1440,320L0,320Z"></path></svg>
+    
      
 
   
