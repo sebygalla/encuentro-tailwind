@@ -12,6 +12,9 @@ import MatriJovenes from "../src/assets/image/cards actividades/card4.jpg";
 import MatriAdultos from "../src/assets/image/cards actividades/card5.jpg";
 import Hero3 from "./components/Hero/Hero3";
 import Social from "./components/Redes/Social";
+import Rehma from "./components/Rehma/Rehma";
+
+
 
 
 function App() {
@@ -55,7 +58,8 @@ function App() {
         </div>
       </div>
 
-      <Social />
+   
+   
  
       <div className=" md:bg-container relative overflow-hidden bg-testimonio bg-cover bg-center p-10 contrast-125">
         <TituloWeb title="Testimonios 💪 " />

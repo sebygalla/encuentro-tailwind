@@ -20,7 +20,7 @@ const Header = () => {
       <nav
         className={`fixed h-full w-full font-['Poppins']  font-semibold  uppercase  xl:static items-center xl:text-[12px] text-[18px] ${
           showMenu ? "left-0" : "-left-full"
-        } top-0 z-50 flex  flex-col text-center justify-center  gap-6 bg-blue-900 p-8 transition-all duration-500 xl:h-0 xl:flex-row  xl:justify-end xl:gap-3 xl:bg-transparent text-white xl:text-black`}>
+        } top-0 z-50 flex  flex-col text-center justify-center  gap-6 bg-white p-8 transition-all duration-500 xl:h-0 xl:flex-row  xl:justify-end xl:gap-3 xl:bg-transparent text-black`}>
         <a href="#" className=" ">
           inicio
         </a>
