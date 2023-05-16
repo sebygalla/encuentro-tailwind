@@ -11,18 +11,17 @@ import Jovenes from "../src/assets/image/cards actividades/card3.jpg";
 import MatriJovenes from "../src/assets/image/cards actividades/card4.jpg";
 import MatriAdultos from "../src/assets/image/cards actividades/card5.jpg";
 import Hero3 from "./components/Hero/Hero3";
-import Social from "./components/Redes/Social";
-import Rehma from "./components/Rehma/Rehma";
+
 
 
 
 
 function App() {
   return (
-    <div className="absolute bg-gray-200">
+    <div className="absolute">
       <Header />
       <Hero3 />
-
+  
       <TituloWeb title="Actividades 👨‍👩‍👦‍👦 " />
       <div className="container relative mx-auto mt-20 flex flex-col items-center justify-between overflow-hidden">
         <div className="mx-auto mb-36 grid gap-10 md:grid-cols-2 xl:grid-cols-3">
@@ -62,6 +61,7 @@ function App() {
    
  
       <div className=" md:bg-container relative overflow-hidden bg-testimonio bg-cover bg-center p-10 contrast-125">
+
         <TituloWeb title="Testimonios 💪 " />
         <div className="mb-10 mt-10 grid gap-5 p-2 md:grid-cols-2 xl:grid-cols-3 xl:p-20">
           <Testimonial
