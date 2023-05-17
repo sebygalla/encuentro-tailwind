@@ -22,7 +22,7 @@ const Hero3 = () => {
         </div>
       </div>
 
-      <svg className=" w-full absolute md:-bottom-8 -bottom-1 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff" fill-opacity="1" d="M0,256L1440,0L1440,320L0,320Z"></path></svg>
+      <svg className=" w-full absolute md:-bottom-8 -bottom-1 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#E5E7EB" fill-opacity="1" d="M0,256L1440,0L1440,320L0,320Z"></path></svg>
     
      
 

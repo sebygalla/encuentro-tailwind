@@ -15,6 +15,7 @@ module.exports = {
         'portada-dos': "url('../src/assets/image/1.jpg')",
         'testimonio': "url('../src/assets/image/portada20.png')",
         'fondo': "url('../src/assets/image/fondo.webp')",
+        'rehma':"url('../src/assets/image/blob.svg')",
         
         
       }

@@ -4,6 +4,7 @@ import Footer from "./components/Footer/Footer";
 import TituloWeb from "./components/TitulosWeb/tituloWeb";
 import Nadia from "../src/assets/image/nadia.jpg";
 import Javier from "../src/assets/image/avatarJavier.png";
+import Jorge from "../src/assets/image/avatarJorge.png";
 import Actividades from "./components/Card/Actividades";
 import Ninos from "../src/assets/image/cards actividades/card7.jpg";
 import Preadolescentes from "../src/assets/image/cards actividades/card8.jpg";
@@ -11,6 +12,7 @@ import Jovenes from "../src/assets/image/cards actividades/card3.jpg";
 import MatriJovenes from "../src/assets/image/cards actividades/card4.jpg";
 import MatriAdultos from "../src/assets/image/cards actividades/card5.jpg";
 import Hero3 from "./components/Hero/Hero3";
+import Rehma from "./components/rehma/Rehma";
 
 
 
@@ -18,9 +20,18 @@ import Hero3 from "./components/Hero/Hero3";
 
 function App() {
   return (
-    <div className="absolute">
+    <div className="bg-gray-200">
       <Header />
       <Hero3 />
+      <div className="">
+
+      <TituloWeb title="Rehma 2023 📖" />
+        <Rehma  imagen={Jorge}
+                nombre="Jorge Sennewald"
+                description="Pastor General Iglesias El Encuentro" 
+        />
+      </div>
+   
   
       <TituloWeb title="Actividades 👨‍👩‍👦‍👦 " />
       <div className="container relative mx-auto mt-20 flex flex-col items-center justify-between overflow-hidden">
