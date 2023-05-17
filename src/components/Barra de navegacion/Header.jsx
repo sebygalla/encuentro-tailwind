@@ -12,8 +12,8 @@ const Header = () => {
   return (
     <header className="item-center fixed z-50 flex w-full md:h-[70px] h-[90px]  justify-between bg-white xl:justify-end shadow">
       {/* logotipo */}
-      <div className=" z-50 flex items-center justify-center">
-        <img className="h-[70px] z-50" src={logoTipo}/>
+      <div className="flex items-center justify-center">
+        <img className="h-[70px]" src={logoTipo}/>
       </div>
 
       {/* navegacion */}
