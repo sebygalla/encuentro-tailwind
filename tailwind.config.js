@@ -16,6 +16,7 @@ module.exports = {
         'testimonio': "url('../src/assets/image/portada20.png')",
         'fondo': "url('../src/assets/image/fondo.webp')",
         'rehma':"url('../src/assets/image/blob.svg')",
+        'patron':"url('../src/assets/image/patron.svg')",
         
         
       }
