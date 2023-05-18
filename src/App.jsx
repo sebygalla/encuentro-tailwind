@@ -30,18 +30,19 @@ function App() {
         />
       </div>
 
-      <div className="mb-20">
+      <div className="mb-[20%]">
         <TituloWeb title="Nosotros ⛪" />
       </div>
 
-      <div className="h-[100vh] flex items-center justify-center">
-        <div className="flex h-[100vh] xl:h-[80vh] items-center justify-start md:bg-about bg-cover bg-center bg-no-repeat py-10 relative">
+      <div className="flex items-center justify-center">
+        <div className="flex min-h-[100vh] xl:h-[80vh] items-center justify-start md:bg-about bg-cover bg-center bg-no-repeat relative">
         <div class="md:absolute md:inset-0 md:bg-black/60  md:sm:from-white/95 md:sm:to-white/25 md:ltr:sm:bg-gradient-to-r md:rtl:sm:bg-gradient-to-l"></div>
           <About />
         </div>
       </div>
-
-      <TituloWeb title="Actividades 👨‍👩‍👦‍👦 " />
+      <div className="mt-[30%]">
+        <TituloWeb title="Actividades 👨‍👩‍👦‍👦 " />
+      </div>
       <div className="container relative mx-auto mt-20 flex flex-col items-center justify-between overflow-hidden">
         <div className="m-0 mb-36 grid gap-10 md:grid-cols-2 xl:grid-cols-3">
           <Actividades

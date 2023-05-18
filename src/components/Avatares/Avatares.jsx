@@ -7,8 +7,8 @@ function Avatares(props) {
       />
 
       <div className="ml-2 flex flex-col gap-1">
-        <h3 className="font-bold text-white">{props.nombre}</h3>
-        <p className="font-light text-gray-100">{props.description}</p>
+        <h3 className="font-bold text-md text-white">{props.nombre}</h3>
+        <p className="font-light text-xs text-gray-100">{props.description}</p>
       </div>
     </div>
   );
