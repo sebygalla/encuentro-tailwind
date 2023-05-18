@@ -5,7 +5,7 @@ import avatarJavier from "../../assets/image/avatarJavier.png";
 function About() {
   return (
     <div className="xl:ml-5 mx-auto grid xl:h-[600px] xl:w-[70%] xl:grid-cols-2 grid-cols-1 md:w-[90%] md:h-[1000px] w-[95%] h-[100vh]  place-content-center md:gap-5 gap-8 bg-blue-900 md:bg-blue-900/60 p-5 md:p-10 text-justify md:backdrop-blur-[10px] relative rounded-xl md:pb-[10%] pb-[25%]">
-      <p className="text-white md:text-[18px] md:leading-5 text-xs">
+      <p className="text-white md:text-[18px] md:leading-5 text-[13px]">
         Cada persona que llega a la comunidad es desafiada a entregarse a Jesús
         y dejar que Él sea su Señor. Esto solo es posible por lo que Dios hizo
         con el hombre a través de Jesús. Nuestro nuevo nacimiento viene por un
@@ -20,7 +20,7 @@ function About() {
         sería escaso si no se extendiera a todos los aspectos de nuestra vida.
       </p>
 
-      <p className="text-white md:text-[18px] md:leading-5 text-xs">
+      <p className="text-white md:text-[18px] md:leading-5 text-[13px]">
         Dios se ha desbordado en su expresión de amor y lo ha extendido , a la
         formación de una familia, un cuerpo, su iglesia, que nace por mediación
         de Jesucristo en la nueva alianza (1 P 2, 4-10) y que es el único capaz
@@ -37,7 +37,7 @@ function About() {
         (Efesios 4:16).
       </p>
 
-      <div className="absolute bottom-7 left-6 md:bottom-7 md:left-10">
+      <div className="absolute bottom-3 left-6 md:bottom-7 md:left-10">
         <Avatares
           nombre="Pastor Javier Corsi"
           description="Pastor Iglesia El Encuentro- T.Suárez"
