@@ -35,8 +35,8 @@ function App() {
       </div>
 
       <div className="flex items-center justify-center">
-        <div className="flex min-h-[100vh] xl:h-[80vh] items-center justify-start md:bg-about bg-cover bg-center bg-no-repeat relative">
-        <div class="md:absolute md:inset-0 md:bg-black/60  md:sm:from-white/95 md:sm:to-white/25 md:ltr:sm:bg-gradient-to-r md:rtl:sm:bg-gradient-to-l"></div>
+        <div className="relative flex min-h-[100vh] items-center justify-start bg-cover bg-center bg-no-repeat md:bg-about xl:h-[80vh]">
+          <div class="md:ltr:sm:bg-gradient-to-r md:rtl:sm:bg-gradient-to-l md:sm:from-white/95  md:sm:to-white/25 md:absolute md:inset-0 md:bg-black/60"></div>
           <About />
         </div>
       </div>
@@ -79,28 +79,35 @@ function App() {
 
       <div className=" md:bg-container relative overflow-hidden bg-testimonio bg-cover bg-center p-10 contrast-125">
         <TituloWeb title="Testimonios 💪 " />
-        <div className="mb-10 mt-10 grid gap-5 p-2 md:grid-cols-2 xl:grid-cols-3 xl:p-20">
-          <Testimonial
-            testimonio="Ut efficitur sapien quis ipsum vestibulum eleifend gravida ac odio. In hac habitasse platea dictumst. Pellentesque fringilla, tortor sit amet sodales gravida, sapien lectus dapibus augue, vitae luctus nisl elit sit amet felis. Mauris semper ipsum et lorem sollicitudin venenatis. Nulla facilisi. Cras convallis mauris ut odio pretium, ut volutpat tortor porttitor. In et congue neque."
-            imagen={Nadia}
-            nombre="Nadia Saballa"
-            description="Miembro Iglesia El Encuentro-Tristan Suarez"
-          />
+        <div className="mb-10 mt-10 grid gap-5 p-2 md:grid-cols-2 xl:grid-cols-2 xl:p-20 snap-mandatory snap-x">
 
-          <Testimonial
-            testimonio="Ut efficitur sapien quis ipsum vestibulum eleifend gravida ac odio. In hac habitasse platea dictumst. Pellentesque fringilla, tortor sit amet sodales gravida, sapien lectus dapibus augue, vitae luctus nisl elit sit amet felis. Mauris semper ipsum et lorem sollicitudin venenatis. Nulla facilisi. Cras convallis mauris ut odio pretium, ut volutpat tortor porttitor. In et congue neque."
-            imagen={Javier}
-            nombre="Javier Corsi"
-            description="Pastor Iglesia El Encuentro-Tristan Suarez"
-          />
+          <div className="snap-center">
+            <Testimonial
+              testimonio="Ut efficitur sapien quis ipsum vestibulum eleifend gravida ac odio. In hac habitasse platea dictumst. Pellentesque fringilla, tortor sit amet sodales gravida, sapien lectus dapibus augue, vitae luctus nisl elit sit amet felis. Mauris semper ipsum et lorem sollicitudin venenatis. Nulla facilisi. Cras convallis mauris ut odio pretium, ut volutpat tortor porttitor. In et congue neque."
+              imagen={Nadia}
+              nombre="Nadia Saballa"
+              description="Miembro Iglesia El Encuentro-Tristan Suarez"
+            />
+          </div>
 
-          <Testimonial
-            testimonio="Ut efficitur sapien quis ipsum vestibulum eleifend gravida ac odio. In hac habitasse platea dictumst. Pellentesque fringilla, tortor sit amet sodales gravida, sapien lectus dapibus augue, vitae luctus nisl elit sit amet felis. Mauris semper ipsum et lorem sollicitudin venenatis. Nulla facilisi. Cras convallis mauris ut odio pretium, ut volutpat tortor porttitor. In et congue neque."
-            imagen={Javier}
-            nombre="Javier Corsi"
-            description="Pastor Iglesia El Encuentro-Tristan Suarez"
-            className="bg-green-700"
-          />
+          <div className="snap-center">
+            <Testimonial
+              testimonio="Ut efficitur sapien quis ipsum vestibulum eleifend gravida ac odio. In hac habitasse platea dictumst. Pellentesque fringilla, tortor sit amet sodales gravida, sapien lectus dapibus augue, vitae luctus nisl elit sit amet felis. Mauris semper ipsum et lorem sollicitudin venenatis. Nulla facilisi. Cras convallis mauris ut odio pretium, ut volutpat tortor porttitor. In et congue neque."
+              imagen={Javier}
+              nombre="Javier Corsi"
+              description="Pastor Iglesia El Encuentro-Tristan Suarez"
+            />
+          </div>
+
+          <div className="snap-center">
+            <Testimonial
+              testimonio="Ut efficitur sapien quis ipsum vestibulum eleifend gravida ac odio. In hac habitasse platea dictumst. Pellentesque fringilla, tortor sit amet sodales gravida, sapien lectus dapibus augue, vitae luctus nisl elit sit amet felis. Mauris semper ipsum et lorem sollicitudin venenatis. Nulla facilisi. Cras convallis mauris ut odio pretium, ut volutpat tortor porttitor. In et congue neque."
+              imagen={Javier}
+              nombre="Javier Corsi"
+              description="Pastor Iglesia El Encuentro-Tristan Suarez"
+              className="bg-green-700"
+            />
+          </div>
         </div>
       </div>
 
