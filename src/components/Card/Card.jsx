@@ -1,6 +1,6 @@
 function Card(props) {
   return (
-    <div className="h-[350px] w-[400px] flex flex-col justify-between gap-10 m-5 p-5 rounded-lg bg-orange-600 shadow">
+    <div className="h-[450px] w-[300px] flex flex-col justify-between m-2 p-5 rounded-lg bg-orange-600 shadow">
 
       <p className="text-white">{props.testimonio}</p>
 

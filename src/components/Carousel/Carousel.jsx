@@ -11,8 +11,8 @@ function Carousel() {
   };
 
   return (
-    <div className="relative">
-      <div className="absolute right-0 top-5 ">
+    <div className="relative overflow-x-auto mt-[20%] snap-proximity snap-x">
+      <div className="absolute bg-slate-900/20 right-0 top-[0%] ">
         <button onClick={scrollLeft} className="m-2 rounded-full bg-white p-2">
           <FiChevronLeft />
         </button>
@@ -22,68 +22,56 @@ function Carousel() {
       </div>
       <div
         id="content"
-        className="scrollbar-hide flex items-center justify-start overflow-x-auto scroll-smooth  p-4">
-        <div>
+        className="flex items-center justify-center overflow-x-auto scroll-smooth  p-4">
+        <div className="snap-center">
           <Card testimonio="Ut efficitur sapien quis ipsum vestibulum eleifend gravida ac odio. In hac habitasse platea dictumst. Pellentesque fringilla, tortor sit amet sodales gravida, sapien lectus dapibus augue, vitae luctus nisl elit sit amet felis. Mauris semper ipsum et lorem sollicitudin venenatis. Nulla facilisi. Cras convallis mauris ut odio pretium, ut volutpat tortor porttitor. In et congue neque."
               nombre="Nadia Saballa"
               description="Miembro I.El Encuentro-T.Suárez"
               imagen={Javier} />
         </div>
 
-        <div>
+        <div className="snap-center">
           <Card testimonio="Ut efficitur sapien quis ipsum vestibulum eleifend gravida ac odio. In hac habitasse platea dictumst. Pellentesque fringilla, tortor sit amet sodales gravida, sapien lectus dapibus augue, vitae luctus nisl elit sit amet felis. Mauris semper ipsum et lorem sollicitudin venenatis. Nulla facilisi. Cras convallis mauris ut odio pretium, ut volutpat tortor porttitor. In et congue neque."
                 nombre="Nadia Saballa"
                 description="Miembro I.El Encuentro-T.Suárez"
                 imagen={Javier} />
         </div>
 
-        <div>
+        <div className="snap-center">
          <Card testimonio="Ut efficitur sapien quis ipsum vestibulum eleifend gravida ac odio. In hac habitasse platea dictumst. Pellentesque fringilla, tortor sit amet sodales gravida, sapien lectus dapibus augue, vitae luctus nisl elit sit amet felis. Mauris semper ipsum et lorem sollicitudin venenatis. Nulla facilisi. Cras convallis mauris ut odio pretium, ut volutpat tortor porttitor. In et congue neque."
                 nombre="Nadia Saballa"
                 description="Miembro I.El Encuentro-T.Suárez"
                 imagen={Javier} />
         </div>
 
-        <div>
+        <div className="snap-center">
           <Card testimonio="Ut efficitur sapien quis ipsum vestibulum eleifend gravida ac odio. In hac habitasse platea dictumst. Pellentesque fringilla, tortor sit amet sodales gravida, sapien lectus dapibus augue, vitae luctus nisl elit sit amet felis. Mauris semper ipsum et lorem sollicitudin venenatis. Nulla facilisi. Cras convallis mauris ut odio pretium, ut volutpat tortor porttitor. In et congue neque."
                 nombre="Nadia Saballa"
                 description="Miembro I.El Encuentro-T.Suárez"
                 imagen={Javier} />
         </div>
 
-        <div>
-          <Card testimonio="Ut efficitur sapien quis ipsum vestibulum eleifend gravida ac odio. In hac habitasse platea dictumst. Pellentesque fringilla, tortor sit amet sodales gravida, sapien lectus dapibus augue, vitae luctus nisl elit sit amet felis. Mauris semper ipsum et lorem sollicitudin venenatis. Nulla facilisi. Cras convallis mauris ut odio pretium, ut volutpat tortor porttitor. In et congue neque."
-                nombre="Nadia Saballa"
-                description="Miembro I.El Encuentro-T.Suárez"
-                imagen={Javier} />
-        </div>
-
-        <div>
+        <div className="snap-center">
          <Card testimonio="Ut efficitur sapien quis ipsum vestibulum eleifend gravida ac odio. In hac habitasse platea dictumst. Pellentesque fringilla, tortor sit amet sodales gravida, sapien lectus dapibus augue, vitae luctus nisl elit sit amet felis. Mauris semper ipsum et lorem sollicitudin venenatis. Nulla facilisi. Cras convallis mauris ut odio pretium, ut volutpat tortor porttitor. In et congue neque."
                 nombre="Nadia Saballa"
                 description="Miembro I.El Encuentro-T.Suárez"
                 imagen={Javier} />
         </div>
 
-        <div>
+        <div className="snap-center">
          <Card testimonio="Ut efficitur sapien quis ipsum vestibulum eleifend gravida ac odio. In hac habitasse platea dictumst. Pellentesque fringilla, tortor sit amet sodales gravida, sapien lectus dapibus augue, vitae luctus nisl elit sit amet felis. Mauris semper ipsum et lorem sollicitudin venenatis. Nulla facilisi. Cras convallis mauris ut odio pretium, ut volutpat tortor porttitor. In et congue neque."
                 nombre="Nadia Saballa"
                 description="Miembro I.El Encuentro-T.Suárez"
                 imagen={Javier} />
         </div>
-        <div>
+        <div className="snap-center">
          <Card testimonio="Ut efficitur sapien quis ipsum vestibulum eleifend gravida ac odio. In hac habitasse platea dictumst. Pellentesque fringilla, tortor sit amet sodales gravida, sapien lectus dapibus augue, vitae luctus nisl elit sit amet felis. Mauris semper ipsum et lorem sollicitudin venenatis. Nulla facilisi. Cras convallis mauris ut odio pretium, ut volutpat tortor porttitor. In et congue neque."
                 nombre="Nadia Saballa"
                 description="Miembro I.El Encuentro-T.Suárez"
                 imagen={Javier} />
         </div>
         
-        <div>
-          <Card testimonio="Ut efficitur sapien quis ipsum vestibulum eleifend gravida ac odio. In hac habitasse platea dictumst. Pellentesque fringilla, tortor sit amet sodales gravida, sapien lectus dapibus augue, vitae luctus nisl elit sit amet felis. Mauris semper ipsum et lorem sollicitudin venenatis. Nulla facilisi. Cras convallis mauris ut odio pretium, ut volutpat tortor porttitor. In et congue neque."
-                nombre="Nadia Saballa"
-                description="Miembro I.El Encuentro-T.Suárez"
-                imagen={Javier} />
-        </div>
+
     
       </div>
     </div>
