@@ -12,7 +12,7 @@ function Carousel() {
 
   return (
     <div className="relative overflow-x-auto mt-[20%] snap-proximity snap-x">
-      <div className="absolute bg-slate-900/20 right-0 top-[0%] ">
+      <div className="absolute right-0 top-[12%] ">
         <button onClick={scrollLeft} className="m-2 rounded-full bg-white p-2">
           <FiChevronLeft />
         </button>
