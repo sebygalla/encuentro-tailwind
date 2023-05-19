@@ -14,6 +14,8 @@ import MatriAdultos from "../src/assets/image/cards actividades/card5.jpg";
 import Hero3 from "./components/Hero/Hero3";
 import Rehma from "./components/rehma/Rehma";
 import About from "./components/Nosotros/About";
+import Carousel from "./components/Carousel/Carousel";
+
 
 function App() {
   return (
@@ -30,7 +32,7 @@ function App() {
         />
       </div>
 
-      <div className="mb-[20%]">
+      <div className="mb-[20%] md:mb-20">
         <TituloWeb title="Nosotros ⛪" />
       </div>
 
@@ -40,7 +42,8 @@ function App() {
           <About />
         </div>
       </div>
-      <div className="mt-[30%]">
+
+      <div className="mt-[30%] xl:mt-[12%]">
         <TituloWeb title="Actividades 👨‍👩‍👦‍👦 " />
       </div>
       <div className="container relative mx-auto mt-20 flex flex-col items-center justify-between overflow-hidden">
@@ -77,37 +80,10 @@ function App() {
         </div>
       </div>
 
-      <div className=" md:bg-container relative overflow-hidden bg-testimonio bg-cover bg-center p-10 contrast-125">
+      <div className=" md:bg-container relative bg-testimonio bg-cover bg-center p-10 contrast-125">
         <TituloWeb title="Testimonios 💪 " />
-        <div className="mb-10 mt-10 grid gap-5 p-2 md:grid-cols-2 xl:grid-cols-2 xl:p-20 snap-mandatory snap-x">
-
-          <div className="snap-center">
-            <Testimonial
-              testimonio="Ut efficitur sapien quis ipsum vestibulum eleifend gravida ac odio. In hac habitasse platea dictumst. Pellentesque fringilla, tortor sit amet sodales gravida, sapien lectus dapibus augue, vitae luctus nisl elit sit amet felis. Mauris semper ipsum et lorem sollicitudin venenatis. Nulla facilisi. Cras convallis mauris ut odio pretium, ut volutpat tortor porttitor. In et congue neque."
-              imagen={Nadia}
-              nombre="Nadia Saballa"
-              description="Miembro Iglesia El Encuentro-Tristan Suarez"
-            />
-          </div>
-
-          <div className="snap-center">
-            <Testimonial
-              testimonio="Ut efficitur sapien quis ipsum vestibulum eleifend gravida ac odio. In hac habitasse platea dictumst. Pellentesque fringilla, tortor sit amet sodales gravida, sapien lectus dapibus augue, vitae luctus nisl elit sit amet felis. Mauris semper ipsum et lorem sollicitudin venenatis. Nulla facilisi. Cras convallis mauris ut odio pretium, ut volutpat tortor porttitor. In et congue neque."
-              imagen={Javier}
-              nombre="Javier Corsi"
-              description="Pastor Iglesia El Encuentro-Tristan Suarez"
-            />
-          </div>
-
-          <div className="snap-center">
-            <Testimonial
-              testimonio="Ut efficitur sapien quis ipsum vestibulum eleifend gravida ac odio. In hac habitasse platea dictumst. Pellentesque fringilla, tortor sit amet sodales gravida, sapien lectus dapibus augue, vitae luctus nisl elit sit amet felis. Mauris semper ipsum et lorem sollicitudin venenatis. Nulla facilisi. Cras convallis mauris ut odio pretium, ut volutpat tortor porttitor. In et congue neque."
-              imagen={Javier}
-              nombre="Javier Corsi"
-              description="Pastor Iglesia El Encuentro-Tristan Suarez"
-              className="bg-green-700"
-            />
-          </div>
+        <div className="h-[100vh] min-w-[100%] bg-cover">
+          <Carousel />
         </div>
       </div>
 
