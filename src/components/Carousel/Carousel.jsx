@@ -4,7 +4,7 @@ import Javier from "../../assets/image/avatarJavier.png";
 
 function Carousel() {
   return (
-    <div className="w-full flex h-auto  overflow-x-auto snap-mandatory snap-x ">
+    <div className="w-full flex h-auto  overflow-x-auto snap-proximity snap-x">
 
       <div className="snap-center">
         <Card

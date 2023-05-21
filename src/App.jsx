@@ -80,7 +80,7 @@ function App() {
         </div>
       </div>
 
-    <div className="bg-testimonio bg-cover w-full h-[80vh]">
+    <div className="bg-testimonio bg-cover w-full h-[80vh] md:h-[50vh] xl:h-[70vh] flex items-center ">
       <Carousel />
     </div>
 
