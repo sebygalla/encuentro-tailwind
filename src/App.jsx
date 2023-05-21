@@ -80,12 +80,10 @@ function App() {
         </div>
       </div>
 
-      <div className=" md:bg-container relative bg-testimonio bg-cover bg-center p-10 contrast-125 min-w-full">
-        <TituloWeb title="Testimonios 💪 " />
-        <div className="bg-cover">
-          <Carousel />
-        </div>
-      </div>
+    <div className="bg-testimonio bg-cover w-full h-[80vh]">
+      <Carousel />
+    </div>
+
 
       <Footer />
     </div>

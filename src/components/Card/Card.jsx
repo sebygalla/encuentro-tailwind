@@ -1,8 +1,8 @@
 function Card(props) {
   return (
-    <div className="h-[450px] w-[300px] flex flex-col justify-between m-2 p-5 rounded-lg bg-orange-600 shadow">
+    <div className="w-[600px] flex flex-col justify-between m-2 p-5 rounded-lg bg-orange-600 shadow cursor-pointer hover:scale-[1.1]">
 
-      <p className="text-white">{props.testimonio}</p>
+      <p className="text-white mb-10">{props.testimonio}</p>
 
       <div className="flex items-center gap-4">
         <img
