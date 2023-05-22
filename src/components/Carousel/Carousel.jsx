@@ -7,15 +7,12 @@ import Bienvenida from "../../assets/image/bienvenida.png";
 import Richard from "../../assets/image/richard.png";
 import Angelito from "../../assets/image/angelito.png";
 
-
-
 function Carousel() {
   return (
-    <div className="w-full flex h-auto  overflow-x-auto snap-proximity snap-x">
-
+    <div className="flex w-full snap-x snap-mandatory overflow-x-auto">
       <div className="snap-center">
         <Card
-          testimonio="Ut efficitur sapien quis ipsum vestibulum eleifend gravida ac odio. In hac habitasse platea dictumst. Pellentesque fringilla, tortor sit amet sodales gravida, sapien lectus dapibus augue, vitae luctus nisl elit sit amet felis. Mauris semper ipsum et lorem sollicitudin venenatis. Nulla facilisi. Cras convallis mauris ut odio pretium, ut volutpat tortor porttitor. In et congue neque."
+          testimonio="Ut efficitur sapien quistaictumst. Pellentesque fringilla, tortor sit amet sodales gravida, sapien lectus dapibus augue, vitae luctus nisl elit sit amet felis. Mauris semper ipsum et lorem sollicitudin venenatis. Nulla facilisi. Cras convallis mauris ut odio pretium, ut volutpat tortor porttitor. In et congue neque."
           nombre="Javier Corsi"
           description="Pastor I.El Encuentro-T.Suárez"
           imagen={Javier}
@@ -24,7 +21,7 @@ function Carousel() {
 
       <div className="snap-center">
         <Card
-          testimonio="Ut efficitur sapien quis ipsum vestibulum eleifend gravida ac odio. In hac habitasse platea dictumst. Pellentesque fringilla, tortor sit amet sodales gravida, sapien lectus dapibus augue, vitae luctus nisl elit sit amet felis. Mauris semper ipsum et lorem sollicitudin venenatis. Nulla facilisi. Cras convallis mauris ut odio pretium, ut volutpat tortor porttitor. In et congue neque."
+          testimonio="Ut efficitur sapien quistaictumst. Pellentesque fringilla, tortor sit amet sodales gravida, sapien lectus dapibus augue, vitae luctus nisl elit sit amet felis. Mauris semper ipsum et lorem sollicitudin venenatis. Nulla facilisi. Cras convallis mauris ut odio pretium, ut volutpat tortor porttitor. In et congue neque."
           nombre="Alejandra Corsi"
           description="Pastora I.El Encuentro-T.Suárez"
           imagen={Alejandra}
@@ -33,7 +30,7 @@ function Carousel() {
 
       <div className="snap-center">
         <Card
-          testimonio="Ut efficitur sapien quis ipsum vestibulum eleifend gravida ac odio. In hac habitasse platea dictumst. Pellentesque fringilla, tortor sit amet sodales gravida, sapien lectus dapibus augue, vitae luctus nisl elit sit amet felis. Mauris semper ipsum et lorem sollicitudin venenatis. Nulla facilisi. Cras convallis mauris ut odio pretium, ut volutpat tortor porttitor. In et congue neque."
+        testimonio="Ut efficitur sapien quistaictumst. Pellentesque fringilla, tortor sit amet sodales gravida, sapien lectus dapibus augue, vitae luctus nisl elit sit amet felis. Mauris semper ipsum et lorem sollicitudin venenatis. Nulla facilisi. Cras convallis mauris ut odio pretium, ut volutpat tortor porttitor. In et congue neque."
           nombre="Nadia Saballa"
           description="Miembro I.El Encuentro-T.Suárez"
           imagen={Nadia}
@@ -42,7 +39,7 @@ function Carousel() {
 
       <div className="snap-center">
         <Card
-          testimonio="Ut efficitur sapien quis ipsum vestibulum eleifend gravida ac odio. In hac habitasse platea dictumst. Pellentesque fringilla, tortor sit amet sodales gravida, sapien lectus dapibus augue, vitae luctus nisl elit sit amet felis. Mauris semper ipsum et lorem sollicitudin venenatis. Nulla facilisi. Cras convallis mauris ut odio pretium, ut volutpat tortor porttitor. In et congue neque."
+          testimonio="Ut efficitur sapien quistaictumst. Pellentesque fringilla, tortor sit amet sodales gravida, sapien lectus dapibus augue, vitae luctus nisl elit sit amet felis. Mauris semper ipsum et lorem sollicitudin venenatis. Nulla facilisi. Cras convallis mauris ut odio pretium, ut volutpat tortor porttitor. In et congue neque."
           nombre="Angel Sayago"
           description="Miembro I.El Encuentro-T.Suárez"
           imagen={Angelito}
@@ -51,7 +48,7 @@ function Carousel() {
 
       <div className="snap-center">
         <Card
-          testimonio="Ut efficitur sapien quis ipsum vestibulum eleifend gravida ac odio. In hac habitasse platea dictumst. Pellentesque fringilla, tortor sit amet sodales gravida, sapien lectus dapibus augue, vitae luctus nisl elit sit amet felis. Mauris semper ipsum et lorem sollicitudin venenatis. Nulla facilisi. Cras convallis mauris ut odio pretium, ut volutpat tortor porttitor. In et congue neque."
+          testimonio="Ut efficitur sapien quistaictumst. Pellentesque fringilla, tortor sit amet sodales gravida, sapien lectus dapibus augue, vitae luctus nisl elit sit amet felis. Mauris semper ipsum et lorem sollicitudin venenatis. Nulla facilisi. Cras convallis mauris ut odio pretium, ut volutpat tortor porttitor. In et congue neque."
           nombre="Bienvenida Medina"
           description="Lider I.El Encuentro-T.Suárez"
           imagen={Bienvenida}
@@ -60,17 +57,13 @@ function Carousel() {
 
       <div className="snap-center">
         <Card
-          testimonio="Ut efficitur sapien quis ipsum vestibulum eleifend gravida ac odio. In hac habitasse platea dictumst. Pellentesque fringilla, tortor sit amet sodales gravida, sapien lectus dapibus augue, vitae luctus nisl elit sit amet felis. Mauris semper ipsum et lorem sollicitudin venenatis. Nulla facilisi. Cras convallis mauris ut odio pretium, ut volutpat tortor porttitor. In et congue neque."
+          testimonio="Ut efficitur sapien quistaictumst. Pellentesque fringilla, tortor sit amet sodales gravida, sapien lectus dapibus augue, vitae luctus nisl elit sit amet felis. Mauris semper ipsum et lorem sollicitudin venenatis. Nulla facilisi. Cras convallis mauris ut odio pretium, ut volutpat tortor porttitor. In et congue neque."
           nombre="Ricardo Medina"
           description="Lider I.El Encuentro-T.Suárez"
           imagen={Richard}
         />
       </div>
-
-
     </div>
-
-    
   );
 }
 
