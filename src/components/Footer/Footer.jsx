@@ -44,14 +44,21 @@ const Footer = () => {
                   <a
                     href="https://github.com/themesberg/flowbite"
                     className="hover:underline ">
-                    Github
+                    Instagram
                   </a>
                 </li>
-                <li>
+                <li className="mb-4">
                   <a
                     href="https://discord.gg/4eeurUVvTy"
                     className="hover:underline">
-                    Discord
+                    Facebook
+                  </a>
+                </li>
+                <li className="mb-4">
+                  <a
+                    href="https://discord.gg/4eeurUVvTy"
+                    className="hover:underline">
+                    YouTube
                   </a>
                 </li>
               </ul>

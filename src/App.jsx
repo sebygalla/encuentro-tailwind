@@ -79,10 +79,10 @@ function App() {
         </div>
       </div>
 
-    <div className="bg-testimonio flex-col bg-cover w-full h-[100vh] md:h-[50vh] xl:h-[70vh] flex items-center ">
+    <div className="bg-testimonio flex-col bg-cover w-full h-[100vh] md:h-[50vh] xl:h-[100vh] flex items-center ">
       
       <div className="mb-20">
-      <TituloWeb title="Testimonios 💪 " />
+      <TituloWeb title="Testimonios 📣 " />
       </div>
 
       <Carousel />

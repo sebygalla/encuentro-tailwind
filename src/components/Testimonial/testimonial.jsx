@@ -1,11 +1,13 @@
 import React from "react";
+import { FaQuoteRight } from "react-icons/fa";
 
 
 const Testimonial = (props) => {
   return (
     
-    <div className="flex flex-col bg-orange-600 gap-6 rounded-xl p-8 shadow">
+    <div className="flex flex-col bg-orange-600 gap-6 rounded-xl p-8 shadow relative">
       <p className="text-white">{props.testimonio}</p>
+  
       <div className="flex items-center gap-4">
         <img
           src={props.imagen}
