@@ -14,7 +14,7 @@ import Hero3 from "./components/Hero/Hero3";
 import Rehma from "./components/rehma/Rehma";
 import About from "./components/Nosotros/About";
 import Carousel from "./components/Carousel/Carousel";
-
+import Cuarto from "./components/Cuarto/Cuarto";
 
 function App() {
   return (
@@ -36,7 +36,7 @@ function App() {
       </div>
 
       <div className="flex items-center justify-center">
-        <div className="relative flex min-h-[100vh] items-center justify-start bg-cover bg-center bg-no-repeat md:bg-about xl:h-[80vh]">
+        <div className="relative flex min-h-[100vh] items-center justify-start bg-about bg-cover bg-center bg-no-repeat px-3 py-10 md:bg-about xl:h-[80vh]">
           <div class="md:ltr:sm:bg-gradient-to-r md:rtl:sm:bg-gradient-to-l md:sm:from-white/95  md:sm:to-white/25 md:absolute md:inset-0 md:bg-black/60"></div>
           <About />
         </div>
@@ -79,16 +79,22 @@ function App() {
         </div>
       </div>
 
-    <div className="bg-testimonio flex-col bg-cover w-full h-[100vh] md:h-[50vh] xl:h-[100vh] flex items-center ">
-      
-      <div className="mb-20">
-      <TituloWeb title="Testimonios 📣 " />
+      <div className="flex items-center justify-end relative">
+     
+        <Cuarto />
+        <img className="absolute top-0 opacity-10 w-[100%]" src="../src/assets/image/cuarto.jpg"/>
       </div>
 
-      <Carousel />
 
-    </div>
 
+
+      <div className="flex h-[100vh] w-full flex-col items-center bg-testimonio bg-cover md:h-[50vh] xl:h-[100vh] ">
+        <div className="mb-20">
+          <TituloWeb title="Testimonios 📣 " color="white" />
+        </div>
+
+        <Carousel />
+      </div>
 
       <Footer />
     </div>

@@ -18,6 +18,7 @@ module.exports = {
         'fondo': "url('../src/assets/image/fondo.webp')",
         'rehma':"url('../src/assets/image/blob.svg')",
         'patron':"url('../src/assets/image/patron.svg')",
+        'cuarto': "url('../src/assets/image/cuarto.jpg')",
         
         
       }

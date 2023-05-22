@@ -4,7 +4,7 @@ import avatarJavier from "../../assets/image/avatarJavier.png";
 
 function About() {
   return (
-    <div className="xl:ml-5 mx-auto grid xl:h-[600px] xl:w-[70%] xl:grid-cols-2 grid-cols-1 md:w-[90%] md:h-[1000px] w-[95%] min-h-[50%]  place-content-center md:gap-5 gap-8 bg-blue-900 md:bg-blue-900/60 p-5 md:p-10 text-justify md:backdrop-blur-[10px] relative rounded-xl md:pb-[10%] pb-[35%]">
+    <div className="xl:ml-5 mx-auto grid xl:h-[600px] xl:w-[70%] xl:grid-cols-2 grid-cols-1 md:w-[90%] md:h-[1000px] w-[95%] min-h-[50%]  place-content-center md:gap-5 gap-8 bg-blue-900/60 md:bg-blue-900/60 p-5 md:p-10 text-justify backdrop-blur-[4px] relative rounded-xl md:pb-[10%] pb-[35%]">
       <p className="text-white md:text-[18px] md:leading-5 text-base">
         Cada persona que llega a la comunidad es desafiada a entregarse a Jesús
         y dejar que Él sea su Señor. Esto solo es posible por lo que Dios hizo
