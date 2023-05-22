@@ -2,8 +2,7 @@ import Header from "./components/Barra de navegacion/Header";
 import Testimonial from "../src/components/Testimonial/testimonial";
 import Footer from "./components/Footer/Footer";
 import TituloWeb from "./components/TitulosWeb/tituloWeb";
-import Nadia from "../src/assets/image/nadia.jpg";
-import Javier from "../src/assets/image/avatarJavier.png";
+
 import Jorge from "../src/assets/image/avatarJorge.png";
 import Actividades from "./components/Card/Actividades";
 import Ninos from "../src/assets/image/cards actividades/card7.jpg";
@@ -80,8 +79,14 @@ function App() {
         </div>
       </div>
 
-    <div className="bg-testimonio bg-cover w-full h-[80vh] md:h-[50vh] xl:h-[70vh] flex items-center ">
+    <div className="bg-testimonio flex-col bg-cover w-full h-[80vh] md:h-[50vh] xl:h-[70vh] flex items-center ">
+      
+      <div className="mb-20">
+      <TituloWeb title="Testimonios 💪 " />
+      </div>
+
       <Carousel />
+
     </div>
 
 
