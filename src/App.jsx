@@ -22,7 +22,8 @@ function App() {
       <Header />
       <Hero3 />
 
-      <div>
+      {/* REHMA */}
+      <div className="my-20">
         <TituloWeb title="Rehma 2023 📖" />
         <Rehma
           imagen={Jorge}
@@ -31,17 +32,17 @@ function App() {
         />
       </div>
 
-      <div className="mb-[20%] md:mb-20">
-        <TituloWeb title="Nosotros ⛪" />
-      </div>
-
+      {/* NOSOTROS */}
       <div className="flex items-center justify-center">
-        <div className="relative flex min-h-[100vh] items-center justify-start bg-about bg-cover bg-center bg-no-repeat px-3 py-10 md:bg-about xl:h-[80vh]">
-          <div class="md:ltr:sm:bg-gradient-to-r md:rtl:sm:bg-gradient-to-l md:sm:from-white/95  md:sm:to-white/25 md:absolute md:inset-0 md:bg-black/60"></div>
+        <div className="relative flex flex-col items-center justify-start gap-10 bg-about bg-cover bg-center bg-no-repeat py-20">
+          <div class="md:ltr:sm:bg-gradient-to-r md:rtl:sm:bg-gradient-to-l md:sm:from-white/95  md:sm:to-white/25 md:absolute md:inset-0 md:bg-black/60 z-0"></div>
+          <TituloWeb title="Nosotros  ⛪ " 
+                    color="white" />
           <About />
         </div>
       </div>
 
+      {/* ACTIVIDADES */}
       <div className="mt-[30%] xl:mt-[12%]">
         <TituloWeb title="Actividades 👨‍👩‍👦‍👦 " />
       </div>
@@ -79,17 +80,15 @@ function App() {
         </div>
       </div>
 
-      <div className="flex items-center justify-end relative">
-     
+      {/* CUARTO */}
+      <div>
         <Cuarto />
-        <img className="absolute top-0 opacity-10 w-[100%]" src="../src/assets/image/cuarto.jpg"/>
       </div>
+    
 
-
-
-
+      {/* CAROUSEL */}
       <div className="flex h-[100vh] w-full flex-col items-center bg-testimonio bg-cover md:h-[50vh] xl:h-[100vh] ">
-        <div className="mb-20">
+        <div className="my-20">
           <TituloWeb title="Testimonios 📣 " color="white" />
         </div>
 
