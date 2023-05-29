@@ -19,7 +19,7 @@ import Avatares from "./components/Avatares/Avatares";
 
 function App() {
   return (
-    <div className="bg-gradient-to-r from-neutral-300 to-stone-400">
+    <div className="bg-gradient-to-r from-white to-stone-100">
       <Header />
       <Hero3 />
 
@@ -36,12 +36,11 @@ function App() {
       {/* NOSOTROS */}
       <div className="relative flex items-center justify-center">
         <div className="flex flex-col items-center justify-start bg-about bg-cover bg-center bg-no-repeat pt-32">
-          <div class="z-0 md:ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l  sm:from-white/95 sm:to-white/15 absolute inset-0 bg-white/60"></div>
+          <div class="absolute inset-0 z-0 bg-blue-500/50"></div>
 
-          <TituloWeb title="Nosotros  ⛪ " color="black" />
+          <TituloWeb title="Nosotros  ⛪ " color="white" />
 
           <About />
-
         </div>
       </div>
 
@@ -95,6 +94,16 @@ function App() {
         </div>
 
         <Carousel />
+      </div>
+
+      {/* REHMA */}
+      <div className="my-20">
+        <TituloWeb title="Rehma 2023 📖" />
+        <Rehma
+          imagen={Jorge}
+          nombre="Jorge Sennewald"
+          description="Pastor General Iglesias El Encuentro."
+        />
       </div>
 
       <Footer />

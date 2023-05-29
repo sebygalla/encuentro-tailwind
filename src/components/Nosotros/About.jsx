@@ -8,7 +8,7 @@ function About() {
       
 
 
-      <p className="z-10 text-sm text-black font-medium md:text-[18px] md:leading-6">
+      <p className="z-10 text-lg text-white font-medium md:text-[18px] md:leading-6">
         Cada persona que llega a la comunidad es desafiada a entregarse a Jesús
         y dejar que Él sea su Señor. Esto solo es posible por lo que Dios hizo
         con el hombre a través de Jesús. Nuestro nuevo nacimiento viene por un
@@ -27,7 +27,7 @@ function About() {
         de acabar con todo otro tipo de pactos que se han hecho.
       </p>
 
-      <p className="z-10 text-base font-medium text-black md:text-[18px] md:leading-6">
+      <p className="z-10 text-lg font-medium text-white md:text-[18px] md:leading-6">
         {" "}
         La iglesia, los que la formamos, no podemos vivir fuera de la bendición
         para disfrutar de todos los logros que esto representa para el caminar
@@ -45,6 +45,7 @@ function About() {
         <Avatares
           nombre="Javier Corsi"
           description="Pastor Iglesia El Encuentro- T.Suárez"
+          color="white"
           imagen={avatarJavier}
         />
       </div>
@@ -53,6 +54,7 @@ function About() {
         <Avatares
           nombre="Alejandra Corsi"
           description="Pastora Iglesia El Encuentro- T.Suárez"
+          color="white"
           imagen={avatarAle}
         />
       </div>
