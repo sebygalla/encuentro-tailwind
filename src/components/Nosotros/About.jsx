@@ -1,11 +1,14 @@
 import Avatares from "../Avatares/Avatares";
 import avatarJavier from "../../assets/image/avatarJavier.png";
-
+import avatarAle from "../../assets/image/alePastora.png";
 
 function About() {
   return (
-    <div className=" bg-blue-900/60 md:bg-blue-900/60 text-justify backdrop-blur-[4px] rounded-xl w-[90%] p-10 flex flex-col gap-10">
-      <p className="text-white md:text-[16px] md:leading-6 text-base">
+    <div className="grid min-h-[100%]  gap-20 p-5 md:p-20 text-justify md:grid-cols-2 mb-10">
+      
+
+
+      <p className="z-10 text-sm text-black font-medium md:text-[18px] md:leading-6">
         Cada persona que llega a la comunidad es desafiada a entregarse a Jesús
         y dejar que Él sea su Señor. Esto solo es posible por lo que Dios hizo
         con el hombre a través de Jesús. Nuestro nuevo nacimiento viene por un
@@ -21,11 +24,15 @@ function About() {
         Dios se ha desbordado en su expresión de amor y lo ha extendido , a la
         formación de una familia, un cuerpo, su iglesia, que nace por mediación
         de Jesucristo en la nueva alianza (1 P 2, 4-10) y que es el único capaz
-        de acabar con todo otro tipo de pactos que se han hecho. La iglesia, los
-        que la formamos, no podemos vivir fuera de la bendición para disfrutar
-        de todos los logros que esto representa para el caminar diario. Como
-        solidificando nuestras relaciones, limpiándolas para que sean
-        cristalinas, guardando cuidadosamente la unidad del Espíritu . Esto
+        de acabar con todo otro tipo de pactos que se han hecho.
+      </p>
+
+      <p className="z-10 text-base font-medium text-black md:text-[18px] md:leading-6">
+        {" "}
+        La iglesia, los que la formamos, no podemos vivir fuera de la bendición
+        para disfrutar de todos los logros que esto representa para el caminar
+        diario. Como solidificando nuestras relaciones, limpiándolas para que
+        sean cristalinas, guardando cuidadosamente la unidad del Espíritu. Esto
         exige una conducta voluntaria que se comprometan a “mantener a pedido”,
         cuidar con cuidado , no dejar fisuras a la Unidad. Sólo así se edifica
         un cuerpo, o mejor dicho, crece un cuerpo, donde la cabeza es Cristo
@@ -34,15 +41,21 @@ function About() {
         (Efesios 4:16).
       </p>
 
-      <div className="">
+      <div className="z-10">
         <Avatares
-          nombre="Pastor Javier Corsi"
+          nombre="Javier Corsi"
           description="Pastor Iglesia El Encuentro- T.Suárez"
           imagen={avatarJavier}
         />
       </div>
- 
-      
+
+      <div className="z-10 contrast-125">
+        <Avatares
+          nombre="Alejandra Corsi"
+          description="Pastora Iglesia El Encuentro- T.Suárez"
+          imagen={avatarAle}
+        />
+      </div>
     </div>
   );
 }

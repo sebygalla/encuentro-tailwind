@@ -15,10 +15,11 @@ import Rehma from "./components/rehma/Rehma";
 import About from "./components/Nosotros/About";
 import Carousel from "./components/Carousel/Carousel";
 import Cuarto from "./components/Cuarto/Cuarto";
+import Avatares from "./components/Avatares/Avatares";
 
 function App() {
   return (
-    <div className="bg-gray-200">
+    <div className="bg-gradient-to-r from-neutral-300 to-stone-400">
       <Header />
       <Hero3 />
 
@@ -33,12 +34,14 @@ function App() {
       </div>
 
       {/* NOSOTROS */}
-      <div className="flex items-center justify-center">
-        <div className="relative flex flex-col items-center justify-start gap-10 bg-about bg-cover bg-center bg-no-repeat py-20">
-          <div class="md:ltr:sm:bg-gradient-to-r md:rtl:sm:bg-gradient-to-l md:sm:from-white/95  md:sm:to-white/25 md:absolute md:inset-0 md:bg-black/60 z-0"></div>
-          <TituloWeb title="Nosotros  ⛪ " 
-                    color="white" />
+      <div className="relative flex items-center justify-center">
+        <div className="flex flex-col items-center justify-start bg-about bg-cover bg-center bg-no-repeat pt-32">
+          <div class="z-0 md:ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l  sm:from-white/95 sm:to-white/15 absolute inset-0 bg-white/60"></div>
+
+          <TituloWeb title="Nosotros  ⛪ " color="black" />
+
           <About />
+
         </div>
       </div>
 
@@ -81,10 +84,9 @@ function App() {
       </div>
 
       {/* CUARTO */}
-      <div>
+      <div className="">
         <Cuarto />
       </div>
-    
 
       {/* CAROUSEL */}
       <div className="flex h-[100vh] w-full flex-col items-center bg-testimonio bg-cover md:h-[50vh] xl:h-[100vh] ">

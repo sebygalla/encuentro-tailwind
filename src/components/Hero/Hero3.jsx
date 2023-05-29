@@ -3,7 +3,7 @@ import logoTipo from "../../assets/image/logoCruz.png";
 
 const Hero3 = () => {
   return (
-    <section class="relative bg-portada-dos bg-cover bg-center bg-no-repeat w-full h-[100vh] flex items-center justify-center md:gap-6 gap-3 bg-fixed">
+    <section class="relative bg-portada-dos clipPath bg-cover bg-center bg-no-repeat w-full h-[100vh] flex items-center justify-center md:gap-6 gap-3 bg-fixed">
       <div class="absolute inset-0 bg-black/60  sm:from-white/95 sm:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
 
       <div className=" w-[90%] flex items-center justify-center mr-9">
@@ -22,7 +22,7 @@ const Hero3 = () => {
         </div>
       </div>
 
-      <svg className=" w-full absolute md:-bottom-8 -bottom-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#E5E7EB" fill-opacity="1" d="M0,256L1440,0L1440,320L0,320Z"></path></svg>
+      {/* <svg className=" w-full absolute md:-bottom-8 -bottom-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#E5E7EB" fill-opacity="1" d="M0,256L1440,0L1440,320L0,320Z"></path></svg> */}
     
      
 
