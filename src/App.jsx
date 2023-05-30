@@ -16,6 +16,7 @@ import About from "./components/Nosotros/About";
 import Carousel from "./components/Carousel/Carousel";
 import Cuarto from "./components/Cuarto/Cuarto";
 import Avatares from "./components/Avatares/Avatares";
+import avatarRebe from "../src/assets/image/rebe.jpg";
 
 function App() {
   return (
@@ -83,8 +84,16 @@ function App() {
       </div>
 
       {/* CUARTO */}
-      <div className="">
+      <div className="mx-auto flex w-[95%] flex-col mb-10">
+        <TituloWeb color="black" title="Cuarto de oración 🙌" />
         <Cuarto />
+        <Avatares
+          nombre="Rebeca Medina"
+          color="black"
+          description="Lider Iglesia El Encuentro- T.Suárez"
+          imagen={avatarRebe}
+          Ring="black"
+        />
       </div>
 
       {/* CAROUSEL */}
