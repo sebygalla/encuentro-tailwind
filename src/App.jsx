@@ -90,7 +90,7 @@ function App() {
       {/* CAROUSEL */}
       <div className="flex h-[100vh] w-full flex-col items-center bg-testimonio bg-cover md:h-[50vh] xl:h-[100vh] ">
         <div className="my-20">
-          <TituloWeb title="Testimonios 📣 " color="white" />
+          <TituloWeb title="Testimonios 📣 " color="black" />
         </div>
 
         <Carousel />

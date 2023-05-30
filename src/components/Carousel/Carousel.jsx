@@ -16,6 +16,8 @@ function Carousel() {
           nombre="Javier Corsi"
           description="Pastor I.El Encuentro-T.Suárez"
           imagen={Javier}
+          color="white"
+       
         />
       </div>
 
@@ -25,6 +27,7 @@ function Carousel() {
           nombre="Alejandra Corsi"
           description="Pastora I.El Encuentro-T.Suárez"
           imagen={Alejandra}
+          color="white"
         />
       </div>
 
@@ -34,6 +37,7 @@ function Carousel() {
           nombre="Nadia Saballa"
           description="Miembro I.El Encuentro-T.Suárez"
           imagen={Nadia}
+          color="white"
         />
       </div>
 
@@ -43,6 +47,7 @@ function Carousel() {
           nombre="Angel Sayago"
           description="Miembro I.El Encuentro-T.Suárez"
           imagen={Angelito}
+          color="white"
         />
       </div>
 
@@ -52,6 +57,7 @@ function Carousel() {
           nombre="Bienvenida Medina"
           description="Lider I.El Encuentro-T.Suárez"
           imagen={Bienvenida}
+          color="white"
         />
       </div>
 
@@ -61,6 +67,7 @@ function Carousel() {
           nombre="Ricardo Medina"
           description="Lider I.El Encuentro-T.Suárez"
           imagen={Richard}
+          color="white"
         />
       </div>
     </div>

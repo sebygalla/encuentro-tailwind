@@ -2,7 +2,7 @@ import logoTipo from "../../assets/image/tomi-04.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-600 dark:bg-gray-900 text-center">
+    <footer className=" bg-slate-900 text-center">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
