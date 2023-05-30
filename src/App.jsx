@@ -36,7 +36,7 @@ function App() {
       {/* NOSOTROS */}
       <div className="relative flex items-center justify-center">
         <div className="flex flex-col items-center justify-start bg-about bg-cover bg-center bg-no-repeat pt-32">
-          <div class="absolute inset-0 z-0 bg-blue-500/50"></div>
+          <div class="absolute inset-0 z-0 bg-slate-900/50"></div>
 
           <TituloWeb title="Nosotros  ⛪ " color="white" />
 
