@@ -1,5 +1,5 @@
 import Header from "./components/Barra de navegacion/Header";
-import Testimonial from "../src/components/Testimonial/testimonial";
+
 import Footer from "./components/Footer/Footer";
 import TituloWeb from "./components/TitulosWeb/tituloWeb";
 
@@ -15,8 +15,16 @@ import Rehma from "./components/rehma/Rehma";
 import About from "./components/Nosotros/About";
 import Carousel from "./components/Carousel/Carousel";
 import Cuarto from "./components/Cuarto/Cuarto";
-import Avatares from "./components/Avatares/Avatares";
+
 import avatarRebe from "../src/assets/image/rebe.jpg";
+import avatarYani from "../src/assets/image/yani.jpg";
+import avatarSeby from "../src/assets/image/seby.jpg";
+import avatarMariano from "../src/assets/image/mariano.jpg";
+import avatarCami from "../src/assets/image/cami.jpg";
+import avatarVivi from "../src/assets/image/vivi.jpg";
+import avatarIvan from "../src/assets/image/ivan.jpg";
+
+import Avatares3 from "./components/Avatares/Avatares3";
 
 function App() {
   return (
@@ -84,16 +92,27 @@ function App() {
       </div>
 
       {/* CUARTO */}
-      <div className="mx-auto flex w-[95%] flex-col mb-10">
+      <div className="mx-auto mb-10 flex w-[95%] flex-col">
         <TituloWeb color="black" title="Cuarto de oración 🙌" />
         <Cuarto />
-        <Avatares
-          nombre="Rebeca Medina"
+
+        <div className="flex flex-col mx-auto items-center justify-center mb-[10%]">
+        <Avatares3
+          nombre="Equipo Alabanza y Adoración"
           color="black"
           description="Lider Iglesia El Encuentro- T.Suárez"
-          imagen={avatarRebe}
-          Ring="black"
+          imagenUno={avatarCami}
+          imagenDos={avatarRebe}
+          imagenTres={avatarSeby}
+          imagenCuatro={avatarYani}
+          imagenCinco={avatarMariano}
+          imagenSeis={avatarVivi}
+          imagenSiete={avatarIvan}
+          imagenOcho={avatarSeby}
+        
         />
+        </div>
+     
       </div>
 
       {/* CAROUSEL */}

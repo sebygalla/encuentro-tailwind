@@ -1,11 +1,11 @@
-import Avatares from "../Avatares/Avatares";
+import Avatar from "../Avatares/Avatares2"
 import avatarJavier from "../../assets/image/avatarJavier.png";
 import avatarAle from "../../assets/image/alePastora.png";
 
 function About() {
   return (
-    <div className="grid min-h-[100%]  gap-20 p-5 md:p-20 text-justify md:grid-cols-2 mb-10">
-      
+    <><div className="grid min-h-[100%]  gap-20 p-5 md:p-20 text-justify md:grid-cols-2 mb-10">
+
 
 
       <p className="z-10 text-lg text-white font-medium md:text-[18px] md:leading-6">
@@ -28,7 +28,7 @@ function About() {
       </p>
 
       <p className="z-10 text-lg font-medium text-white md:text-[18px] md:leading-6">
-        {" "}
+
         La iglesia, los que la formamos, no podemos vivir fuera de la bendición
         para disfrutar de todos los logros que esto representa para el caminar
         diario. Como solidificando nuestras relaciones, limpiándolas para que
@@ -41,24 +41,14 @@ function About() {
         (Efesios 4:16).
       </p>
 
-      <div className="z-10">
-        <Avatares
-          nombre="Javier Corsi"
-          description="Pastor Iglesia El Encuentro- T.Suárez"
+    </div><div className="mb-[10%] z-10">
+        <Avatar
+          imagenUno={avatarJavier}
+          imagenDos={avatarAle}
           color="white"
-          imagen={avatarJavier}
-        />
-      </div>
-
-      <div className="z-10 contrast-125">
-        <Avatares
-          nombre="Alejandra Corsi"
-          description="Pastora Iglesia El Encuentro- T.Suárez"
-          color="white"
-          imagen={avatarAle}
-        />
-      </div>
-    </div>
+          nombre="Javier Corsi / Alejandra Corsi"
+          description="Pastora Iglesia El Encuentro- T.Suárez" />
+      </div></>
   );
 }
 
