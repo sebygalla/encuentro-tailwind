@@ -16,7 +16,7 @@ function Cuarto() {
           HASTA que EL venga.
         </h3>
 
-        <h4 className="text-md text-black md:text-xl">
+        <h4 className="text-md font-medium text-black md:text-xl">
           Domingos 09:45 a 10:15hs
         </h4>
       </div>

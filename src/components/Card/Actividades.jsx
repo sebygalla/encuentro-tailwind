@@ -1,7 +1,9 @@
 import React from "react";
 
+
 function Actividades(props) {
   return (
+
     <div className="max-w-sm rounded-lg border border-gray-200 bg-white shadow dark:border-gray-700 dark:bg-gray-800">
       <a href="#">
         <img src={props.imagen} className="rounded-t-lg contrast-200" alt="" />
@@ -22,6 +24,11 @@ function Actividades(props) {
         </a>
       </div>
     </div>
+
+    
+
+    
+
   );
 }
 

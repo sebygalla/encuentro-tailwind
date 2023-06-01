@@ -23,8 +23,11 @@ import avatarMariano from "../src/assets/image/mariano.jpg";
 import avatarCami from "../src/assets/image/cami.jpg";
 import avatarVivi from "../src/assets/image/vivi.jpg";
 import avatarIvan from "../src/assets/image/ivan.jpg";
+import avatarMarcos from "../src/assets/image/marcos.jpg";
+import avatarMarquitos from "../src/assets/image/marquitos.jpg";
 
 import Avatares3 from "./components/Avatares/Avatares3";
+import Contador from "./components/Contador/Contador";
 
 function App() {
   return (
@@ -96,11 +99,11 @@ function App() {
         <TituloWeb color="black" title="Cuarto de oración 🙌" />
         <Cuarto />
 
-        <div className="flex flex-col mx-auto items-center justify-center mb-[10%]">
+        <div className="flex flex-col items-center justify-center mb-[10%] w-full">
         <Avatares3
           nombre="Equipo Alabanza y Adoración"
           color="black"
-          description="Lider Iglesia El Encuentro- T.Suárez"
+          description="Iglesia El Encuentro- T.Suárez"
           imagenUno={avatarCami}
           imagenDos={avatarRebe}
           imagenTres={avatarSeby}
@@ -108,7 +111,8 @@ function App() {
           imagenCinco={avatarMariano}
           imagenSeis={avatarVivi}
           imagenSiete={avatarIvan}
-          imagenOcho={avatarSeby}
+          imagenOcho={avatarMarcos}
+          imagenNueve={avatarMarquitos}
         
         />
         </div>
@@ -132,6 +136,10 @@ function App() {
           nombre="Jorge Sennewald"
           description="Pastor General Iglesias El Encuentro."
         />
+      </div>
+
+      <div className="bg-red-200 w-full h-[50vh] flex items-center justify-center">
+        <Contador />
       </div>
 
       <Footer />
