@@ -27,7 +27,7 @@ import avatarMarcos from "../src/assets/image/marcos.jpg";
 import avatarMarquitos from "../src/assets/image/marquitos.jpg";
 
 import Avatares3 from "./components/Avatares/Avatares3";
-import Contador from "./components/Contador/Contador";
+
 
 function App() {
   return (
@@ -47,7 +47,7 @@ function App() {
 
       {/* NOSOTROS */}
       <div className="relative flex items-center justify-center">
-        <div className="flex flex-col items-center justify-start bg-about bg-cover bg-center bg-no-repeat pt-32">
+        <div className="flex flex-col items-center justify-start bg-about bg-fixed bg-cover bg-center bg-no-repeat pt-32">
           <div class="absolute inset-0 z-0 bg-slate-900/50"></div>
 
           <TituloWeb title="Nosotros  ⛪ " color="white" />
@@ -101,9 +101,9 @@ function App() {
 
         <div className="flex flex-col items-center justify-center mb-[10%] w-full">
         <Avatares3
-          nombre="Equipo Alabanza y Adoración"
+          nombre="EQUIPO DE ALABANZA Y ADORACION"
           color="black"
-          description="Iglesia El Encuentro- T.Suárez"
+          description="Iglesia El Encuentro- Tristán Suárez"
           imagenUno={avatarCami}
           imagenDos={avatarRebe}
           imagenTres={avatarSeby}
@@ -138,9 +138,9 @@ function App() {
         />
       </div>
 
-      <div className="bg-red-200 w-full h-[50vh] flex items-center justify-center">
+      {/* <div className="bg-red-200 w-full h-[50vh] flex items-center justify-center">
         <Contador />
-      </div>
+      </div> */}
 
       <Footer />
     </div>
