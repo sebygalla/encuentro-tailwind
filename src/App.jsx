@@ -2,6 +2,7 @@ import Header from "./components/Barra de navegacion/Header";
 
 import Footer from "./components/Footer/Footer";
 import TituloWeb from "./components/TitulosWeb/tituloWeb";
+import Map from "./components/Ubicacion/Map";
 
 import Jorge from "../src/assets/image/avatarJorge.png";
 import Actividades from "./components/Card/Actividades";
@@ -28,7 +29,6 @@ import avatarMarquitos from "../src/assets/image/marquitos.jpg";
 
 import Avatares3 from "./components/Avatares/Avatares3";
 
-
 function App() {
   return (
     <div className="bg-gradient-to-r from-white to-stone-100">
@@ -47,7 +47,7 @@ function App() {
 
       {/* NOSOTROS */}
       <div className="relative flex items-center justify-center">
-        <div className="flex flex-col items-center justify-start bg-about bg-fixed bg-cover bg-center bg-no-repeat pt-32">
+        <div className="flex flex-col items-center justify-start bg-about bg-cover bg-fixed bg-center bg-no-repeat pt-32">
           <div class="absolute inset-0 z-0 bg-slate-900/50"></div>
 
           <TituloWeb title="Nosotros  ⛪ " color="white" />
@@ -99,24 +99,22 @@ function App() {
         <TituloWeb color="black" title="Cuarto de oración 🙌" />
         <Cuarto />
 
-        <div className="flex flex-col items-center justify-center mb-[10%] w-full">
-        <Avatares3
-          nombre="EQUIPO DE ALABANZA Y ADORACION"
-          color="black"
-          description="Iglesia El Encuentro- Tristán Suárez"
-          imagenUno={avatarCami}
-          imagenDos={avatarRebe}
-          imagenTres={avatarSeby}
-          imagenCuatro={avatarYani}
-          imagenCinco={avatarMariano}
-          imagenSeis={avatarVivi}
-          imagenSiete={avatarIvan}
-          imagenOcho={avatarMarcos}
-          imagenNueve={avatarMarquitos}
-        
-        />
+        <div className="mb-[10%] flex w-full flex-col items-center justify-center">
+          <Avatares3
+            nombre="EQUIPO DE ALABANZA Y ADORACION"
+            color="black"
+            description="Iglesia El Encuentro- Tristán Suárez"
+            imagenUno={avatarCami}
+            imagenDos={avatarRebe}
+            imagenTres={avatarSeby}
+            imagenCuatro={avatarYani}
+            imagenCinco={avatarMariano}
+            imagenSeis={avatarVivi}
+            imagenSiete={avatarIvan}
+            imagenOcho={avatarMarcos}
+            imagenNueve={avatarMarquitos}
+          />
         </div>
-     
       </div>
 
       {/* CAROUSEL */}
@@ -128,19 +126,9 @@ function App() {
         <Carousel />
       </div>
 
-      {/* REHMA */}
-      <div className="my-20">
-        <TituloWeb title="Rehma 2023 📖" />
-        <Rehma
-          imagen={Jorge}
-          nombre="Jorge Sennewald"
-          description="Pastor General Iglesias El Encuentro."
-        />
+      <div className=" bg-formulario bg-cover bg-fixed bg-no-repeat bg-center flex items-center justify-cente m-1">
+        <Map />
       </div>
-
-      {/* <div className="bg-red-200 w-full h-[50vh] flex items-center justify-center">
-        <Contador />
-      </div> */}
 
       <Footer />
     </div>
