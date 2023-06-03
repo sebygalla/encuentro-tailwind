@@ -46,8 +46,8 @@ function App() {
       </div>
 
       {/* NOSOTROS */}
-      <div className="relative flex items-center justify-center">
-        <div className="flex flex-col items-center justify-start bg-about bg-cover bg-fixed bg-center bg-no-repeat py-32">
+      <div className="clipPath2 relative flex items-center justify-center">
+        <div className=" flex flex-col items-center justify-start bg-about bg-cover bg-fixed bg-center bg-no-repeat py-32">
           <div class="absolute inset-0 z-0 bg-slate-900/50 backdrop-blur-sm"></div>
 
           <TituloWeb title="Nosotros  ⛪ " color="white" />
@@ -118,12 +118,14 @@ function App() {
       </div>
 
       {/* CAROUSEL */}
-      <div className="flex h-[100vh] w-full flex-col items-center bg-testimonio bg-cover md:h-[50vh] xl:h-[100vh] ">
+      <div className="flex h-[100vh] w-full flex-col items-center bg-slate-900 bg-cover md:h-[50vh] xl:h-[100vh] ">
+
         <div className="my-20">
-          <TituloWeb title="Testimonios 📣 " color="black" />
+          <TituloWeb title="Testimonios 📣 " color="white" />
         </div>
 
         <Carousel />
+        
       </div>
 
       <div className=" justify-cente m-1 flex flex-col items-center bg-formulario bg-cover bg-fixed bg-center bg-no-repeat">
