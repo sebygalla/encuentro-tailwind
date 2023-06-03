@@ -47,7 +47,7 @@ function About() {
           imagenDos={avatarAle}
           color="white"
           nombre="Javier Corsi / Alejandra Corsi"
-          description="Pastora Iglesia El Encuentro- T.Suárez" />
+          description="Pastores Iglesia El Encuentro- T.Suárez" />
       </div></>
   );
 }
