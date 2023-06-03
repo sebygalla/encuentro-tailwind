@@ -48,7 +48,7 @@ function App() {
       {/* NOSOTROS */}
       <div className="relative flex items-center justify-center">
         <div className="flex flex-col items-center justify-start bg-about bg-cover bg-fixed bg-center bg-no-repeat pt-32">
-          <div class="absolute inset-0 z-0 bg-slate-900/50"></div>
+          <div class="absolute inset-0 z-0 bg-slate-900/50 backdrop-blur-sm"></div>
 
           <TituloWeb title="Nosotros  ⛪ " color="white" />
 
@@ -126,7 +126,12 @@ function App() {
         <Carousel />
       </div>
 
-      <div className=" bg-formulario bg-cover bg-fixed bg-no-repeat bg-center flex items-center justify-cente m-1">
+      <div className=" justify-cente m-1 flex flex-col items-center bg-formulario bg-cover bg-fixed bg-center bg-no-repeat">
+        <div className="mt-[20%] xl:mt-[6%]">
+          <TituloWeb title="Contacto 📧"
+          color="white" />
+        </div>
+
         <Map />
       </div>
 

@@ -2,8 +2,8 @@ function Map() {
   return (
   
 
-      <form className="mx-auto my-40 flex w-[60%] flex-col items-center gap-4  p-8 shadow-lg bg-black/50 backdrop-blur-sm">
-        <h2 className="text-lg font-bold text-white">Formulario de Contacto</h2>
+      <form className="mx-auto my-16 flex md:w-[60%] w-[90%] flex-col items-center gap-4  p-8 shadow-lg bg-black/50 backdrop-blur-sm">
+       
         <input
           className="w-full rounded border border-gray-300 p-2"
           type="text"
@@ -18,7 +18,7 @@ function Map() {
           className="w-full rounded border border-gray-300 p-2"
           placeholder="Mensaje"
         />
-        <button className="cursor-pointer rounded bg-red-600 p-2 text-white">
+        <button className="cursor-pointer rounded bg-red-600 p-2 text-white w-full">
           Enviar
         </button>
       </form>

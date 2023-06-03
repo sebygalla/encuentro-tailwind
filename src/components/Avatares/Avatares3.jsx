@@ -44,7 +44,7 @@ function Avatares3(props) {
         <h3 className={`text-md text-left font-semibold text-${props.color}`}>
           {props.nombre}
         </h3>
-        <p className={`text-xs font-semibold text-${props.color}`}>
+        <p className={`text-xs font-light text-${props.color}`}>
           {props.description}
         </p>
       </div>
