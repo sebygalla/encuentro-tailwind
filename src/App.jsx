@@ -26,6 +26,11 @@ import avatarVivi from "../src/assets/image/vivi.jpg";
 import avatarIvan from "../src/assets/image/ivan.jpg";
 import avatarMarcos from "../src/assets/image/marcos.jpg";
 import avatarMarquitos from "../src/assets/image/marquitos.jpg";
+import avatarRosales from "../src/assets/image/rosales.jpg";
+import avatarCristian from "../src/assets/image/cristian.jpg";
+import avatarNadia from "../src/assets/image/nadiaCorrado.jpg";
+import avatarEze from "../src/assets/image/eze.jpg";
+
 
 import Avatares3 from "./components/Avatares/Avatares3";
 
@@ -113,6 +118,10 @@ function App() {
             imagenSiete={avatarIvan}
             imagenOcho={avatarMarcos}
             imagenNueve={avatarMarquitos}
+            imagenDiez={avatarRosales}
+            imagenOnce={avatarCristian}
+            imagenDoce={avatarNadia}
+            imagenTrece={avatarEze}
           />
         </div>
       </div>
