@@ -39,6 +39,7 @@ function App() {
     <div className="bg-gradient-to-r from-white to-stone-100">
       <Header />
       <Hero3 />
+      
 
       {/* REHMA */}
       <div className="my-20">

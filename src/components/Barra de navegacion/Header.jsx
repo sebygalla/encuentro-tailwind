@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState} from "react";
 import logoTipo from "../../assets/image/tomi-05.png";
 
 
@@ -7,20 +7,22 @@ import { BsX } from "react-icons/bs";
 import { HiMenuAlt3 } from "react-icons/hi";
 
 const Header = () => {
-  const [showMenu, setShowMenu] = useState(false);
+  const [showMenu, setShowMenu] = useState(false); 
 
   return (
     <header className="item-center fixed z-50 flex w-full md:h-[70px] h-[90px]  justify-between bg-white xl:justify-end shadow">
       {/* logotipo */}
       <div className="flex items-center justify-center">
-        <img className="h-[70px]" src={logoTipo}/>
+        <img className="h-[70px] ml-10" src={logoTipo}/>
       </div>
 
       {/* navegacion */}
       <nav
-        className={`fixed h-full w-full font-['Poppins']  font-semibold  uppercase  xl:static items-center xl:text-[12px] text-[18px] ${
+        className={`fixed h-full w-full font-['Poppins']  font-semibold  uppercase  xl:static items-center xl:text-[11px] text-[18px] mr-10 ${
           showMenu ? "left-0" : "-left-full"
-        } top-0 z-30 flex  flex-col text-center justify-center  gap-6 bg-white p-8 transition-all duration-500 xl:h-0 xl:flex-row  xl:justify-end xl:gap-3 xl:bg-transparent text-black`}>
+        } top-0 z-30 flex  flex-col text-center justify-center  gap-6 bg-white p-8 transition-all duration-500 xl:h-0 xl:flex-row  xl:justify-end xl:gap-3 xl:bg-transparent text-black
+        `}>
+
         <a href="#" className=" ">
           inicio
         </a>
