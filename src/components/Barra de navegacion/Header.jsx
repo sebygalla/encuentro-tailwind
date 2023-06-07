@@ -18,9 +18,9 @@ const Header = () => {
 
       {/* navegacion */}
       <nav
-        className={`fixed h-full w-full font-['Poppins']  font-semibold  uppercase  xl:static items-center xl:text-[11px] text-[18px] mr-10 ${
+        className={`fixed h-full w-full font-['Poppins']  font-semibold  uppercase  xl:static items-center xl:text-[11px] text-[18px] mr-10  top-0 z-30 flex  flex-col text-center justify-center  gap-6 bg-white p-8 transition-all duration-500 xl:h-0 xl:flex-row  xl:justify-end xl:gap-3 xl:bg-transparent text-black ${
           showMenu ? "left-0" : "-left-full"
-        } top-0 z-30 flex  flex-col text-center justify-center  gap-6 bg-white p-8 transition-all duration-500 xl:h-0 xl:flex-row  xl:justify-end xl:gap-3 xl:bg-transparent text-black
+        }
         `}>
 
         <a href="#" className=" ">

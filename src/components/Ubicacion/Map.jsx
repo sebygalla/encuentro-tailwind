@@ -2,7 +2,7 @@ function Map() {
   return (
   
 
-      <form className="mx-auto my-16 flex md:w-[60%] w-[90%] flex-col items-center gap-4  p-8 shadow-lg bg-black/50 backdrop-blur-sm">
+      <form className="mx-auto my-16 flex md:w-[60%] w-[90%] flex-col items-center gap-6  p-8 shadow-lg bg-black/50 backdrop-blur-sm">
        
         <input
           className="w-full rounded border border-gray-300 p-2"
