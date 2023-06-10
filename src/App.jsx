@@ -33,6 +33,7 @@ import avatarEze from "../src/assets/image/eze.jpg";
 
 
 import Avatares3 from "./components/Avatares/Avatares3";
+import Vision from "./components/Vision/Vision";
 
 function App() {
   return (
@@ -59,6 +60,17 @@ function App() {
           <TituloWeb title="Nosotros  ⛪ " color="white" />
 
           <About />
+        </div>
+      </div>
+
+           {/* VISION */}
+           <div className="clipPath relative flex items-center justify-center">
+        <div className=" flex flex-col items-center justify-start bg-testimonio bg-cover bg-fixed bg-center bg-no-repeat py-32">
+          <div class="absolute inset-0 z-0 bg-slate-900/90 "></div>
+
+          <TituloWeb title="Visión 👓 " color="white" />
+
+          <Vision />
         </div>
       </div>
 
