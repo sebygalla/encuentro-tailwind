@@ -31,16 +31,15 @@ import avatarCristian from "../src/assets/image/cristian.jpg";
 import avatarNadia from "../src/assets/image/nadiaCorrado.jpg";
 import avatarEze from "../src/assets/image/eze.jpg";
 
-
 import Avatares3 from "./components/Avatares/Avatares3";
 import Vision from "./components/Vision/Vision";
+import Banner from "./components/Banner/Banner";
 
 function App() {
   return (
     <div className="bg-gradient-to-r from-white to-stone-100">
       <Header />
       <Hero3 />
-      
 
       {/* REHMA */}
       <div className="my-20">
@@ -63,8 +62,13 @@ function App() {
         </div>
       </div>
 
-           {/* VISION */}
-           <div className="clipPath relative flex items-center justify-center">
+      {/* BANNER */}
+      <div className="bg-nubes bg-cover xl:py-[10%] bg-left xl:h-[30vh] h-[20vh] flex justify-center">
+        <Banner/>
+      </div>
+
+      {/* VISION */}
+      <div className="clipPath relative flex items-center justify-center">
         <div className=" flex flex-col items-center justify-start bg-testimonio bg-cover bg-fixed bg-center bg-no-repeat py-32">
           <div class="absolute inset-0 z-0 bg-slate-900/90 "></div>
 
@@ -141,19 +145,16 @@ function App() {
 
       {/* CAROUSEL */}
       <div className="flex h-[100vh] w-full flex-col items-center bg-slate-900 bg-cover md:h-[70vh] xl:h-[100vh] ">
-
         <div className="my-20">
           <TituloWeb title="Testimonios 📣 " color="white" />
         </div>
 
         <Carousel />
-        
       </div>
 
       <div className=" justify-cente flex flex-col items-center bg-formulario bg-cover bg-fixed bg-center bg-no-repeat">
         <div className="mt-[10%] xl:mt-[6%]">
-          <TituloWeb title="Contacto 📧"
-          color="white" />
+          <TituloWeb title="Contacto 📧" color="white" />
         </div>
 
         <Map />
