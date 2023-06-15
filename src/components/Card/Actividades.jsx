@@ -1,10 +1,18 @@
-import React from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import React,{useEffect} from "react";
 
 
 function Actividades(props) {
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
+
   return (
 
-    <div className="max-w-sm rounded-lg border border-gray-200 bg-white shadow">
+    <div  data-aos="fade-right" className="max-w-sm rounded-lg border border-gray-200 bg-white shadow">
       <a href="#">
         <img src={props.imagen} className="rounded-t-lg contrast-200" alt="" />
       </a>
