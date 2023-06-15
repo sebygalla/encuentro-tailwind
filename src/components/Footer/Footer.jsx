@@ -2,44 +2,62 @@ import logoTipo from "../../assets/image/tomi-04.png";
 
 const Footer = () => {
   return (
-    <footer className=" bg-slate-900 text-center">
+    <footer className=" bg-slate-900
+    ">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-        <div className="md:flex md:justify-between">
-          <div className="mb-6 md:mb-0">
-            <a href="https://flowbite.com/" class="flex items-center">
+        <div className="md:flex">
+      
+
+          <div className="grid grid-cols-1 text-center xl:text-left xl:grid-cols-4 xl:gap-[150px] gap-10 w-96 xl:w-auto mx-auto">
+
+        
+            <a href="https://flowbite.com/" class="mx-auto mb-10">
               <img
                 src={logoTipo}
-                className="h-[70px] md:w-[100px] md:h-[80px] -ml-5"
+                className="h-[70px] md:h-[100px] md:w-[100px]"
                 alt="Cruz Logo"
               />
-              <span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">
-                
-              </span>
+              <span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-white"></span>
             </a>
-          </div>
-          <div className="grid grid-cols-1 text-left gap-8 sm:grid-cols-3 sm:gap-6">
+      
+
             <div>
-              <h2 className="mb-6 text-sm font-semibold uppercase text-gray-200 dark:text-white">
-                Recursos
+              <h2 className="mb-3 text-lg md:text-md md:font-semibold uppercase text-gray-200 dark:text-white">
+                Comunidad
               </h2>
-              <ul className="font-medium text-gray-200 dark:text-gray-400">
-                <li className="mb-4">
-                  <a href="https://flowbite.com/" class="hover:underline">
-                    React
-                  </a>
+              <ul className="md:font-semibold font-light text-sm md:text-md text-gray-200 dark:text-gray-400">
+                <li className="mb-4 leading-5">
+                  
+                  Natta 362, Tristán Suárez, Prov. Bs. As./ Argentina
+                  javier@iglesiaelencuentro.org.ar
+                  
                 </li>
-                <li>
-                  <a href="https://tailwindcss.com/" className="hover:underline">
-                    Tailwind CSS
-                  </a>
+                <li className="leading-5">
+
+                    <strong className="font-semibold">Cultos centrales:</strong> Miercoles 19:00hs y Domingos 10:30hs Consultorio Pastoral: Martes 17hs a 20hs. Miercoles 17hs a 19hs
+                  
                 </li>
               </ul>
             </div>
+
             <div>
-              <h2 className="mb-6 text-sm font-semibold uppercase text-gray-200 dark:text-white">
+              <h2 className="mb-4 text-md font-semibold uppercase text-gray-200 dark:text-white">
+              SOBRE NOSOTROS
+              </h2>
+              <ul className="font-light text-sm text-gray-200 dark:text-gray-400">
+                <li className="mb-4">
+                  
+                  Iglesia El Encuentro Tristán Suárez ¡Bienvenido al lugar de tu encuentro con Dios, gracias por acompañarnos!
+                
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h2 className="mb-4 text-md font-semibold uppercase text-gray-200 dark:text-white">
                 Seguinos
               </h2>
-              <ul className="font-medium text-gray-200 dark:text-gray-400">
+              <ul className="font-light text-sm text-gray-200 dark:text-gray-400">
                 <li className="mb-4">
                   <a
                     href="https://github.com/themesberg/flowbite"
@@ -63,27 +81,13 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div>
-              <h2 className="mb-6 text-sm font-semibold uppercase text-gray-200 dark:text-white">
-                Legal
-              </h2>
-              <ul className="font-medium text-gray-200 dark:text-gray-400">
-                <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Politica de privacidad
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:underline">
-                    Terminos &amp; Condiciones
-                  </a>
-                </li>
-              </ul>
-            </div>
+
           </div>
         </div>
+
         <hr className="my-6 border-gray-200 dark:border-gray-700 sm:mx-auto lg:my-8" />
-        <div className="sm:flex sm:items-center sm:justify-between text-left">
+
+        <div className="text-center sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-200 dark:text-gray-400">
             © 2023{" "}
             <a href="#" className="hover:underline">
@@ -92,7 +96,7 @@ const Footer = () => {
             . Todos los derechos reservados.
           </span>
 
-          <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
+          <div className="mt-4 flex space-x-6 sm:mt-0 justify-center">
             <a
               href="#"
               className="text-gray-200 hover:text-gray-900 dark:hover:text-white">

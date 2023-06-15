@@ -63,7 +63,7 @@ function App() {
       </div>
 
       {/* BANNER */}
-      <div className="bg-nubes bg-cover xl:py-[10%] bg-left xl:h-[30vh] h-[20vh] flex justify-center">
+      <div className="bg-nubes bg-cover xl:py-[10%] bg-left xl:h-[30vh] h-[20vh] flex justify-center border-t-2 border-b-2">
         <Banner/>
       </div>
 
