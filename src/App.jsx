@@ -62,11 +62,6 @@ function App() {
         </div>
       </div>
 
-      {/* BANNER */}
-      <div className="bg-nubes bg-cover xl:py-[10%] bg-left xl:h-[30vh] h-[20vh] flex justify-center border-t-2 border-b-2">
-        <Banner/>
-      </div>
-
       {/* VISION */}
       <div className="clipPath relative flex items-center justify-center">
         <div className=" flex flex-col items-center justify-start bg-testimonio bg-cover bg-fixed bg-center bg-no-repeat py-32">
@@ -150,6 +145,12 @@ function App() {
         </div>
 
         <Carousel />
+      </div>
+
+      {/* BANNER */}
+      <div className="relative flex h-[20vh] justify-center bg-nubes bg-cover bg-left xl:h-[30vh] xl:py-[10%]">
+        <div class="absolute inset-0 bg-white/70 sm:from-white/95 sm:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
+        <Banner />
       </div>
 
       <div className=" justify-cente flex flex-col items-center bg-formulario bg-cover bg-fixed bg-center bg-no-repeat">

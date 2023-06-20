@@ -3,7 +3,7 @@ import logoTipo from "../../assets/image/logoCruz.png";
 const Hero3 = () => {
   return (
     <section class="clipPath relative flex h-[100vh] w-full flex-col items-center justify-center gap-3 bg-portada-dos bg-cover bg-fixed bg-center bg-no-repeat md:gap-6">
-      <div class="absolute inset-0 bg-black/60  sm:from-white/95 sm:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
+      <div class="absolute inset-0 bg-slate-900/90 sm:from-white/95 sm:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
 
       <div className=" mr-9 flex w-[90%] items-center justify-center">
         <div className="z-20">
@@ -21,7 +21,7 @@ const Hero3 = () => {
           </h3>
         </div>
       </div>
-
+{/* 
       <button className="z-10 text-white mt-5 animate-bounce
       ">
         <svg 
@@ -37,7 +37,7 @@ const Hero3 = () => {
             d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5"
           />
         </svg>
-      </button>
+      </button> */}
     </section>
   );
 };
