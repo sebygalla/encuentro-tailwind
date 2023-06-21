@@ -54,7 +54,7 @@ function App() {
       {/* NOSOTROS */}
       <div className="clipPath2 relative flex items-center justify-center">
         <div className=" flex flex-col items-center justify-start bg-about bg-cover bg-fixed bg-center bg-no-repeat py-32">
-          <div class="absolute inset-0 z-0 bg-orange-500/90 "></div>
+          <div class="absolute inset-0 z-0 bg-gradient-to-br from-yellow-600 to-red-600 "></div>
 
           <TituloWeb title="Nosotros  ⛪ " color="white" />
 
@@ -64,8 +64,8 @@ function App() {
 
       {/* VISION */}
       <div className="clipPath relative flex items-center justify-center">
-        <div className=" flex flex-col items-center justify-start bg-testimonio bg-cover bg-fixed bg-center bg-no-repeat py-32">
-          <div class="absolute inset-0 z-0 bg-slate-900/90 "></div>
+        <div className=" flex flex-col items-center justify-start py-32">
+          <div class="absolute inset-0 z-0 bg-gradient-to-br from-slate-900 to bg-slate-700 "></div>
 
           <TituloWeb title="Visión 👓 " color="white" />
 
@@ -148,8 +148,7 @@ function App() {
       </div>
 
       {/* BANNER */}
-      <div className="relative flex h-[20vh] justify-center bg-nubes bg-cover bg-left xl:h-[30vh] xl:py-[10%]">
-        <div class="absolute inset-0 bg-white/70 sm:from-white/95 sm:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
+      <div className="flex h-[30vh] justify-center bg-gradient-to-br from-yellow-600 to-red-600 xl:h-[40vh] xl:py-[15%]">    
         <Banner />
       </div>
 

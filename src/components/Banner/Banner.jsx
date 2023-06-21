@@ -15,13 +15,13 @@ const Banner = () => {
 
 
   return (
-    <div className="z-20 flex flex-col items-center justify-center md:gap-5 ">
-          <h1 className="text-md mb-4 mt-6 text-black md:text-5xl">
+    <div className="z-20 flex flex-col items-center justify-center gap-6 md:gap-5 ">
+          <h1 className="text-3xl text-center mb-4 mt-6 text-white md:text-5xl">
               "No entres en pánico, Dios gobierna en tu tormenta"
           </h1>
           <AvataresMobile
               imagen={avatarJavier}
-              color="black"
+              color="white"
               nombre="Javier Corsi"
               description="Pastor Iglesia El Encuentro- T.Suárez" />
 
