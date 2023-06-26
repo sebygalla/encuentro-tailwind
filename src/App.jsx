@@ -148,7 +148,7 @@ function App() {
       </div>
 
       {/* BANNER */}
-      <div className="flex h-[30vh] justify-center bg-gradient-to-br from-yellow-600 to-red-600 xl:h-[40vh] xl:py-[15%]">    
+      <div className="flex h-[50vh] justify-center bg-gradient-to-br from-yellow-600 to-red-600 xl:h-[40vh] xl:py-[15%]">    
         <Banner />
       </div>
 

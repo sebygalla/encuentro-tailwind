@@ -18,7 +18,7 @@ function Map() {
           className="w-full rounded border border-gray-300 p-2"
           placeholder="Mensaje"
         />
-        <button className="cursor-pointer rounded bg-red-600 p-2 text-white w-full">
+        <button className="cursor-pointer rounded bg-gradient-to-br from-yellow-600 to-red-600 p-2 text-white w-full">
           Enviar
         </button>
       </form>

@@ -31,7 +31,7 @@ function Actividades(props) {
         </p>
         <a
           href="#"
-          className="inline-flex items-center rounded-lg bg-red-600 px-3 py-2 text-center text-sm font-medium text-white hover:bg-red-700 focus:outline-none focus:ring-4 focus:ring-blue-300">
+          className="inline-flex items-center rounded-lg bg-gradient-to-br from-yellow-600 to-red-600  px-3 py-2 text-center text-sm font-medium text-white hover:bg-red-700 focus:outline-none focus:ring-4 focus:ring-blue-300">
           CLICK ACA 👇
         </a>
       </div>
