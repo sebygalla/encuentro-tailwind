@@ -152,7 +152,7 @@ function App() {
         <Banner />
       </div>
 
-      <div className=" justify-cente flex flex-col items-center bg-formulario bg-cover bg-fixed bg-center bg-no-repeat">
+      <div className=" justify-cente flex flex-col items-center bg-formulario bg-cover bg-fixed bg-center bg-no-repeat py-[10%]">
         <div className="mt-[10%] xl:mt-[6%]">
           <TituloWeb title="Contacto 📧" color="white" />
         </div>
