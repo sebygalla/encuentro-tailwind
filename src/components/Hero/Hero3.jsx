@@ -25,7 +25,7 @@ const Hero3 = () => {
 
       <Redes />
 
-      <marquee className="text-xs text-white font-extralight font-[Poppins]"> El lugar de tu encuentro con Dios! <span className="text-2xl"> El lugar de tu encuentro con Dios! </span><span className="text-3xl font-semibold"> El lugar de tu encuentro con Dios! </span>El lugar de tu encuentro con Dios!</marquee>
+      <marquee className="text-xs text-white font-extralight font-[Poppins]"> El lugar de tu encuentro con Dios!</marquee>
 
 
     </section>
