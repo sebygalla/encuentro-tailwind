@@ -1,12 +1,12 @@
 function Social() {
   return (
-    <div className="h-[10vh] flex items-center justify-center w-full z-30">
+    <div className="h-[10vh] flex items-center justify-center w-full z-30 absolute bottom-16">
       <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
         <a
           href="#"
           className="text-gray-200 hover:text-gray-900 dark:hover:text-white">
           <svg
-            className="h-6 w-6"
+            className="h-8 w-8"
             fill="currentColor"
             viewBox="0 0 24 24"
             aria-hidden="true">
@@ -22,7 +22,7 @@ function Social() {
           href="#"
           className="text-gray-200 hover:text-gray-900 dark:hover:text-white">
           <svg
-            className="h-6 w-6"
+            className="h-8 w-8"
             fill="currentColor"
             viewBox="0 0 24 24"
             aria-hidden="true">
@@ -38,7 +38,7 @@ function Social() {
           href="#"
           className="text-gray-200 hover:text-gray-900 dark:hover:text-white">
           <svg
-            className="h-6 w-6"
+            className="h-8 w-8"
             fill="currentColor"
             viewBox="0 0 24 24"
             aria-hidden="true">
