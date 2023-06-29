@@ -1,9 +1,10 @@
 import logoTipo from "../../assets/image/logoCruz.png";
+import Redes from "../Redes/Social";
 
 const Hero3 = () => {
   return (
-    <section class="clipPath relative flex h-[100vh] w-full flex-col items-center justify-center gap-3 bg-portada-dos bg-cover bg-fixed bg-center bg-no-repeat md:gap-6">
-      <div class="absolute inset-0 bg-slate-900/90 sm:from-white/95 sm:to-white/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
+    <section class="clipPath relative flex h-[100vh] w-full flex-col items-center justify-center gap-3 bg-portada-dos bg-fixed bg-center bg-no-repeat md:gap-[25px]">
+      <div class="absolute inset-0  bg-gradient-to-br from-yellow-600/95 to-red-600/90 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
 
       <div className=" mr-9 flex w-[90%] items-center justify-center">
         <div className="z-20">
@@ -21,23 +22,12 @@ const Hero3 = () => {
           </h3>
         </div>
       </div>
-{/* 
-      <button className="z-10 text-white mt-5 animate-bounce
-      ">
-        <svg 
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="currentColor"
-          className="md:h-16 md:w-16 h-8 w-8">
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5"
-          />
-        </svg>
-      </button> */}
+
+      <Redes />
+
+      <marquee className="text-xs text-white font-extralight font-[Poppins]"> El lugar de tu encuentro con Dios! <span className="text-2xl"> El lugar de tu encuentro con Dios! </span><span className="text-3xl font-semibold"> El lugar de tu encuentro con Dios! </span>El lugar de tu encuentro con Dios!</marquee>
+
+
     </section>
   );
 };
