@@ -2,7 +2,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import React,{useEffect} from "react";
 
-import BotonDos from "../boton/Boton"
+import BotonDos from "../boton/BotonDos"
 
 
 
@@ -30,7 +30,7 @@ function Actividades(props) {
           </h5>
         </a>
 
-        <BotonDos text="APLICA! 👈" />
+        <BotonDos text="Aplicá! 👈" />
 
       </div>
     

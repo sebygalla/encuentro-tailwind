@@ -1,6 +1,6 @@
 import logoTipo from "../../assets/image/logoCruz.png";
 import Redes from "../Redes/Social";
-import BotonDos from "../boton/Boton"
+import Boton from "../boton/Boton"
 
 const Hero3 = () => {
   return (
@@ -27,7 +27,7 @@ const Hero3 = () => {
       <Redes />
 
 
-      <BotonDos text="VER MÁS! 👇" />
+      <Boton text="Ver más! 👇" />
 
 
     </section>
