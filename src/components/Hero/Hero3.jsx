@@ -27,7 +27,7 @@ const Hero3 = () => {
       <Redes />
 
 
-      <Boton text="Ver más! 👇" />
+      <Boton text="Ver más!" />
 
 
     </section>
