@@ -42,13 +42,6 @@ const Header = () => {
           ))}
         </ul>
 
-<<<<<<< HEAD
-        <span className="hidden xl:block">|</span>
-
-        <a href="#" className="">
-          contacto
-        </a>
-=======
         <ul className="hidden xl:flex gap-10">
           {menuLinks?.map((menu, i) => (
             <li onClick={()=>setOpen(false)} key={i} className="m-2">
@@ -57,7 +50,6 @@ const Header = () => {
           ))}
         </ul>
 
->>>>>>> b9d36d7feaa51f132c4fc8dd48cd7a1fd02639c5
       </nav>
 
       {/* open and close hamburguer */}
