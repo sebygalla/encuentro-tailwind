@@ -35,133 +35,138 @@ import Avatares3 from "./components/Avatares/Avatares3";
 import Vision from "./components/Vision/Vision";
 import Banner from "./components/Banner/Banner";
 
+
+
 function App() {
   return (
-    <div className="bg-gradient-to-r from-white to-stone-100">
-      <Header />
-      <Hero3 />
 
-      {/* REHMA */}
-      <div className="my-20">
-        <TituloWeb title="Rehma 2023 📖" />
-        <Rehma
-          imagen={Jorge}
-          nombre="Jorge Sennewald"
-          description="Pastor General Iglesias El Encuentro."
-        />
-      </div>
 
-      {/* NOSOTROS */}
-      <div className="clipPath2 relative flex items-center justify-center">
-        <div className=" flex flex-col items-center justify-start bg-about bg-cover bg-fixed bg-center bg-no-repeat py-32">
-          <div class="absolute inset-0 z-0 bg-gradient-to-br from-yellow-600 to-red-600 "></div>
+      <div id="inicio" className="bg-gradient-to-r from-white to-stone-100">
+        <Header />
+        <Hero3 />
 
-          <TituloWeb title="Nosotros  ⛪ " color="white" />
-
-          <About />
-        </div>
-      </div>
-
-      {/* VISION */}
-      <div className="clipPath relative flex items-center justify-center">
-        <div className=" flex flex-col items-center justify-start py-32">
-          <div class="absolute inset-0 z-0 bg-gradient-to-br from-slate-900 to bg-slate-700 "></div>
-
-          <TituloWeb title="Visión 👓 " color="white" />
-
-          <Vision />
-        </div>
-      </div>
-
-      {/* ACTIVIDADES */}
-      <div className="mt-[30%] xl:mt-[12%]">
-        <TituloWeb title="Actividades 👨‍👩‍👦‍👦 " />
-      </div>
-      <div className="container relative mx-auto mt-20 flex flex-col items-center justify-between overflow-hidden">
-        <div className="m-0 mb-36 grid gap-10 md:grid-cols-2 xl:grid-cols-3">
-          <Actividades
-            title="Niños"
-            text="The cake at the Sacher hotel is amongst the finest in all the lands es un servicio."
-            imagen={Ninos}
-          />
-
-          <Actividades
-            title="Preadolescentes"
-            text="The cake at the Sacher hotel is amongst the finest in all the lands es un servicio."
-            imagen={Preadolescentes}
-          />
-
-          <Actividades
-            title="Jovenes"
-            text="The cake at the Sacher hotel is amongst the finest in all the lands es un servicio."
-            imagen={Jovenes}
-          />
-
-          <Actividades
-            title="Matrimonios jovenes"
-            text="The cake at the Sacher hotel is amongst the finest in all the lands es un servicio."
-            imagen={MatriJovenes}
-          />
-
-          <Actividades
-            title="Matrimonios adultos"
-            text="The cake at the Sacher hotel is amongst the finest in all the lands es un servicio."
-            imagen={MatriAdultos}
+        {/* REHMA */}
+        <div id="rehma" className="my-20">
+          <TituloWeb title="Rehma 2023 📖" />
+          <Rehma
+            imagen={Jorge}
+            nombre="Jorge Sennewald"
+            description="Pastor General Iglesias El Encuentro."
           />
         </div>
-      </div>
 
-      {/* CUARTO */}
-      <div className="mx-auto mb-10 flex w-[95%] flex-col">
-        <TituloWeb color="black" title="Cuarto de oración 🙌" />
-        <Cuarto />
+        {/* NOSOTROS */}
+        <div id="nosotros" className="clipPath2 relative flex items-center justify-center">
+          <div className=" flex flex-col items-center justify-start bg-about bg-cover bg-fixed bg-center bg-no-repeat py-32">
+            <div class="absolute inset-0 z-0 bg-gradient-to-br from-yellow-600 to-red-600 "></div>
 
-        <div className="mb-[10%] flex w-full flex-col items-center justify-center">
-          <Avatares3
-            nombre="EQUIPO DE ALABANZA Y ADORACION"
-            color="black"
-            description="Iglesia El Encuentro- Tristán Suárez"
-            imagenUno={avatarCami}
-            imagenDos={avatarRebe}
-            imagenTres={avatarSeby}
-            imagenCuatro={avatarYani}
-            imagenCinco={avatarMariano}
-            imagenSeis={avatarVivi}
-            imagenSiete={avatarIvan}
-            imagenOcho={avatarMarcos}
-            imagenNueve={avatarMarquitos}
-            imagenDiez={avatarRosales}
-            imagenOnce={avatarCristian}
-            imagenDoce={avatarNadia}
-            imagenTrece={avatarEze}
-          />
-        </div>
-      </div>
+            <TituloWeb title="Nosotros  ⛪ " color="white" />
 
-      {/* CAROUSEL */}
-      <div className="flex h-[100vh] w-full flex-col items-center bg-slate-900 bg-cover md:h-[70vh] xl:h-[100vh] ">
-        <div className="my-20">
-          <TituloWeb title="Testimonios 📣 " color="white" />
+            <About />
+          </div>
         </div>
 
-        <Carousel />
-      </div>
+        {/* VISION */}
+        <div id="vision" className="clipPath relative flex items-center justify-center">
+          <div className=" flex flex-col items-center justify-start py-32">
+            <div class="to absolute inset-0 z-0 bg-slate-700 bg-gradient-to-br from-slate-900 "></div>
 
-      {/* BANNER */}
-      <div className="flex h-[50vh] justify-center bg-gradient-to-br from-yellow-600 to-red-600 xl:h-[40vh] xl:py-[15%]">    
-        <Banner />
-      </div>
+            <TituloWeb title="Visión 👓 " color="white" />
 
-      <div className=" justify-cente flex flex-col items-center bg-formulario bg-cover bg-fixed bg-center bg-no-repeat py-[10%]">
-        <div className="mt-[10%] xl:mt-[6%]">
-          <TituloWeb title="Contacto 📧" color="white" />
+            <Vision />
+          </div>
         </div>
 
-        <Map />
+        {/* ACTIVIDADES */}
+        <div id="actividades" className="mt-[30%] xl:mt-[12%]">
+          <TituloWeb title="Actividades 👨‍👩‍👦‍👦 " />
+        </div>
+        <div className="container relative mx-auto mt-20 flex flex-col items-center justify-between overflow-hidden">
+          <div className="m-0 mb-36 grid gap-10 md:grid-cols-2 xl:grid-cols-3">
+            <Actividades
+              title="Niños"
+              text="The cake at the Sacher hotel is amongst the finest in all the lands es un servicio."
+              imagen={Ninos}
+            />
+
+            <Actividades
+              title="Preadolescentes"
+              text="The cake at the Sacher hotel is amongst the finest in all the lands es un servicio."
+              imagen={Preadolescentes}
+            />
+
+            <Actividades
+              title="Jovenes"
+              text="The cake at the Sacher hotel is amongst the finest in all the lands es un servicio."
+              imagen={Jovenes}
+            />
+
+            <Actividades
+              title="Matrimonios jovenes"
+              text="The cake at the Sacher hotel is amongst the finest in all the lands es un servicio."
+              imagen={MatriJovenes}
+            />
+
+            <Actividades
+              title="Matrimonios adultos"
+              text="The cake at the Sacher hotel is amongst the finest in all the lands es un servicio."
+              imagen={MatriAdultos}
+            />
+          </div>
+        </div>
+
+        {/* CUARTO */}
+        <div className="mx-auto mb-10 flex w-[95%] flex-col">
+          <TituloWeb color="black" title="Cuarto de oración 🙌" />
+          <Cuarto />
+
+          <div className="mb-[10%] flex w-full flex-col items-center justify-center">
+            <Avatares3
+              nombre="EQUIPO DE ALABANZA Y ADORACION"
+              color="black"
+              description="Iglesia El Encuentro- Tristán Suárez"
+              imagenUno={avatarCami}
+              imagenDos={avatarRebe}
+              imagenTres={avatarSeby}
+              imagenCuatro={avatarYani}
+              imagenCinco={avatarMariano}
+              imagenSeis={avatarVivi}
+              imagenSiete={avatarIvan}
+              imagenOcho={avatarMarcos}
+              imagenNueve={avatarMarquitos}
+              imagenDiez={avatarRosales}
+              imagenOnce={avatarCristian}
+              imagenDoce={avatarNadia}
+              imagenTrece={avatarEze}
+            />
+          </div>
+        </div>
+
+        {/* CAROUSEL */}
+        <div id="testimonios" className="flex h-[100vh] w-full flex-col items-center bg-slate-900 bg-cover md:h-[70vh] xl:h-[100vh] ">
+          <div className="my-20">
+            <TituloWeb title="Testimonios 📣 " color="white" />
+          </div>
+
+          <Carousel />
+        </div>
+
+        {/* BANNER */}
+        <div className="flex h-[50vh] justify-center bg-gradient-to-br from-yellow-600 to-red-600 xl:h-[40vh] xl:py-[15%]">
+          <Banner />
+        </div>
+
+        <div id="contacto" className=" justify-cente flex flex-col items-center bg-formulario bg-cover bg-fixed bg-center bg-no-repeat py-[10%]">
+          <div className="mt-[10%] xl:mt-[6%]">
+            <TituloWeb title="Contacto 📧" color="white" />
+          </div>
+
+          <Map />
+        </div>
+
+        <Footer />
       </div>
 
-      <Footer />
-    </div>
   );
 }
 

@@ -1,70 +1,56 @@
-import { useState} from "react";
+import { useState } from "react";
 import logoTipo from "../../assets/image/tomi-05.png";
-
 
 // iconos menu and close
 import { BsX } from "react-icons/bs";
 import { HiMenuAlt3 } from "react-icons/hi";
 
 const Header = () => {
-  const [showMenu, setShowMenu] = useState(false); 
+  const [showMenu, setShowMenu] = useState(false);
+
+  const menuLinks = [
+    { name: "INICIO", link: "#inicio" },
+    { name: "NOSOTROS", link: "#nosotros" },
+    { name: "VISION", link: "#vision" },
+    { name: "ACTIVIDADES", link: "#actividades" },
+    { name: "TESTIMONIOS", link: "#testimonios" },
+    { name: "CONTACTO", link: "#contacto" },
+  ];
 
   return (
-    <header className="item-center fixed z-50 flex w-full md:h-[70px] h-[90px]  justify-between bg-white xl:justify-end shadow">
+    <header className="item-center fixed z-50 flex h-[90px] w-full justify-between  bg-white shadow md:h-[70px] xl:justify-end">
       {/* logotipo */}
+
       <div className="flex items-center justify-center">
-        <img className="h-[60px] md:h-[60px] ml-2 xl:ml-10" src={logoTipo}/>
+        <img
+          className="ml-2 h-[60px] cursor-pointer md:h-[60px] xl:ml-10"
+          src={logoTipo}
+        />
       </div>
 
       {/* navegacion */}
       <nav
-        className={`fixed h-full w-full font-['Poppins']  font-semibold  uppercase  xl:static items-center xl:text-[11px] text-[18px] mr-10  top-0 z-30 flex  flex-col text-center justify-center  gap-6 bg-white p-8 transition-all duration-500 xl:h-0 xl:flex-row  xl:justify-end xl:gap-3 xl:bg-transparent text-black ${
+        className={`fixed top-0 z-30 mr-10  flex h-full  w-full items-center justify-center gap-6  bg-white p-8 text-center  font-['Poppins'] text-[18px] font-semibold  uppercase text-black transition-all duration-500 xl:static xl:h-0 xl:flex-row  xl:justify-end xl:gap-3 xl:bg-transparent xl:text-[11px] ${
           showMenu ? "left-0" : "-left-full"
         }
         `}>
+        <ul className="flex-col xl:hidden">
+          {menuLinks?.map((menu, i) => (
+            <li onClick={()=>setOpen(false)} key={i} className="m-10">
+              <a href={menu?.link}>{menu?.name}</a>
+            </li>
+          ))}
+        </ul>
 
-        <a href="#" className=" ">
-          inicio
-        </a>
+        <ul className="hidden xl:flex gap-10">
+          {menuLinks?.map((menu, i) => (
+            <li onClick={()=>setOpen(false)} key={i} className="m-2">
+              <a href={menu?.link}>{menu?.name}</a>
+            </li>
+          ))}
+        </ul>
 
-        <span className="hidden xl:block">|</span>
-
-        <a href="#" className="">
-          nosotros
-        </a>
-
-        <span className="hidden xl:block">|</span>
-
-        <a href="#" className="">
-          ministerios
-        </a>
-
-        <span className="hidden xl:block">|</span>
-
-        <a href="#" className="">
-          actividades
-        </a>
-
-        <span className="hidden xl:block">|</span>
-
-        <a href="#" className="">
-          eventos
-        </a>
-
-        <span className="hidden xl:block">|</span>
-
-        <a href="#" className="">
-          testimonios
-        </a>
-
-        <span className="hidden xl:block">|</span>
-
-        <a href="#" className="">
-          contacto
-        </a>
       </nav>
-
-    
 
       {/* open and close hamburguer */}
       <button
