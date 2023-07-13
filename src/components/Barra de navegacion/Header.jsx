@@ -22,40 +22,13 @@ const Header = () => {
           showMenu ? "left-0" : "-left-full"
         }
         `}>
-
-        <a href="#" className=" ">
-          inicio
-        </a>
-
-        <span className="hidden xl:block">|</span>
-
-        <a href="#" className="">
-          nosotros
-        </a>
-
-        <span className="hidden xl:block">|</span>
-
-        <a href="#" className="">
-          ministerios
-        </a>
-
-        <span className="hidden xl:block">|</span>
-
-        <a href="#" className="">
-          actividades
-        </a>
-
-        <span className="hidden xl:block">|</span>
-
-        <a href="#" className="">
-          eventos
-        </a>
-
-        <span className="hidden xl:block">|</span>
-
-        <a href="#" className="">
-          testimonios
-        </a>
+        <ul className="flex-col xl:hidden">
+          {menuLinks?.map((menu, i) => (
+            <li onClick={()=>setOpen(false)} key={i} className="m-10">
+              <a href={menu?.link}>{menu?.name}</a>
+            </li>
+          ))}
+        </ul>
 
         <span className="hidden xl:block">|</span>
 
