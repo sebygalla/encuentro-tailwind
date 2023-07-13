@@ -91,9 +91,9 @@ const Footer = () => {
           <span className="text-sm text-gray-200 dark:text-gray-400">
             © 2023{" "}
             <a href="#" className="hover:underline">
-              sebygalla
+              Iglesia El Encuentro- Tristán Suárez 
             </a>
-            . Todos los derechos reservados.
+             -Todos los derechos reservados.
           </span>
 
           <div className="mt-4 flex space-x-6 sm:mt-0 justify-center">

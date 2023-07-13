@@ -1,10 +1,16 @@
 import logoTipo from "../../assets/image/logoCruz.png";
 import Redes from "../Redes/Social";
-import Boton from "../boton/Boton"
+
+
+
+
+
 
 const Hero3 = () => {
+
+
   return (
-    <section class="clipPath relative flex h-[100vh] w-full flex-col items-center justify-center gap-3 bg-portada-dos bg-fixed bg-center bg-no-repeat md:gap-[25px]">
+    <section class="clipPath relative flex h-[80vh] w-full flex-col items-center justify-center gap-3 bg-portada-dos bg-fixed bg-center bg-no-repeat md:gap-[25px]">
       <div class="absolute inset-0  bg-gradient-to-br from-yellow-600/75 to-red-600/90 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
 
       <div className=" mr-9 flex w-[90%] items-center justify-center">
@@ -26,8 +32,6 @@ const Hero3 = () => {
 
       <Redes />
 
-
-      <Boton text="Ver más!" />
 
 
     </section>

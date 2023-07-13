@@ -4,14 +4,11 @@ import avatarJavier from "../../assets/image/avatarJavier.png";
 
 
 
-import { useState } from "react";
+
 
 const Banner = () => {
 
-    const [Modal, UseModal] = useState(false);
-    const abrirModal = () => {
-        
-    };
+
 
 
   return (
