@@ -6,7 +6,7 @@ function Social() {
           href="#"
           className="text-gray-200 hover:text-gray-900 dark:hover:text-white">
           <svg
-            className="h-8 w-8"
+            className="h-6 w-6"
             fill="currentColor"
             viewBox="0 0 24 24"
             aria-hidden="true">
@@ -22,7 +22,7 @@ function Social() {
           href="#"
           className="text-gray-200 hover:text-gray-900 dark:hover:text-white">
           <svg
-            className="h-8 w-8"
+            className="h-6 w-6"
             fill="currentColor"
             viewBox="0 0 24 24"
             aria-hidden="true">
@@ -38,7 +38,7 @@ function Social() {
           href="#"
           className="text-gray-200 hover:text-gray-900 dark:hover:text-white">
           <svg
-            className="h-8 w-8"
+            className="h-6 w-6"
             fill="currentColor"
             viewBox="0 0 24 24"
             aria-hidden="true">
