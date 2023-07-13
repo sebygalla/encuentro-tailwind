@@ -36,7 +36,7 @@ const Header = () => {
         `}>
         <ul className="flex-col xl:hidden">
           {menuLinks?.map((menu, i) => (
-            <li onClick={()=>setOpen(false)} key={i} className="m-10">
+            <li onClick={()=>setShowMenu(false)} key={i} className="m-10">
               <a href={menu?.link}>{menu?.name}</a>
             </li>
           ))}
