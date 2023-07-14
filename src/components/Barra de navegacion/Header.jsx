@@ -8,6 +8,17 @@ import { HiMenuAlt3 } from "react-icons/hi";
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
 
+  const [color, setColor] = useState(false);
+  const changeColor = () => {
+    if (window.scrollY >= 290) {
+      setColor(true);
+    } else {
+      setColor(false);
+    }
+  };
+
+  window.addEventListener('scroll', changeColor)
+
   const menuLinks = [
     { name: "INICIO", link: "#inicio" },
     { name: "NOSOTROS", link: "#nosotros" },
@@ -18,7 +29,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="item-center fixed z-50 flex h-[90px] w-full justify-between  bg-white shadow md:h-[70px] xl:justify-end">
+    <header className={`item-center fixed z-50 flex h-[90px] w-full justify-between bg-white shadow md:h-[70px] xl:justify-end ${color ? 'bg-white/40 transition-colors duration-700' :'' }`}>
       {/* logotipo */}
 
       <div className="flex items-center justify-center">
@@ -36,20 +47,19 @@ const Header = () => {
         `}>
         <ul className="flex-col xl:hidden">
           {menuLinks?.map((menu, i) => (
-            <li onClick={()=>setShowMenu(false)} key={i} className="m-10">
+            <li onClick={() => setShowMenu(false)} key={i} className="m-10">
               <a href={menu?.link}>{menu?.name}</a>
             </li>
           ))}
         </ul>
 
-        <ul className="hidden xl:flex gap-10">
+        <ul className="hidden gap-10 xl:flex">
           {menuLinks?.map((menu, i) => (
-            <li onClick={()=>setOpen(false)} key={i} className="m-2">
+            <li onClick={() => setOpen(false)} key={i} className="m-2">
               <a href={menu?.link}>{menu?.name}</a>
             </li>
           ))}
         </ul>
-
       </nav>
 
       {/* open and close hamburguer */}
