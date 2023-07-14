@@ -9,8 +9,9 @@ const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   const [color, setColor] = useState(false);
+
   const changeColor = () => {
-    if (window.scrollY >= 290) {
+    if (window.scrollY >= 90) {
       setColor(true);
     } else {
       setColor(false);

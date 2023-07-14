@@ -10,8 +10,15 @@ const Hero3 = () => {
 
 
   return (
-    <section class="clipPath relative flex md:h-[50vh] md:bg-top h-[80vh] w-full flex-col items-center justify-center gap-3 bg-portada-tres bg-fixed bg-center md:bg-center-top bg-no-repeat md:gap-[25px]">
+    <section class="clipPath relative flex md:h-[90vh] md:bg-top h-[80vh] w-full flex-col items-center justify-center gap-3 bg-portada-dos xl:bg-portada-tres bg-fixed bg-center md:bg-center-top bg-no-repeat md:gap-[25px]">
       <div class="absolute inset-0  bg-gradient-to-br from-yellow-600/75 to-red-600/90 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
+
+      <div className="xl:bg-red-900 bg-red-900/60 xl:w-[35%] xl:h-[80%] w-[45%] h-[90%] absolute top-0 right-0 xl:inset-0 -z-20">
+      </div>
+      <div className="bg-red-400/40 xl:bg-red-400 w-[60%] h-[70%] xl:w-[15%] xl:h-[70%] absolute inset-10 -z-20">
+      </div>
+      <div className="bg-red-600/40 w-[15%] h-[70%] absolute bottom-0 right-0 -z-20">
+      </div>
 
       <div className=" mr-9 flex w-[90%] items-center justify-center">
         <div className="z-20">
