@@ -1,24 +1,38 @@
 import { useState } from "react";
 import logoTipo from "../../assets/image/tomi-05.png";
 
+
 // iconos menu and close
 import { BsX } from "react-icons/bs";
 import { HiMenuAlt3 } from "react-icons/hi";
+
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   const [color, setColor] = useState(false);
+  const [cruz, setCruz] = useState(false);
 
-  const changeColor = () => {
+  const changeColorCruz = () => {
     if (window.scrollY >= 90) {
       setColor(true);
+      setCruz(true);
+     
     } else {
       setColor(false);
+      setCruz(false);
     }
   };
 
-  window.addEventListener('scroll', changeColor)
+
+
+
+  window.addEventListener('scroll', changeColorCruz)
+
+
+
+
+
 
   const menuLinks = [
     { name: "INICIO", link: "#inicio" },
@@ -30,15 +44,19 @@ const Header = () => {
   ];
 
   return (
-    <header className={`item-center fixed z-50 flex h-[90px] w-full justify-between bg-white shadow md:h-[70px] xl:justify-end ${color ? 'bg-white/40 transition-colors duration-700' :'' }`}>
+    <header className={`item-center fixed z-50 flex h-[90px] w-full justify-between bg-white shadow md:h-[70px] xl:justify-end ${color ? 'bg-white/40 transition-colors duration-700 backdrop-blur-sm' :'' }`}>
       {/* logotipo */}
 
       <div className="flex items-center justify-center">
         <img
-          className="ml-2 h-[60px] cursor-pointer md:h-[60px] xl:ml-10"
+          className={`ml-2 h-[60px] cursor-pointer md:h-[60px] xl:ml-10 ${cruz ? "hidden transition-opacity duration-500" : ""}`}
           src={logoTipo}
+          
         />
+         
       </div>
+
+    
 
       {/* navegacion */}
       <nav
@@ -53,6 +71,8 @@ const Header = () => {
             </li>
           ))}
         </ul>
+
+     
 
         <ul className="hidden gap-10 xl:flex">
           {menuLinks?.map((menu, i) => (
