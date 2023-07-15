@@ -60,7 +60,7 @@ const Header = () => {
 
       {/* navegacion */}
       <nav
-        className={`fixed inset-0 z-10 mr-10 h-full w-full  flex  items-center justify-center gap-6  bg-white p-8 text-center  font-['Poppins'] text-[18px] font-semibold  uppercase text-black transition-all duration-500 xl:static xl:h-0 xl:flex-row  xl:justify-end xl:gap-3 xl:bg-transparent xl:text-[11px] ${
+        className={`fixed inset-0 z-10 mr-10 h-[100vh] w-[100vw]  flex  items-center justify-center gap-6  bg-white p-8 text-center  font-['Poppins'] text-[18px] font-semibold  uppercase text-black transition-all duration-500 xl:static xl:h-0 xl:flex-row  xl:justify-end xl:gap-3 xl:bg-transparent xl:text-[11px] ${
           showMenu ? "left-0" : "-left-full"
         }
         `}>
