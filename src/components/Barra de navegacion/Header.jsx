@@ -44,12 +44,12 @@ const Header = () => {
   ];
 
   return (
-    <header className={`item-center fixed z-50 flex h-[90px] w-full justify-between bg-white shadow md:h-[70px] xl:justify-end ${color ? 'bg-white/40 transition-colors duration-700 backdrop-blur-sm' :'' }`}>
+    <header className={`item-center fixed z-50 flex h-[90px] w-full justify-between shadow bg-white md:h-[70px] xl:justify-end ${color ? 'bg-white/40 transition-colors duration-700 backdrop-blur-sm' :'' }`}>
       {/* logotipo */}
 
       <div className="flex items-center justify-center">
         <img
-          className={`ml-2 h-[60px] cursor-pointer md:h-[60px] xl:ml-10 ${cruz ? "hidden transition-opacity duration-500" : ""}`}
+          className={`ml-2 h-[60px] cursor-pointer md:h-[60px] xl:ml-10 ${cruz ? "hidden" : ""}`}
           src={logoTipo}
           
         />
@@ -60,7 +60,7 @@ const Header = () => {
 
       {/* navegacion */}
       <nav
-        className={`fixed top-0 z-30 mr-10  flex h-full  w-full items-center justify-center gap-6  bg-white p-8 text-center  font-['Poppins'] text-[18px] font-semibold  uppercase text-black transition-all duration-500 xl:static xl:h-0 xl:flex-row  xl:justify-end xl:gap-3 xl:bg-transparent xl:text-[11px] ${
+        className={`fixed inset-0 z-10 mr-10 h-full w-full  flex  items-center justify-center gap-6  bg-white p-8 text-center  font-['Poppins'] text-[18px] font-semibold  uppercase text-black transition-all duration-500 xl:static xl:h-0 xl:flex-row  xl:justify-end xl:gap-3 xl:bg-transparent xl:text-[11px] ${
           showMenu ? "left-0" : "-left-full"
         }
         `}>
