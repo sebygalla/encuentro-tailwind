@@ -38,8 +38,8 @@ import Banner from "./components/Banner/Banner";
 
 
 function App() {
-  return (
 
+  return (
 
       <div id="inicio" className="bg-gradient-to-r from-white to-stone-100">
         <Header />
@@ -111,7 +111,8 @@ function App() {
               title="Matrimonios adultos"
               text="The cake at the Sacher hotel is amongst the finest in all the lands es un servicio."
               imagen={MatriAdultos}
-            />
+            /> 
+      
           </div>
         </div>
 
