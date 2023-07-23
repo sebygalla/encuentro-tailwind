@@ -85,6 +85,7 @@ function App() {
           <div className="m-0 mb-36 grid gap-10 md:grid-cols-2 xl:grid-cols-3">
             <Actividades
               title="Niños"
+              titleModal="Niños 👦👧"
               textButton ="Ver más"
               imagen={Ninos}
               description="Un espacio donde cientos de chicos y chicas descubren su propósito divino para nunca más soltarlo. Cada sábado nos juntamos para acercarnos al corazón de nuestro Creador; para disfrutar de amistades que sacan lo mejor de nosotros, para soñar, reír y llorar juntos. Anhelamos que cada joven descubra el potencial que Dios depósito en él, que sueñe en grande y que deje huella en nuestra sociedad. Somos jóvenes con propósito, que desarrollan su potencial, predican a Jesús y sirven a los demás. Horario de reunion: Todos los sábados a las 20hs."
@@ -92,6 +93,7 @@ function App() {
 
             <Actividades
               title="Preadolescentes"
+              titleModal="Preadolescentes 👦👧"
               textButton ="Ver más"
               imagen={Preadolescentes}
               description="Un espacio donde cientos de chicos y chicas descubren su propósito divino para nunca más soltarlo. Cada sábado nos juntamos para acercarnos al corazón de nuestro Creador; para disfrutar de amistades que sacan lo mejor de nosotros, para soñar, reír y llorar juntos. Anhelamos que cada joven descubra el potencial que Dios depósito en él, que sueñe en grande y que deje huella en nuestra sociedad. Somos jóvenes con propósito, que desarrollan su potencial, predican a Jesús y sirven a los demás. Horario de reunion: Todos los sábados a las 20hs."
@@ -99,6 +101,7 @@ function App() {
 
             <Actividades
               title="Jovenes"
+              titleModal="Jovenes 🧑👩"
               textButton ="Ver más"
               imagen={Jovenes}
               description="Un espacio donde cientos de chicos y chicas descubren su propósito divino para nunca más soltarlo. Cada sábado nos juntamos para acercarnos al corazón de nuestro Creador; para disfrutar de amistades que sacan lo mejor de nosotros, para soñar, reír y llorar juntos. Anhelamos que cada joven descubra el potencial que Dios depósito en él, que sueñe en grande y que deje huella en nuestra sociedad. Somos jóvenes con propósito, que desarrollan su potencial, predican a Jesús y sirven a los demás. Horario de reunion: Todos los sábados a las 20hs.!"
@@ -106,6 +109,7 @@ function App() {
 
             <Actividades
               title="Matrimonios jovenes"
+              titleModal="Matrimonios jovenes 💑 "
               textButton ="Ver más"
               imagen={MatriJovenes}
               description="Un espacio donde cientos de chicos y chicas descubren su propósito divino para nunca más soltarlo. Cada sábado nos juntamos para acercarnos al corazón de nuestro Creador; para disfrutar de amistades que sacan lo mejor de nosotros, para soñar, reír y llorar juntos. Anhelamos que cada joven descubra el potencial que Dios depósito en él, que sueñe en grande y que deje huella en nuestra sociedad. Somos jóvenes con propósito, que desarrollan su potencial, predican a Jesús y sirven a los demás. Horario de reunion: Todos los sábados a las 20hs."
@@ -113,6 +117,7 @@ function App() {
 
             <Actividades
               title="Matrimonios adultos"
+              titleModal="Matrimonios adultos 👪"
               textButton ="Ver más"
               imagen={MatriAdultos}
               description="Un espacio donde cientos de chicos y chicas descubren su propósito divino para nunca más soltarlo. Cada sábado nos juntamos para acercarnos al corazón de nuestro Creador; para disfrutar de amistades que sacan lo mejor de nosotros, para soñar, reír y llorar juntos. Anhelamos que cada joven descubra el potencial que Dios depósito en él, que sueñe en grande y que deje huella en nuestra sociedad. Somos jóvenes con propósito, que desarrollan su potencial, predican a Jesús y sirven a los demás. Horario de reunion: Todos los sábados a las 20hs."

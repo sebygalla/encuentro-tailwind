@@ -43,10 +43,10 @@ function Actividades(props) {
               <div className="fixed inset-0 z-50 flex items-center justify-center overflow-y-auto overflow-x-hidden bg-black/75 outline-none backdrop-blur-sm focus:outline-none ">
                 <div className="relative mx-auto my-6 w-auto max-w-3xl">
                   {/*content*/}
-                  <div className="relative mx-auto flex w-[90%] flex-col rounded-lg border-0 bg-white shadow-lg outline-none focus:outline-none">
+                  <div className="relative mx-auto flex w-[90%] flex-col rounded-lg border-0 bg-white shadow-lg outline-none focus:outline-none p-5">
                     {/*header*/}
-                    <div className="flex items-start justify-between rounded-t border-b border-solid border-slate-200 p-5">
-                      <h3 className="text-6xl font-semibold">{props.title}</h3>
+                    <div className="flex items-start justify-between p-5">
+                      <h3 className="text-3xl font-semibold">{props.titleModal}</h3>
                       <button
                         className="float-right ml-auto border-0 bg-transparent p-1 text-3xl font-semibold leading-none text-black opacity-5 outline-none focus:outline-none"
                         onClick={() => setShowModal(false)}>
@@ -57,12 +57,12 @@ function Actividades(props) {
                     </div>
                     {/*body*/}
                     <div className="relative flex-auto p-6">
-                      <p className="my-4 text-sm leading-relaxed text-slate-900 md:text-lg">
+                      <p className="my-4 text-xs leading-relaxed text-slate-900 md:text-lg">
                         {props.description}
                       </p>
                     </div>
                     {/*footer*/}
-                    <div className="flex items-center justify-end rounded-b border-t border-solid border-slate-200 p-6">
+                    <div className="flex items-center justify-end rounded-b  p-6">
                       <button
                         className="mb-1 mr-1 rounded bg-gradient-to-br from-yellow-600 to-red-600 px-6 py-3 text-sm font-bold uppercase text-white shadow outline-none transition-all duration-150 ease-linear hover:shadow-lg focus:outline-none"
                         type="button"
@@ -77,9 +77,6 @@ function Actividades(props) {
             </>
           ) : null}
 
-          {/* <BotonDos text="Aplicá!... 👈"
-          title="Niños"
-          description="Un espacio donde cientos de chicos y chicas descubren su propósito divino para nunca más soltarlo. Cada sábado nos juntamos para acercarnos al corazón de nuestro Creador; para disfrutar de amistades que sacan lo mejor de nosotros, para soñar, reír y llorar juntos. Anhelamos que cada joven descubra el potencial que Dios depósito en él, que sueñe en grande y que deje huella en nuestra sociedad. Somos jóvenes con propósito, que desarrollan su potencial, predican a Jesús y sirven a los demás. Horario de reunion: Todos los sábados a las 20hs." /> */}
         </div>
       </div>
     </>
