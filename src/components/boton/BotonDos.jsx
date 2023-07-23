@@ -3,13 +3,23 @@ import React from "react";
 const BotonDos = (props) => {
   const [showModal, setShowModal] = React.useState(false);
 
+  const modales = [
+    { title: "niños", description: "1" },
+    { title: "preadolescentes", description: "2" },
+    { title: "jovenes", description: "3" },
+    { title: "matris", description: "4" },
+    { title: "matris 2", description: "5" },
+  ]
+
   return (
+
+    
 
     <>
       <button
         className="mb-1 mr-1 rounded bg-gradient-to-br from-yellow-600 to-red-600 px-6 py-3 text-sm font-bold uppercase text-white shadow outline-none transition-all duration-150 ease-linear hover:shadow-lg focus:outline-none active:bg-pink-600"
         type="button"
-        onClick={() =>setShowModal(true)}>
+        onClick={(e) => setShowModal(true)}>
         {props.text}
       </button>
       {showModal ? (

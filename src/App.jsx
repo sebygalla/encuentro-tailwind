@@ -85,32 +85,37 @@ function App() {
           <div className="m-0 mb-36 grid gap-10 md:grid-cols-2 xl:grid-cols-3">
             <Actividades
               title="Niños"
-              text="The cake at the Sacher hotel is amongst the finest in all the lands es un servicio."
+              textButton ="Ver más"
               imagen={Ninos}
+              description="Un espacio donde cientos de chicos y chicas descubren su propósito divino para nunca más soltarlo. Cada sábado nos juntamos para acercarnos al corazón de nuestro Creador; para disfrutar de amistades que sacan lo mejor de nosotros, para soñar, reír y llorar juntos. Anhelamos que cada joven descubra el potencial que Dios depósito en él, que sueñe en grande y que deje huella en nuestra sociedad. Somos jóvenes con propósito, que desarrollan su potencial, predican a Jesús y sirven a los demás. Horario de reunion: Todos los sábados a las 20hs."
             />
 
             <Actividades
               title="Preadolescentes"
-              text="The cake at the Sacher hotel is amongst the finest in all the lands es un servicio."
+              textButton ="Ver más"
               imagen={Preadolescentes}
+              description="Un espacio donde cientos de chicos y chicas descubren su propósito divino para nunca más soltarlo. Cada sábado nos juntamos para acercarnos al corazón de nuestro Creador; para disfrutar de amistades que sacan lo mejor de nosotros, para soñar, reír y llorar juntos. Anhelamos que cada joven descubra el potencial que Dios depósito en él, que sueñe en grande y que deje huella en nuestra sociedad. Somos jóvenes con propósito, que desarrollan su potencial, predican a Jesús y sirven a los demás. Horario de reunion: Todos los sábados a las 20hs."
             />
 
             <Actividades
               title="Jovenes"
-              text="The cake at the Sacher hotel is amongst the finest in all the lands es un servicio."
+              textButton ="Ver más"
               imagen={Jovenes}
+              description="Un espacio donde cientos de chicos y chicas descubren su propósito divino para nunca más soltarlo. Cada sábado nos juntamos para acercarnos al corazón de nuestro Creador; para disfrutar de amistades que sacan lo mejor de nosotros, para soñar, reír y llorar juntos. Anhelamos que cada joven descubra el potencial que Dios depósito en él, que sueñe en grande y que deje huella en nuestra sociedad. Somos jóvenes con propósito, que desarrollan su potencial, predican a Jesús y sirven a los demás. Horario de reunion: Todos los sábados a las 20hs.!"
             />
 
             <Actividades
               title="Matrimonios jovenes"
-              text="The cake at the Sacher hotel is amongst the finest in all the lands es un servicio."
+              textButton ="Ver más"
               imagen={MatriJovenes}
+              description="Un espacio donde cientos de chicos y chicas descubren su propósito divino para nunca más soltarlo. Cada sábado nos juntamos para acercarnos al corazón de nuestro Creador; para disfrutar de amistades que sacan lo mejor de nosotros, para soñar, reír y llorar juntos. Anhelamos que cada joven descubra el potencial que Dios depósito en él, que sueñe en grande y que deje huella en nuestra sociedad. Somos jóvenes con propósito, que desarrollan su potencial, predican a Jesús y sirven a los demás. Horario de reunion: Todos los sábados a las 20hs."
             />
 
             <Actividades
               title="Matrimonios adultos"
-              text="The cake at the Sacher hotel is amongst the finest in all the lands es un servicio."
+              textButton ="Ver más"
               imagen={MatriAdultos}
+              description="Un espacio donde cientos de chicos y chicas descubren su propósito divino para nunca más soltarlo. Cada sábado nos juntamos para acercarnos al corazón de nuestro Creador; para disfrutar de amistades que sacan lo mejor de nosotros, para soñar, reír y llorar juntos. Anhelamos que cada joven descubra el potencial que Dios depósito en él, que sueñe en grande y que deje huella en nuestra sociedad. Somos jóvenes con propósito, que desarrollan su potencial, predican a Jesús y sirven a los demás. Horario de reunion: Todos los sábados a las 20hs."
             /> 
       
           </div>
