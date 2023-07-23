@@ -22,7 +22,7 @@ const Footer = () => {
       
 
             <div>
-              <h2 className="mb-3 text-lg md:text-md md:font-semibold uppercase text-gray-200 dark:text-white">
+              <h2 className="mb-3 text-3xl md:text-md md:font-semibold uppercase text-gray-200 dark:text-white">
                 Comunidad
               </h2>
               <ul className="font-light text-sm md:text-md text-gray-200 dark:text-gray-400">
@@ -41,7 +41,7 @@ const Footer = () => {
             </div>
 
             <div>
-              <h2 className="mb-4 text-md font-semibold uppercase text-gray-200 dark:text-white">
+              <h2 className="mb-4 text-3xl font-semibold uppercase text-gray-200 dark:text-white">
               SOBRE NOSOTROS
               </h2>
               <ul className="font-light text-sm text-gray-200 dark:text-gray-400">
@@ -54,7 +54,7 @@ const Footer = () => {
             </div>
 
             <div>
-              <h2 className="mb-4 text-md font-semibold uppercase text-gray-200 dark:text-white">
+              <h2 className="mb-4 text-3xl font-semibold uppercase text-gray-200 dark:text-white">
                 Seguinos
               </h2>
               <ul className="font-light text-sm text-gray-200 dark:text-gray-400">
