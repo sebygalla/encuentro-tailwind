@@ -79,8 +79,8 @@ function App() {
 
         {/* ACTIVIDADES */}
         <div id="actividades" className="mt-[30%] xl:mt-[12%]">
-          <TituloWeb title="Actividades 👨‍👩‍👦‍👦 " />
         </div>
+        
         <div className="container relative mx-auto mt-20 flex flex-col items-center justify-between overflow-hidden">
           <div className="m-0 mb-36 grid gap-10 md:grid-cols-2 xl:grid-cols-3">
             <Actividades

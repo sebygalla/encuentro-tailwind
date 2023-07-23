@@ -46,7 +46,8 @@ function Actividades(props) {
                   <div className="relative mx-auto flex w-[90%] flex-col rounded-lg border-0 bg-white shadow-lg outline-none focus:outline-none p-5">
                     {/*header*/}
                     <div className="flex items-start justify-between p-5">
-                      <h3 className="text-3xl font-semibold">{props.titleModal}</h3>
+                      
+                      <h3 className="text-2xl font-semibold">{props.titleModal}</h3>
                       <button
                         className="float-right ml-auto border-0 bg-transparent p-1 text-3xl font-semibold leading-none text-black opacity-5 outline-none focus:outline-none"
                         onClick={() => setShowModal(false)}>
@@ -57,7 +58,7 @@ function Actividades(props) {
                     </div>
                     {/*body*/}
                     <div className="relative flex-auto p-6">
-                      <p className="my-4 text-xs leading-relaxed text-slate-900 md:text-lg">
+                      <p className="my-4 text-sm leading-relaxed text-slate-900 md:text-lg">
                         {props.description}
                       </p>
                     </div>
