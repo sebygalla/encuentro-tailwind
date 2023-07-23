@@ -1,5 +1,6 @@
 import { useState } from "react";
-import logoTipo from "../../assets/image/tomi-05.png";
+// import logoTipo from "../../assets/image/tomi-05.png";
+import logoTipo from "../../assets/image/logoCruz.png";
 
 // iconos menu and close
 import { BsX } from "react-icons/bs";
@@ -34,7 +35,7 @@ const Header = () => {
 
   return (
     <header
-      className={`item-center fixed z-50 flex h-[90px] w-full justify-between bg-white shadow md:h-[70px] xl:justify-end ${
+      className={`item-center fixed z-50 flex h-[70px] w-full justify-between  bg-slate-900 shadow xl:justify-end ${
         color
           ? "bg-white/40 backdrop-blur-sm transition-colors duration-700"
           : ""
@@ -45,7 +46,7 @@ const Header = () => {
         onClick={() => {
           setShowMenu(!showMenu);
         }}
-        className="z-40 ml-6 text-3xl  text-black xl:hidden">
+        className="z-40 ml-[10%] text-3xl  text-white xl:hidden">
         {showMenu ? <BsX className="text-4xl" /> : <HiMenuAlt3 />}
       </button>
 
@@ -53,7 +54,7 @@ const Header = () => {
 
       <div className="flex items-center justify-center">
         <img
-          className={`mr-2 h-[60px] cursor-pointer md:h-[60px] xl:ml-10 ${
+          className={`mr-[65%] md:mr-[90%] h-[60px] cursor-pointer md:h-[70px] xl:ml-[150px] ${
             cruz ? "hidden" : ""
           }`}
           src={logoTipo}
@@ -62,7 +63,7 @@ const Header = () => {
 
       {/* navegacion */}
       <nav
-        className={`fixed inset-0 z-10 mr-10 flex h-[100vh]  w-[100vw]  items-center justify-center gap-6  bg-white p-8 text-center  font-['Poppins'] text-[18px] font-semibold  uppercase text-black transition-all duration-500 xl:static xl:h-0 xl:flex-row  xl:justify-end xl:gap-3 xl:bg-transparent xl:text-[11px] ${
+        className={`fixed inset-0 z-10 mr-10 flex h-[100vh]  w-[100vw]  items-center justify-center gap-6  bg-white p-8 text-center  font-['Poppins'] text-[18px] font-semibold  uppercase text-white transition-all duration-500 xl:static xl:h-0 xl:flex-row  xl:justify-end xl:gap-3 xl:bg-transparent xl:text-[11px] ${
           showMenu ? "left-0" : "-left-full"
         }
         `}>
