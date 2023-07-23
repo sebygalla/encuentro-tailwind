@@ -27,14 +27,16 @@ const Hero3 = () => {
         </div>
       </div>
 
-      <div className="z-10 p-10 text-left">
-        <h3 className="text-white font-semibold text-sm">
+  
+
+      <Redes />
+
+      <div className="z-10 w-[70%] text-center">
+        <h3 className="text-white font-semibold text-xs md:text-sm">
           El lugar de tu encuentro con Dios! son muy bienvenidos a nuestra casa,
           tu casa!
         </h3>
       </div>
-
-      <Redes />
     </section>
   );
 };
