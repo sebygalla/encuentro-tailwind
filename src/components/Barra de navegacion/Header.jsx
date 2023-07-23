@@ -37,7 +37,7 @@ const Header = () => {
     <header
       className={`item-center fixed z-50 flex h-[70px] w-full justify-between  bg-slate-900 shadow xl:justify-end ${
         color
-          ? "bg-white/40 backdrop-blur-sm transition-colors duration-700"
+          ? "bg-black/40 backdrop-blur-sm transition-colors duration-700"
           : ""
       }`}>
 
@@ -63,7 +63,7 @@ const Header = () => {
 
       {/* navegacion */}
       <nav
-        className={`fixed inset-0 z-10 mr-10 flex h-[100vh]  w-[100vw]  items-center justify-center gap-6  bg-white p-8 text-center  font-['Poppins'] text-[18px] font-semibold  uppercase text-white transition-all duration-500 xl:static xl:h-0 xl:flex-row  xl:justify-end xl:gap-3 xl:bg-transparent xl:text-[11px] ${
+        className={`fixed inset-0 z-10 mr-10 flex h-[100vh]  w-[100vw]  items-center justify-center gap-6  bg-slate-900 p-8 text-center  font-['Poppins'] text-[18px] font-semibold  uppercase text-white transition-all duration-500 xl:static xl:h-0 xl:flex-row  xl:justify-end xl:gap-3 xl:bg-transparent xl:text-[11px] ${
           showMenu ? "left-0" : "-left-full"
         }
         `}>

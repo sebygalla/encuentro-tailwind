@@ -12,6 +12,7 @@ module.exports = {
         portada: "url('../src/assets/image/main2.png')",
         "portada-dos": "url('../src/assets/image/1.jpg')",
         "portada-tres": "url('../src/assets/image/portada3.jpg')",
+        "portada-cuatro": "url('../src/assets/image/portada29.png')",
         testimonio: "url('../src/assets/image/portada20.png')",
         about: "url('../src/assets/image/portada9.png')",
         fondo: "url('../src/assets/image/fondo.webp')",
