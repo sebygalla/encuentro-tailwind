@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logoTipo from "../../assets/image/logoCruz.png";
+import logoTipo from "../../assets/image/tomi-05.png";
 
 // iconos menu and close
 import { BsX } from "react-icons/bs";
@@ -34,7 +34,7 @@ const Header = () => {
 
   return (
     <header
-      className={`item-center bg-slate-900 fixed z-50 flex h-[90px] xl:h-[70px] w-full justify-between shadow xl:justify-end ${
+      className={`item-center bg-white fixed z-50 flex h-[90px] xl:h-[70px] w-full justify-between shadow xl:justify-end ${
         color
           ? "backdrop-blur-sm transition-colors duration-700 bg-gray-500/50"
           : ""
@@ -45,7 +45,7 @@ const Header = () => {
         onClick={() => {
           setShowMenu(!showMenu);
         }}
-        className="z-40 ml-[5%] text-3xl  text-white xl:hidden">
+        className="z-40 ml-[5%] text-3xl  text-slate-900 xl:hidden">
         {showMenu ? <BsX className=" text-4xl" /> : <HiMenuAlt3 />}
       </button>
 
@@ -53,7 +53,7 @@ const Header = () => {
 
       <div className="flex items-center justify-center">
         <img
-          className={`md:mr-[90%] h-[80px] cursor-pointer md:h-[70px] xl:ml-[150px] ${
+          className={`md:mr-[90%] mr-4 h-[60px] cursor-pointer md:h-[70px] xl:ml-[150px] ${
             cruz ? "hidden" : ""
           }`}
           src={logoTipo}
@@ -62,7 +62,7 @@ const Header = () => {
 
       {/* navegacion */}
       <nav
-        className={`fixed inset-0 z-10 mr-10 flex h-[100vh]  w-[100vw]  items-center justify-center gap-6  p-8 text-center  font-['Poppins'] text-[18px] font-semibold  uppercase text-white transition-all duration-500 xl:static xl:h-0 xl:flex-row  xl:justify-end xl:gap-3 xl:bg-transparent xl:text-[11px] ${
+        className={`fixed inset-0 z-10 mr-10 flex h-[100vh]  w-[100vw]  items-center justify-center gap-6  p-8 text-center  font-['Poppins'] text-[18px] font-semibold  uppercase text-black bg-white transition-all duration-500 xl:static xl:h-0 xl:flex-row  xl:justify-end xl:gap-3 xl:bg-transparent xl:text-[11px] ${
           showMenu ? "left-0" : "-left-full"
         }
         `}>
