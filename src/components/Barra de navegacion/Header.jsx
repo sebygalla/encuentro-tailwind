@@ -53,7 +53,7 @@ const Header = () => {
 
       <div className="flex items-center justify-center">
         <img
-          className={`md:mr-[90%] mr-4 h-[50px] cursor-pointer md:h-[70px] xl:ml-[150px] ${
+          className={`md:mr-[90%] mr-4 h-[50px] cursor-pointer md:h-[50px] xl:ml-[150px] ${
             cruz ? "hidden" : ""
           }`}
           src={logoTipo}
