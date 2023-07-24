@@ -36,7 +36,7 @@ const Header = () => {
     <header
       className={`item-center bg-white fixed z-50 flex h-[90px] xl:h-[70px] w-full justify-between shadow xl:justify-end ${
         color
-          ? "backdrop-blur-sm transition-colors duration-700 bg-gray-500/50"
+          ? "backdrop-blur-sm z-10 transition-colors duration-700 bg-gray-500/50"
           : ""
       }`}>
 
