@@ -3,7 +3,7 @@ import logoTipo from "../../assets/image/tomi-05.png";
 
 // iconos menu and close
 import { BsX } from "react-icons/bs";
-import { HiMenuAlt3 } from "react-icons/hi";
+import { HiMenu } from "react-icons/hi";
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -46,7 +46,7 @@ const Header = () => {
           setShowMenu(!showMenu);
         }}
         className="z-40 ml-[5%] text-3xl  text-slate-900 xl:hidden">
-        {showMenu ? <BsX className=" text-4xl" /> : <HiMenuAlt3 />}
+        {showMenu ? <BsX className=" text-2xl" /> : <HiMenu className="text-2xl" />}
       </button>
 
       {/* logotipo */}
