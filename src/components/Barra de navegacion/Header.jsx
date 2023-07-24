@@ -34,7 +34,7 @@ const Header = () => {
 
   return (
     <header
-      className={`item-center bg-white fixed z-50 flex h-[90px] xl:h-[70px] w-full justify-between shadow xl:justify-end ${
+      className={`item-center bg-white fixed z-50 flex h-[60px] xl:h-[70px] w-full justify-between shadow xl:justify-end ${
         color
           ? "backdrop-blur-sm z-20 bg-white/50 transition-colors ease-in-out  duration-700 h-[50px]"
           : ""
@@ -53,7 +53,7 @@ const Header = () => {
 
       <div className="flex items-center justify-center">
         <img
-          className={`md:mr-[90%] mr-4 h-[60px] cursor-pointer md:h-[70px] xl:ml-[150px] ${
+          className={`md:mr-[90%] mr-4 h-[50px] cursor-pointer md:h-[70px] xl:ml-[150px] ${
             cruz ? "hidden" : ""
           }`}
           src={logoTipo}
