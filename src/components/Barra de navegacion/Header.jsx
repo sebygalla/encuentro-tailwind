@@ -1,5 +1,4 @@
 import { useState } from "react";
-// import logoTipo from "../../assets/image/tomi-05.png";
 import logoTipo from "../../assets/image/logoCruz.png";
 
 // iconos menu and close
@@ -35,9 +34,9 @@ const Header = () => {
 
   return (
     <header
-      className={`item-center fixed z-50 flex h-[90px] w-full justify-between  bg-slate-900 shadow xl:justify-end ${
+      className={`item-center fixed z-50 flex h-[90px] xl:h-[70px] w-full justify-between  bg-slate-900 shadow xl:justify-end ${
         color
-          ? "bg-slate-600/70 backdrop-blur-sm transition-colors duration-700"
+          ? "bg-black/40 backdrop-blur-sm transition-colors duration-700"
           : ""
       }`}>
 
@@ -46,7 +45,7 @@ const Header = () => {
         onClick={() => {
           setShowMenu(!showMenu);
         }}
-        className="z-40 ml-[5%] text-3xl  text-white xl:hidden bg-slate-900">
+        className="z-40 ml-[5%] text-3xl  text-white xl:hidden">
         {showMenu ? <BsX className=" text-4xl" /> : <HiMenuAlt3 />}
       </button>
 
