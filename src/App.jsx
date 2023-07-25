@@ -90,7 +90,8 @@ function App() {
               titleModal="Niños 👦👧"
               textButton ="Ver más"
               imagen={Ninos}
-              description="Un espacio donde cientos de chicos y chicas descubren su propósito divino para nunca más soltarlo. Cada sábado nos juntamos para acercarnos al corazón de nuestro Creador; para disfrutar de amistades que sacan lo mejor de nosotros, para soñar, reír y llorar juntos. Anhelamos que cada joven descubra el potencial que Dios depósito en él, que sueñe en grande y que deje huella en nuestra sociedad. Somos jóvenes con propósito, que desarrollan su potencial, predican a Jesús y sirven a los demás. Horario de reunion: Todos los sábados a las 20hs."
+              description="Mateo 19:14 (NVI)
+Jesús dijo: «Dejen que los niños vengan a mí; no se lo impidan, porque el reino de los cielos es de quienes son como ellos». Horario de reunion: Todos los domingos a las 10:30hs."
             />
 
             <Actividades
@@ -98,7 +99,7 @@ function App() {
               titleModal="Preadolescentes 👦👧"
               textButton ="Ver más"
               imagen={Preadolescentes}
-              description="Un espacio donde cientos de chicos y chicas descubren su propósito divino para nunca más soltarlo. Cada sábado nos juntamos para acercarnos al corazón de nuestro Creador; para disfrutar de amistades que sacan lo mejor de nosotros, para soñar, reír y llorar juntos. Anhelamos que cada joven descubra el potencial que Dios depósito en él, que sueñe en grande y que deje huella en nuestra sociedad. Somos jóvenes con propósito, que desarrollan su potencial, predican a Jesús y sirven a los demás. Horario de reunion: Todos los sábados a las 20hs."
+              description="Un espacio donde cientos de chicos y chicas descubren su propósito divino para nunca más soltarlo. Cada sábado nos juntamos para acercarnos al corazón de nuestro Creador; para disfrutar de amistades que sacan lo mejor de nosotros, para soñar, reír y llorar juntos. Anhelamos que cada joven descubra el potencial que Dios depósito en él, que sueñe en grande y que deje huella en nuestra sociedad. Somos jóvenes con propósito, que desarrollan su potencial, predican a Jesús y sirven a los demás. Horario de reunion: Todos los sábados a las 16hs."
             />
 
             <Actividades
@@ -106,7 +107,10 @@ function App() {
               titleModal="Jovenes 🧑👩"
               textButton ="Ver más"
               imagen={Jovenes}
-              description="Un espacio donde cientos de chicos y chicas descubren su propósito divino para nunca más soltarlo. Cada sábado nos juntamos para acercarnos al corazón de nuestro Creador; para disfrutar de amistades que sacan lo mejor de nosotros, para soñar, reír y llorar juntos. Anhelamos que cada joven descubra el potencial que Dios depósito en él, que sueñe en grande y que deje huella en nuestra sociedad. Somos jóvenes con propósito, que desarrollan su potencial, predican a Jesús y sirven a los demás. Horario de reunion: Todos los sábados a las 20hs.!"
+              description="Mateo 25:1 (NVI)
+»El reino de los cielos será entonces como diez jóvenes solteras que tomaron sus lámparas y salieron a recibir al novio.
+
+ Horario de reunion: Todos los sábados a las 20hs.!"
             />
 
             <Actividades

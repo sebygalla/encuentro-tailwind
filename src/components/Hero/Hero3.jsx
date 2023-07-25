@@ -20,6 +20,8 @@ const Hero3 = () => {
         </div>
       </div>
 
+      <p className="absolute bottom-5 left-15 text-white text-[10px] md:bottom-7 md:rotate-[-3deg] rotate-[-4deg] xl:rotate-[-1deg] xl:left-10 xl:bottom-3">(Fuente: Foto Medios Iglesia El Encuentro-Tristán Suárez) </p>
+
   
       
 
