@@ -1,7 +1,6 @@
 import Redes from "../Redes/Social";
 import TituloWeb from "../TitulosWeb/tituloWeb";
-
-import { HiLocationMarker } from "react-icons/hi";
+import { HiLocationMarker, HiOutlineChevronDown } from "react-icons/hi";
 
 const Hero3 = () => {
   return (
@@ -16,9 +15,19 @@ const Hero3 = () => {
           <HiLocationMarker className="
           mt-1 mr-7 text-white" /> Tristán Suárez - 2023
           </h3>
+
+      
      
         </div>
+
+
+      
+
       </div>
+
+      <HiOutlineChevronDown className="absolute top-[65%] text-white animate-ping" />
+
+ 
 
       <p className="absolute bottom-5 left-15 text-white text-[10px] md:bottom-7 md:rotate-[-3deg] rotate-[-4deg] xl:rotate-[-1deg] xl:left-10 xl:bottom-3">(Fuente: Foto Medios Iglesia El Encuentro-Tristán Suárez) </p>
 

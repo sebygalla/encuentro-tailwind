@@ -65,7 +65,7 @@ function Actividades(props) {
                     {/*footer*/}
                     <div className="flex items-center justify-end rounded-b  p-6">
                       <button
-                        className="mb-1 mr-1 rounded bg-gradient-to-br from-yellow-600 to-red-600 px-6 py-3 text-sm font-bold uppercase text-white shadow outline-none transition-all duration-150 ease-linear hover:shadow-lg focus:outline-none"
+                        className="mb-1 mr-1 w-full rounded bg-gradient-to-br from-yellow-600 to-red-600 px-6 py-3 text-sm font-bold uppercase text-white shadow outline-none transition-all duration-150 ease-linear hover:shadow-lg focus:outline-none"
                         type="button"
                         onClick={() => setShowModal(false)}>
                         CERRAR
