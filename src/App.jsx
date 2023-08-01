@@ -1,7 +1,5 @@
 import Header from "./components/Barra de navegacion/Header";
 
-
-
 import Footer from "./components/Footer/Footer";
 import TituloWeb from "./components/TitulosWeb/tituloWeb";
 import Map from "./components/Ubicacion/Map";
@@ -37,6 +35,8 @@ import avatarEze from "../src/assets/image/eze.jpg";
 import Avatares3 from "./components/Avatares/Avatares3";
 import Vision from "./components/Vision/Vision";
 import Banner from "./components/Banner/Banner";
+
+import Spotify from "./components/spotify/Spotify";
 
 function App() {
   return (
@@ -159,6 +159,17 @@ Jesús dijo: «Dejen que los niños vengan a mí; no se lo impidan, porque el re
         </div>
       </div>
 
+      {/* SPOTIFY */}
+      <div
+        id="Spotify"
+        className="flex h-[100vh] w-full flex-col items-center bg-cover md:h-[70vh] xl:h-[100vh] ">
+        <div className="my-20">
+          <TituloWeb title="Alabanza y adoración " color="black" />
+        </div>
+
+        <Spotify />
+      </div>
+
       {/* CAROUSEL */}
       <div
         id="testimonios"
@@ -166,7 +177,7 @@ Jesús dijo: «Dejen que los niños vengan a mí; no se lo impidan, porque el re
         <div className="my-20">
           <TituloWeb title="Testimonios 📣 " color="white" />
         </div>
-        
+
         <Carousel />
       </div>
 
