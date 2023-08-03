@@ -9,7 +9,7 @@ import {
   FaPlayCircle,
   FaGitter
 } from "react-icons/fa";
-import{ BsSoundwave } from "react-icons/Bs"
+
 
 const Spotify = () => {
   return (
@@ -69,7 +69,7 @@ const Spotify = () => {
       {/* contenedor 6 */}
 
       <div className="flex items-center justify-center text-white gap-3 text-[10px] mt-3">
-      <BsSoundwave className="text-[20px]" />
+      <FaGitter className="text-[20px]" />
       <p>
         calidad de audio: optima
       </p>
