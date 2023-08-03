@@ -2,7 +2,6 @@ import {
   FaEllipsisV,
   FaChevronDown,
   FaRegHeart,
-  FaRegWindowMinimize,
   FaRandom,
   FaStepBackward,
   FaStepForward,
@@ -10,13 +9,14 @@ import {
   FaPlayCircle,
   FaGitter
 } from "react-icons/fa";
+import{ BsSoundwave } from "react-icons/Bs"
 
 const Spotify = () => {
   return (
     // contenedor general
-    <div className="mb-10 h-full w-[88%] flex-col rounded-xl bg-gradient-to-br  from-yellow-600 to-red-600">
+    <div className="mb-10 h-full w-[95%] flex-col rounded-xl bg-gradient-to-br  from-yellow-600 to-red-600">
       {/* contenedor 1 */}
-      <div className="mb-10 mt-5 flex w-full items-center justify-around">
+      <div className="mb-7 mt-8 flex w-full items-center justify-around">
         <div className="flex items-center text-white">
           <FaChevronDown />
         </div>
@@ -33,7 +33,7 @@ const Spotify = () => {
 
       {/* contenedor 2 */}
 
-      <img className="mx-auto h-[50%] w-[85%] border-none bg-portada bg-cover bg-center" />
+      <img className="mx-auto h-[50%] w-[85%] bg-spotify contrast-150 bg-cover bg-center" />
 
       {/* contenedor 3 */}
 
@@ -69,7 +69,7 @@ const Spotify = () => {
       {/* contenedor 6 */}
 
       <div className="flex items-center justify-center text-white gap-3 text-[10px] mt-3">
-      <FaGitter />
+      <BsSoundwave className="text-[20px]" />
       <p>
         calidad de audio: optima
       </p>
