@@ -37,7 +37,7 @@ const Spotify = () => {
 
       {/* contenedor 3 */}
 
-      <div className="mx-auto mt-14 flex w-[85%] items-center justify-between">
+      <div className="mx-auto mt-12 flex w-[85%] items-center justify-between">
         <div className="flex-col text-center w-60">
           <marquee className="text-lg font-bold text-white">Ven descansa- Live</marquee>
           <h4 className="text-left  text-xs text-white">
@@ -68,7 +68,7 @@ const Spotify = () => {
 
       {/* contenedor 6 */}
 
-      <div className="flex items-center justify-center text-white gap-3 text-[10px] mt-5">
+      <div className="flex items-center justify-center text-white gap-3 text-[10px] mt-9">
       <FaGitter className="text-[20px]" />
       <p>
         calidad de audio: optima
