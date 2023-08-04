@@ -39,8 +39,8 @@ const Spotify = () => {
 
       <div className="mx-auto mt-12 flex w-[85%] items-center justify-between">
         <div className="flex-col text-center w-60">
-          <marquee className="text-lg font-bold text-white">Ven descansa- Live</marquee>
-          <h4 className="text-left  text-xs text-white">
+          <marquee className="text-[22px] font-extrabold text-white">Ministerio de Alabanza y Adoración- Live</marquee>
+          <h4 className="text-left  text-xs text-white font-extralight">
             IGLESIA EL ENCUENTRO- TRISTAN SUAREZ.
           </h4>
         </div>
