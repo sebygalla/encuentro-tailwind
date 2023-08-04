@@ -163,9 +163,13 @@ Jesús dijo: «Dejen que los niños vengan a mí; no se lo impidan, porque el re
       <div
         id="Spotify"
         className="flex h-[100vh] w-full flex-col items-center bg-cover md:h-[70vh] xl:h-[100vh] ">
-        <div className="mb-10">
-          <TituloWeb title="Alabanza y adoración " color="black" />
+        <div className="mb-8 w-[90%]">
+          <TituloWeb title="Alabanza y Adoración 🙌 " color="black" />
         </div>
+
+        {/* <p className="w-[90%] mt-1 mb-10 text-justify">
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat 
+        </p> */}
 
         <Spotify />
       </div>

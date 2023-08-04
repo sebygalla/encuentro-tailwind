@@ -33,15 +33,15 @@ const Spotify = () => {
 
       {/* contenedor 2 */}
 
-      <img className="mx-auto h-[50%] w-[85%] bg-spotify contrast-150 bg-cover bg-center" />
+      <img className="mx-auto h-[40%] w-[70%] bg-spotify contrast-150 bg-cover bg-center" />
 
       {/* contenedor 3 */}
 
-      <div className="mx-auto mt-9 flex w-[85%] items-center justify-between">
-        <div className="flex-col text-center">
-          <h3 className="text-base font-bold text-white">Ven descansa- Live</h3>
+      <div className="mx-auto mt-14 flex w-[85%] items-center justify-between">
+        <div className="flex-col text-center w-60">
+          <marquee className="text-lg font-bold text-white">Ven descansa- Live</marquee>
           <h4 className="text-left  text-xs text-white">
-            Iglesia El Encuentro{" "}
+            IGLESIA EL ENCUENTRO- TRISTAN SUAREZ.
           </h4>
         </div>
         <FaRegHeart className="text-center text-[20px] text-white" />
@@ -51,24 +51,24 @@ const Spotify = () => {
       <div className="mb-3 mt-4 flex h-4 w-full items-center justify-center ">
         <span className="h-[4px] w-[85%] bg-gray-400" />
       </div>
-      <div className="relative mx-auto flex w-[85%] items-center justify-between text-[10px] font-light text-white">
+      <div className="relative mx-auto flex w-[85%] items-center justify-between text-[10px] -mt-3 font-light text-white">
         <p>00:00</p>
         <p>03:50</p>
-        <span className="absolute -top-[28px] h-4 w-4 rounded-full bg-white "></span>
+        <span className="absolute -top-[16px] h-4 w-4 rounded-full bg-white "></span>
       </div>
 
       {/* contenedor 5 */}
-      <div className="mx-auto mt-1 flex w-[85%] items-center justify-around">
-        <FaRandom className="text-center text-[20px] text-white" />
+      <div className="mx-auto mt-0 flex w-[85%] items-center justify-around">
+        <FaRandom className="text-center text-[20px] text-gray-300" />
         <FaStepBackward className="text-center text-[20px] text-white" />
         <FaPlayCircle className="text-center text-4xl text-white" />
         <FaStepForward className="text-center text-[20px] text-white" />
-        <FaRetweet className="text-center text-[20px] text-white" />
+        <FaRetweet className="text-center text-[20px] text-gray-300" />
       </div>
 
       {/* contenedor 6 */}
 
-      <div className="flex items-center justify-center text-white gap-3 text-[10px] mt-3">
+      <div className="flex items-center justify-center text-white gap-3 text-[10px] mt-5">
       <FaGitter className="text-[20px]" />
       <p>
         calidad de audio: optima
