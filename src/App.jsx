@@ -91,8 +91,7 @@ function App() {
             titleModal="Niños 👦👧"
             textButton="Ver más"
             imagen={Ninos}
-            description="Mateo 19:14 (NVI)
-Jesús dijo: «Dejen que los niños vengan a mí; no se lo impidan, porque el reino de los cielos es de quienes son como ellos». Horario de reunion: Todos los domingos a las 10:30hs."
+            description="El Ministerio de Niños de nuestra Iglesia es un lugar donde los niños pueden crecer en su relación con Dios y conectarse con otros niños en la fe. Ofrecemos programas de aprendizaje y actividades interactivas para ayudar a los niños a aprender sobre la biblia y cómo aplicar sus enseñanzas en sus vidas diarias. Nuestro equipo de líderes basados en la enseñanza de la Palabra de Dios están comprometidos a brindar un ambiente seguro y divertido para todos los niños que asisten. ¡Esperamos verte pronto en nuestro Ministerio de Niños! Horario de reunion: Todos los domingos a las 10:30hs."
           />
 
           <Actividades
@@ -100,7 +99,11 @@ Jesús dijo: «Dejen que los niños vengan a mí; no se lo impidan, porque el re
             titleModal="Preadolescentes 👦👧"
             textButton="Ver más"
             imagen={Preadolescentes}
-            description="Un espacio donde cientos de chicos y chicas descubren su propósito divino para nunca más soltarlo. Cada sábado nos juntamos para acercarnos al corazón de nuestro Creador; para disfrutar de amistades que sacan lo mejor de nosotros, para soñar, reír y llorar juntos. Anhelamos que cada joven descubra el potencial que Dios depósito en él, que sueñe en grande y que deje huella en nuestra sociedad. Somos jóvenes con propósito, que desarrollan su potencial, predican a Jesús y sirven a los demás. Horario de reunion: Todos los sábados a las 16hs."
+            description="Bienvenido a nuestro ministerio para preadolescentes. En nuestra iglesia cristiana, creemos que la etapa de la preadolescencia es un momento crucial en la vida de un joven y queremos estar allí para apoyarlos en su camino hacia la edad adulta.
+
+Ofrecemos programas emocionantes y relevantes diseñados específicamente para los preadolescentes, incluyendo actividades después de la escuela, eventos especiales, y oportunidades para conectarse con otros jóvenes. Nuestro objetivo es enseñarles la Palabra de Dios y ayudarlos a desarrollar una relación cercana con Jesús mientras los ayudamos a navegar los desafíos de la vida.
+
+Si está buscando un lugar donde su hijo pueda crecer espiritualmente y sentirse amado y aceptado, ¡nos encantaría tenerlo en nuestra iglesia! ¡Visítenos pronto! Horario de reunion: Todos los sábados a las 16hs."
           />
 
           <Actividades
@@ -108,10 +111,7 @@ Jesús dijo: «Dejen que los niños vengan a mí; no se lo impidan, porque el re
             titleModal="Jovenes 🧑👩"
             textButton="Ver más"
             imagen={Jovenes}
-            description="Mateo 25:1 (NVI)
-»El reino de los cielos será entonces como diez jóvenes solteras que tomaron sus lámparas y salieron a recibir al novio.
-
- Horario de reunion: Todos los sábados a las 20hs.!"
+            description="Un espacio donde cientos de chicos y chicas descubren su propósito divino para nunca más soltarlo. Cada sábado nos juntamos para acercarnos al corazón de nuestro Creador; para disfrutar de amistades que sacan lo mejor de nosotros, para soñar, reír y llorar juntos. Anhelamos que cada joven descubra el potencial que Dios depósito en él, que sueñe en grande y que deje huella en nuestra sociedad. Somos jóvenes con propósito, que desarrollan su potencial, predican a Jesús y sirven a los demás. Horario de reunion: Todos los sábados a las 20hs."
           />
 
           <Actividades
@@ -119,7 +119,7 @@ Jesús dijo: «Dejen que los niños vengan a mí; no se lo impidan, porque el re
             titleModal="Matrimonios jovenes 💑 "
             textButton="Ver más"
             imagen={MatriJovenes}
-            description="Un espacio donde cientos de chicos y chicas descubren su propósito divino para nunca más soltarlo. Cada sábado nos juntamos para acercarnos al corazón de nuestro Creador; para disfrutar de amistades que sacan lo mejor de nosotros, para soñar, reír y llorar juntos. Anhelamos que cada joven descubra el potencial que Dios depósito en él, que sueñe en grande y que deje huella en nuestra sociedad. Somos jóvenes con propósito, que desarrollan su potencial, predican a Jesús y sirven a los demás. Horario de reunion: Todos los sábados a las 20hs."
+            description="El Ministerio busca fortalecer y apoyar a las parejas en su matrimonio. Los programas pueden incluir clases, eventos y retiros diseñados para ayudar a las parejas a crecer juntas en su fe y aprender habilidades para manejar desafíos en su relación. El Ministerio de Matrimonios está diseñados para ayudar a las parejas a construir una relación basada en los principios cristianos y a encontrar apoyo en la comunidad de la iglesia. La intención es promover la unión y estabilidad de las parejas, fomentando el amor, la fidelidad y el compañerismo a través de su fe compartida en Jesucristo."
           />
 
           <Actividades
@@ -127,7 +127,7 @@ Jesús dijo: «Dejen que los niños vengan a mí; no se lo impidan, porque el re
             titleModal="Matrimonios adultos 👪"
             textButton="Ver más"
             imagen={MatriAdultos}
-            description="Un espacio donde cientos de chicos y chicas descubren su propósito divino para nunca más soltarlo. Cada sábado nos juntamos para acercarnos al corazón de nuestro Creador; para disfrutar de amistades que sacan lo mejor de nosotros, para soñar, reír y llorar juntos. Anhelamos que cada joven descubra el potencial que Dios depósito en él, que sueñe en grande y que deje huella en nuestra sociedad. Somos jóvenes con propósito, que desarrollan su potencial, predican a Jesús y sirven a los demás. Horario de reunion: Todos los sábados a las 20hs."
+            description="El Ministerio busca fortalecer y apoyar a las parejas en su matrimonio. Los programas pueden incluir clases, eventos y retiros diseñados para ayudar a las parejas a crecer juntas en su fe y aprender habilidades para manejar desafíos en su relación. El Ministerio de Matrimonios está diseñados para ayudar a las parejas a construir una relación basada en los principios cristianos y a encontrar apoyo en la comunidad de la iglesia. La intención es promover la unión y estabilidad de las parejas, fomentando el amor, la fidelidad y el compañerismo a través de su fe compartida en Jesucristo."
           />
         </div>
       </div>
