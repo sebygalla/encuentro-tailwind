@@ -85,9 +85,9 @@ function App() {
       <TituloWeb title="Actividades  ⛪ " color="black" />
 
       <div className="container relative mx-auto mt-20 flex flex-col items-center justify-between overflow-hidden">
-        <div className="m-0 mb-36 grid gap-10 md:grid-cols-2 xl:grid-cols-3">
+        <div className="m-0 mb-36 grid gap-10 md:grid-cols-2 xl:grid-cols-3 text-justify">
           <Actividades
-            title="Niños"
+            title ="Niños"
             titleModal="Niños 👦👧"
             textButton="Ver más"
             imagen={Ninos}
