@@ -58,7 +58,7 @@ function Actividades(props) {
                     </div>
                     {/*body*/}
                     <div className="relative flex-auto p-6">
-                      <p className="my-2 text-[10px] leading-relaxed text-slate-900 md:text-sm">
+                      <p className="my-2 text-[12px] leading-relaxed text-slate-900 md:text-sm">
                         {props.description}
                       </p>
                     </div>
