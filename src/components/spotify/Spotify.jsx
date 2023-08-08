@@ -13,7 +13,7 @@ import {
 const Spotify = () => {
   return (
     // contenedor general
-    <div className="mb-10 h-full w-[95%] flex-col rounded-xl bg-gradient-to-br from-yellow-600  to-red-600 xl:w-[50%] xl:h-[100%] xl:-mb-[50%] md:p-12 p-5">
+    <div className="mb-10 h-[700px] w-[390px] text-center  flex-col rounded-xl bg-gradient-to-br from-yellow-600  to-red-600 xl:w-[50%] xl:h-[100%] xl:-mb-[50%] md:p-12">
       {/* contenedor 1 */}
       <div className="mb-7 mt-8 flex w-full items-center justify-around">
         <div className="flex items-center text-white">

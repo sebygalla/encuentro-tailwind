@@ -85,9 +85,9 @@ function App() {
       <TituloWeb title="Actividades  ⛪ " color="black" />
 
       <div className="container relative mx-auto mt-20 flex flex-col items-center justify-between overflow-hidden">
-        <div className="m-0 mb-36 grid gap-10 md:grid-cols-2 xl:grid-cols-3 text-justify">
+        <div className="m-0 mb-36 grid gap-10 text-justify md:grid-cols-2 xl:grid-cols-3">
           <Actividades
-            title ="Niños"
+            title="Niños"
             titleModal="Niños 👦👧"
             textButton="Ver más"
             imagen={Ninos}
@@ -162,7 +162,7 @@ Si está buscando un lugar donde su hijo pueda crecer espiritualmente y sentirse
       {/* SPOTIFY */}
       <div
         id="Spotify"
-        className="flex h-[100vh] w-[100vw] md:h-[70vh] flex-col items-center bg-cover">
+        className="flex h-[100%] w-[100vw] flex-col items-center bg-cover md:h-[70vh] mb-20">
         <div className="mb-8 w-[90%]">
           <TituloWeb title="Alabanza y Adoración 🙌 " color="black" />
         </div>
@@ -170,8 +170,17 @@ Si está buscando un lugar donde su hijo pueda crecer espiritualmente y sentirse
         {/* <p className="w-[90%] mt-1 mb-10 text-justify">
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat 
         </p> */}
+        <div className="w-screen h-screen grid xl:grid-cols-2">
+          <div className="h-full w-full flex items-center justify-center my-5">
+          <Spotify />
+          </div>
+          <div className="h-full w-full p-10">
+            <p>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat 
 
-        <Spotify />
+            </p>
+          </div>
+        </div>
       </div>
 
       {/* CAROUSEL */}
