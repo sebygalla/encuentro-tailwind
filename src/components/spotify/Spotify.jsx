@@ -50,7 +50,7 @@ const Spotify = () => {
 
       {/* contenedor 4 */}
       <div className="mb-3 mt-4 flex h-4 w-full items-center justify-center ">
-        <span className="h-[4px] w-[85%] bg-gray-400" />
+        <span className="h-[4px] w-[85%] bg-gray-200" />
       </div>
       <div className="relative mx-auto -mt-3 flex w-[85%] items-center justify-between text-[10px] font-light text-white">
         <p>00:00</p>

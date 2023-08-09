@@ -45,8 +45,8 @@ function Vision() {
       </div>
       <div className="z-10 mb-[10%]">
         <Avatar
-          imagenUno={avatar}
-          imagenDos={avatarBruno}
+          imagenUno={avatarJavier}
+          imagenDos={avatarAle}
           color="white"
           nombre="Javier Corsi / Alejandra Corsi"
           description="Pastores Iglesia El Encuentro- T.Suárez"
