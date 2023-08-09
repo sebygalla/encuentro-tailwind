@@ -1,6 +1,6 @@
-import TituloWeb from "../TitulosWeb/tituloWeb";
-import Avatares from "../Avatares/Avatares";
-import avatarRebe from "../../assets/image/rebe.jpg";
+// import Avatar from "../Avatares/Avatares2";
+// import avatarCami from "../../assets/image/cami.jpg";
+// import avatarRebe from "../../assets/image/Rebe.jpg";
 
 function Cuarto() {
   return (
@@ -19,7 +19,22 @@ function Cuarto() {
         <h4 className="text-md font-medium text-black md:text-md">
           Domingos 09:45 a 10:15hs
         </h4>
+
+{/*         
+      <div className="z-10 mb-[10%]">
+        <Avatar
+          imagenUno={avatarCami}
+          imagenDos={avatarRebe}
+          color="black"
+          nombre="Javier Corsi / Alejandra Corsi"
+          description="Pastores Iglesia El Encuentro- T.Suárez"
+        />
+      </div> */}
+
       </div>
+
+
+      
 
     </div>
   );

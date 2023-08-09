@@ -13,26 +13,12 @@ import MatriJovenes from "../src/assets/image/cards actividades/card4.jpg";
 import MatriAdultos from "../src/assets/image/cards actividades/card5.jpg";
 import Hero3 from "./components/Hero/Hero3";
 
+
 import Rehma from "./components/rehma/Rehma";
 import About from "./components/Nosotros/About";
 import Carousel from "./components/Carousel/Carousel";
 import Cuarto from "./components/Cuarto/Cuarto";
 
-import avatarRebe from "../src/assets/image/rebe.jpg";
-import avatarYani from "../src/assets/image/yani.jpg";
-import avatarSeby from "../src/assets/image/seby.jpg";
-import avatarMariano from "../src/assets/image/mariano.jpg";
-import avatarCami from "../src/assets/image/cami.jpg";
-import avatarVivi from "../src/assets/image/vivi.jpg";
-import avatarIvan from "../src/assets/image/ivan.jpg";
-import avatarMarcos from "../src/assets/image/marcos.jpg";
-import avatarMarquitos from "../src/assets/image/marquitos.jpg";
-import avatarRosales from "../src/assets/image/rosales.jpg";
-import avatarCristian from "../src/assets/image/cristian.jpg";
-import avatarNadia from "../src/assets/image/nadiaCorrado.jpg";
-import avatarEze from "../src/assets/image/eze.jpg";
-
-import Avatares3 from "./components/Avatares/Avatares3";
 import Vision from "./components/Vision/Vision";
 import Banner from "./components/Banner/Banner";
 
@@ -136,33 +122,12 @@ Si está buscando un lugar donde su hijo pueda crecer espiritualmente y sentirse
       <div className="mx-auto mb-10 flex w-[95%] flex-col">
         <TituloWeb color="black" title="Cuarto de oración 🙌" />
         <Cuarto />
-
-        <div className="mb-[10%] flex w-full flex-col items-center justify-center">
-          <Avatares3
-            nombre="EQUIPO DE ALABANZA Y ADORACION"
-            color="black"
-            description="Iglesia El Encuentro- Tristán Suárez"
-            imagenUno={avatarCami}
-            imagenDos={avatarRebe}
-            imagenTres={avatarSeby}
-            imagenCuatro={avatarYani}
-            imagenCinco={avatarMariano}
-            imagenSeis={avatarVivi}
-            imagenSiete={avatarIvan}
-            imagenOcho={avatarMarcos}
-            imagenNueve={avatarMarquitos}
-            imagenDiez={avatarRosales}
-            imagenOnce={avatarCristian}
-            imagenDoce={avatarNadia}
-            imagenTrece={avatarEze}
-          />
-        </div>
       </div>
 
       {/* SPOTIFY */}
       <div
         id="Spotify"
-        className="flex h-[100%] w-[100vw] flex-col items-center bg-cover md:h-[70vh] mb-20">
+        className="mb-20 flex h-[100%] w-[100vw] flex-col items-center bg-cover md:h-[70vh]">
         <div className="mb-8 w-[90%]">
           <TituloWeb title="Alabanza y Adoración 🙌 " color="black" />
         </div>
@@ -170,14 +135,16 @@ Si está buscando un lugar donde su hijo pueda crecer espiritualmente y sentirse
         {/* <p className="w-[90%] mt-1 mb-10 text-justify">
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat 
         </p> */}
-        <div className="w-screen h-screen grid xl:grid-cols-2">
-          <div className="h-full w-full flex items-center justify-center my-5">
-          <Spotify />
+        <div className="grid h-screen w-screen xl:grid-cols-2">
+          <div className="my-5 flex h-full w-full items-center justify-center">
+            <Spotify />
           </div>
           <div className="h-full w-full p-10">
             <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat 
-
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat
             </p>
           </div>
         </div>
