@@ -127,21 +127,16 @@ Si está buscando un lugar donde su hijo pueda crecer espiritualmente y sentirse
       {/* SPOTIFY */}
       <div
         id="Spotify"
-        className="mb-[30%] flex h-[100%] w-[100vw] flex-col items-center bg-cover md:h-[70vh]">
+        className="flex h-[100vh] w-[100vw] md:h-[70vh] flex-col items-center bg-cover">
         <div className="mb-8 w-[90%]">
           <TituloWeb title="Alabanza y Adoración 🙌 " color="black" />
         </div>
 
-        <div className="grid h-screen w-screen md:grid-cols-2">
-          <div className="my-5 flex h-full w-full items-center justify-center">
-            <Spotify />
-          </div>
-          <div className="grid min-h-[100%] p-10 md:p-10 xl:p-20 text-justify md:grid-cols-2 mb-10">
-            <p className="z-10 text-lg text-black text-left font-medium md:text-[18px] md:leading-6">
-            El ministerio de alabanza y adoracion en nuestra iglesia son un grupo de personas dedicadas a liderar y facilitar la adoración a Dios a través de la música . Su objetivo es crear un ambiente espiritualmente enriquecedor donde los creyentes puedan conectarse con Dios y expresar su fe y gratitud a través de la alabanza.
-            </p>
-          </div>
-        </div>
+        {/* <p className="w-[90%] mt-1 mb-10 text-justify">
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat 
+        </p> */}
+
+        <Spotify />
       </div>
 
       {/* CAROUSEL */}
