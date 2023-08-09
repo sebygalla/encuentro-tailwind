@@ -141,6 +141,7 @@ Si está buscando un lugar donde su hijo pueda crecer espiritualmente y sentirse
       </div>
 
       {/* CAROUSEL */}
+      
       <div
         id="testimonios"
         className="flex h-[100vh] w-full flex-col items-center bg-slate-900 bg-cover md:h-[70vh] xl:h-[100vh] ">
