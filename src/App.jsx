@@ -21,7 +21,7 @@ import Carousel from "./components/Carousel/Carousel";
 
 import Vision from "./components/Vision/Vision";
 import Banner from "./components/Banner/Banner";
-// import Cuarto from "./components/Cuarto/Cuarto";
+import Cuarto from "./components/Cuarto/Cuarto";
 import Spotify from "./components/spotify/Spotify";
 
 
@@ -121,11 +121,11 @@ Si está buscando un lugar donde su hijo pueda crecer espiritualmente y sentirse
 
       {/* CUARTO */}
 
-      {/* <div className="mx-auto mb-10 flex w-[95%] flex-col">
+      <div className="mx-auto mb-10 flex w-[95%] flex-col">
   
         <TituloWeb color="black" title="Cuarto de oración 🙌" />
         <Cuarto />
-      </div> */}
+      </div>
 
       {/* SPOTIFY */}
       <div
@@ -135,9 +135,9 @@ Si está buscando un lugar donde su hijo pueda crecer espiritualmente y sentirse
           <TituloWeb title="Alabanzaaaaaaaa yyyyy ooooooooooo Adoración 🙌 " color="black" />
         </div>
 
-        {/* <p className="w-[90%] mt-1 mb-10 text-justify">
+        <p className="w-[90%] mt-1 mb-10 text-justify">
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat 
-        </p> */}
+        </p>
 
         <Spotify />
         
