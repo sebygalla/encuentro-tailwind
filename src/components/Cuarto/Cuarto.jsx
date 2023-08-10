@@ -1,5 +1,6 @@
 import AvataresMobile from "../Avatares/AvataresMobile";
 // import avatarRebe from "../../assets/image/Rebe.jpg";
+import AvatarJavier from "../../assets/image/avatarJavier.png"
 
 function Cuarto() {
   return (
@@ -21,7 +22,7 @@ function Cuarto() {
 
         <div className="z-10">
           <AvataresMobile
-            imagen={}
+            imagen={AvatarJavier}
             color="black"
             nombre="Rebeca Medinas"
             description="Lider Iglesia El Encuentro- T.Suárez"
