@@ -24,6 +24,7 @@ import Banner from "./components/Banner/Banner";
 // import Cuarto from "./components/Cuarto/Cuarto";
 // import Spotify from "./components/spotify/Spotify";
 
+
 function App() {
   return (
     <div id="inicio" className="bg-gradient-to-r from-white to-stone-100">
