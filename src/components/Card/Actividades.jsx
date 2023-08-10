@@ -58,14 +58,14 @@ function Actividades(props) {
                     </div>
                     {/*body*/}
                     <div className="relative flex-auto p-6">
-                      <p className="my-2 text-[12px] leading-relaxed text-slate-900 md:text-sm">
+                      <p className="my-2 text-[16px] leading-relaxed text-slate-900 md:text-sm">
                         {props.description}
                       </p>
                     </div>
                     {/*footer*/}
                     <div className="flex items-center justify-end rounded-b  p-6">
                       <button
-                        className="mb-1 mr-1 w-full rounded bg-gradient-to-br from-yellow-600 to-red-600 px-6 py-3 text-sm font-bold uppercase text-white shadow outline-none transition-all duration-150 ease-linear hover:shadow-lg focus:outline-none"
+                        className="mb-1 mr-1 w-full rounded bg-gradient-to-br from-yellow-600 to-red-600 px-6 py-3 text-[16px] font-bold uppercase text-white shadow outline-none transition-all duration-150 ease-linear hover:shadow-lg focus:outline-none"
                         type="button"
                         onClick={() => setShowModal(false)}>
                         CERRAR

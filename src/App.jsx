@@ -139,7 +139,7 @@ Si está buscando un lugar donde su hijo pueda crecer espiritualmente y sentirse
         <Spotify />
 
         
-        <p className="w-[90%] mb-5 text-justify">
+        <p className="w-[90%] mb-5 text-justify text-[16px]">
         La alabanza y adoración es la expresión de amor, gratitud y reverencia hacia nuestro Dios. Es un momento dedicado a honrar y exaltar a nuestro Creador, reconociendo su grandeza, poder y bondad.
         </p>
         

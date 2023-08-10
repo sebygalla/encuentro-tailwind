@@ -7,7 +7,7 @@ function Cuarto() {
       <div className="w-1/3 bg-portada bg-cover bg-center md:w-2/4"></div>
 
       <div className="flex flex-1 flex-col gap-10 p-6 text-justify md:text-justify md:p-28">
-        <h3 className="text-md md:text-md text-black">
+        <h3 className="text-[16px] font-links font-light md:text-md text-black">
           Te animo a que seas parte de esta generación que siendo llenos por el
           Espiritu Santo claman día y noche, apasionados por ver a Jesús
           regresar y gobernar en las naciones desde Jerusalén. Este clamor es

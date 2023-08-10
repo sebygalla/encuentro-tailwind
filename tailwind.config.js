@@ -2,12 +2,15 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    fontFamily: {
-      body: ["Open Sans", "Poppins", "Monserrat", "Dancing Script", "cursive"],
-   
-    },
+
+
+
 
     extend: {
+
+ 
+
+ 
       backgroundImage: {
         portada: "url('../src/assets/image/main2.png')",
         "portada-dos": "url('../src/assets/image/1.jpg')",
@@ -23,7 +26,15 @@ module.exports = {
         nubes: "url('../src/assets/image/nubes.jpg')",
         formulario: "url('../src/assets/image/formulario.png')",
       },
+
     },
-  },
+
+    fontFamily: {
+      'sub': ["Borel", "cursive"],
+      'title': ["Lato", "sans-serif"],
+      'links': ["Roboto", "sans-serif"],
+  }
+},
   plugins: [],
+
 };
