@@ -119,6 +119,7 @@ Si está buscando un lugar donde su hijo pueda crecer espiritualmente y sentirse
       </div>
 
       {/* CUARTO */}
+      
       <div className="mx-auto mb-10 flex w-[95%] flex-col">
       {/* titulo */}
         <TituloWeb color="black" title="Cuarto de oración 🙌" />
