@@ -22,17 +22,17 @@ const Footer = () => {
       
 
             <div>
-              <h2 className="mb-3 text-3xl font-semibold md:text-md md:font-semibold uppercase text-gray-200 dark:text-white">
+              <h2 className="mb-3 font-title text-3xl font-semibold md:text-md md:font-semibold uppercase text-gray-200 dark:text-white">
                 Comunidad
               </h2>
               <ul className="font-light text-sm md:text-md text-gray-200 dark:text-gray-400">
-                <li className="mb-4 leading-5">
+                <li className="mb-4 font-links font-extralight leading-5">
                   
                   Natta 362, Tristán Suárez, Prov. Bs. As./ Argentina
                   javier@iglesiaelencuentro.org.ar
                   
                 </li>
-                <li className="leading-5">
+                <li className="leading-5 font-links font-extralight">
 
                     <strong className="font-semibold">Reuniones centrales:</strong> Miercoles 19:00hs y Domingos 10:30hs Consultorio Pastoral: Martes 17hs a 20hs. Miercoles 17hs a 19hs
                   
@@ -41,11 +41,11 @@ const Footer = () => {
             </div>
 
             <div>
-              <h2 className="mb-4 text-3xl font-semibold uppercase text-gray-200 dark:text-white">
+              <h2 className="mb-4 font-title text-3xl font-semibold uppercase text-gray-200 dark:text-white">
               SOBRE NOSOTROS
               </h2>
               <ul className="font-light text-sm text-gray-200 dark:text-gray-400">
-                <li className="mb-4">
+                <li className="mb-4 font-links font-extralight leading-5">
                   
                   Iglesia El Encuentro Tristán Suárez ¡Bienvenido al lugar de tu encuentro con Dios, gracias por acompañarnos!
                 
@@ -54,25 +54,25 @@ const Footer = () => {
             </div>
 
             <div>
-              <h2 className="mb-4 text-3xl font-semibold uppercase text-gray-200 dark:text-white">
+              <h2 className="mb-4 font-title text-3xl font-semibold uppercase text-gray-200 dark:text-white">
                 Seguinos
               </h2>
               <ul className="font-light text-sm text-gray-200 dark:text-gray-400">
-                <li className="mb-4">
+                <li className="mb-4 leading-5 font-links font-extralight">
                   <a
                     href="https://github.com/themesberg/flowbite"
                     className="hover:underline ">
                     Instagram
                   </a>
                 </li>
-                <li className="mb-4">
+                <li className="mb-4 leading-5 font-links font-extralight">
                   <a
                     href="https://discord.gg/4eeurUVvTy"
                     className="hover:underline">
                     Facebook
                   </a>
                 </li>
-                <li className="mb-4">
+                <li className="mb-4 leading-5 font-links font-extralight">
                   <a
                     href="https://discord.gg/4eeurUVvTy"
                     className="hover:underline">
