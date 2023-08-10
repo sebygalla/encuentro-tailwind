@@ -1,12 +1,12 @@
 import AvataresMobile from "../Avatares/AvataresMobile";
-import AvatarJavier from "../../assets/image/avatarJavier.png"
+import AvatarRebe from "../../assets/image/rebe.jpg"
 
 function Cuarto() {
   return (
     <div className="container m-20 mx-auto flex flex-grow bg-white p-5">
-      <div className="w-1/3 bg-portada bg-cover bg-center md:w-2/4"></div>
+      <div className="w-1/3 bg-portada bg-cover bg-center md:w-1/4"></div>
 
-      <div className="flex flex-1 flex-col gap-10 p-6 text-justify md:text-justify md:p-28">
+      <div className="flex flex-1 flex-col gap-10 p-6  text-justify md:text-justify md:p-10">
         <h3 className="text-[16px] font-links font-light md:text-md text-black">
           Te animo a que seas parte de esta generación que siendo llenos por el
           Espiritu Santo claman día y noche, apasionados por ver a Jesús
@@ -21,7 +21,7 @@ function Cuarto() {
 
         <div className="z-10">
           <AvataresMobile
-            imagen={AvatarJavier}
+            imagen={AvatarRebe}
             color="black"
             nombre="Rebeca Medina"
             description="Lider Iglesia El Encuentro- T.Suárez"
