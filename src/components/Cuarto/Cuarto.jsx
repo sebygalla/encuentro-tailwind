@@ -1,5 +1,4 @@
 import AvataresMobile from "../Avatares/AvataresMobile";
-import avatarCami from "../../assets/image/cami.jpg";
 import avatarRebe from "../../assets/image/Rebe.jpg";
 
 function Cuarto() {
