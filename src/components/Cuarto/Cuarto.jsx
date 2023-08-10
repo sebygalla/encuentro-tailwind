@@ -24,7 +24,7 @@ function Cuarto() {
           <AvataresMobile
             imagen={avatarRebe}
             color="black"
-            nombre="Rebeca Medina"
+            nombre="Rebeca Medinas"
             description="Lider Iglesia El Encuentro- T.Suárez"
           />
         </div>
