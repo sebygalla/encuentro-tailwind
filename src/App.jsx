@@ -132,14 +132,16 @@ Si está buscando un lugar donde su hijo pueda crecer espiritualmente y sentirse
         id="Spotify"
         className="flex h-[100vh] w-[100vw] md:h-[70vh] flex-col items-center bg-cover">
         <div className="mb-8 w-[90%]">
-          <TituloWeb title="Alabanzaaaaaaaa un y yyyyy ooooooooooo Adoración 🙌 " color="black" />
+          <TituloWeb title="Alabanza 🙌 " color="black" />
         </div>
 
-        <p className="w-[90%] mt-1 mb-10 text-justify">
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat 
-        </p>
 
         <Spotify />
+
+        
+        <p className="w-[90%] mb-5 text-justify">
+        La alabanza y adoración es la expresión de amor, gratitud y reverencia hacia nuestro Dios. Es un momento dedicado a honrar y exaltar a nuestro Creador, reconociendo su grandeza, poder y bondad.
+        </p>
         
       </div>
 
@@ -153,6 +155,8 @@ Si está buscando un lugar donde su hijo pueda crecer espiritualmente y sentirse
         </div>
 
         <Carousel />
+
+        
       </div>
 
       {/* BANNER */}
