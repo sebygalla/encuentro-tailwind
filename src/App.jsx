@@ -17,7 +17,7 @@ import Hero3 from "./components/Hero/Hero3";
 import Rehma from "./components/rehma/Rehma";
 import About from "./components/Nosotros/About";
 import Carousel from "./components/Carousel/Carousel";
-import Cuarto from "./components/Cuarto/Cuarto";
+// import Cuarto from "./components/Cuarto/Cuarto";
 
 import Vision from "./components/Vision/Vision";
 import Banner from "./components/Banner/Banner";
@@ -119,12 +119,12 @@ Si está buscando un lugar donde su hijo pueda crecer espiritualmente y sentirse
       </div>
 
       {/* CUARTO */}
-      
-      <div className="mx-auto mb-10 flex w-[95%] flex-col">
-      {/* titulo */}
+
+      {/* <div className="mx-auto mb-10 flex w-[95%] flex-col">
+  
         <TituloWeb color="black" title="Cuarto de oración 🙌" />
         <Cuarto />
-      </div>
+      </div> */}
 
       {/* SPOTIFY */}
       <div
