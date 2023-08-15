@@ -14,7 +14,7 @@ import {
 const Spotify = () => {
   return (
     // contenedor general
-    <div className="mb-[20%] h-[100%] w-[95%] text-center  flex-col xl:w-[50%] xl:h-[100%] xl:-mb-[50%] md:p-12">
+    <div className="mb-[20%] h-[100%] w-[95%] text-center  flex-col">
       {/* contenedor 1 */}
       <div className="mb-12 flex w-full items-center justify-around">
         <div className="flex items-center text-white text-[25px]">
@@ -33,7 +33,7 @@ const Spotify = () => {
 
       {/* contenedor 2 */}
 
-      <img className="mx-auto h-[50%] w-[90%] xl:w-[40%] xl:h-[60%] bg-spotify bg-cover bg-center contrast-150" />
+      <img className="mx-auto h-[50%] w-[90%] bg-spotify bg-cover bg-center contrast-150" />
 
       {/* contenedor 3 */}
 

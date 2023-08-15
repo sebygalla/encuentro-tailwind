@@ -34,26 +34,29 @@ const Header = () => {
 
   return (
     <header
-      className={`item-center bg-white fixed z-50 flex h-[70px] xl:h-[70px] w-full justify-between shadow xl:justify-end ${
+      className={`item-center fixed z-50 flex h-[70px] w-full justify-between bg-white shadow xl:h-[70px] xl:justify-end ${
         color
-          ? "backdrop-blur-sm z-20 bg-white/50 transition-colors ease-in-out  duration-700 h-[50px]"
+          ? "z-20 h-[50px] bg-white/50 backdrop-blur-sm transition-colors  duration-700 ease-in-out"
           : ""
       }`}>
-
       {/* open and close hamburguer */}
       <button
         onClick={() => {
           setShowMenu(!showMenu);
         }}
         className="z-40 ml-[5%] text-3xl  text-slate-900 xl:hidden">
-        {showMenu ? <BsX className=" text-2xl" /> : <HiMenu className="text-2xl" />}
+        {showMenu ? (
+          <BsX className=" text-2xl" />
+        ) : (
+          <HiMenu className="text-2xl" />
+        )}
       </button>
 
       {/* logotipo */}
 
       <div className="flex items-center justify-center">
         <img
-          className={`md:mr-[90%] mr-4 h-[50px] cursor-pointer md:h-[50px] xl:ml-[150px] ${
+          className={`mr-4 h-[50px] cursor-pointer md:mr-[90%] md:h-[50px] xl:ml-[150px] ${
             cruz ? "hidden" : ""
           }`}
           src={logoTipo}
@@ -62,7 +65,7 @@ const Header = () => {
 
       {/* navegacion */}
       <nav
-        className={`fixed inset-0 z-10 mr-10 flex h-[100vh]  w-[100vw]  items-center justify-center gap-6  p-8 text-center  font-links text-[18px] font-semibold  uppercase text-black bg-white transition-all duration-500 xl:static xl:h-0 xl:flex-row  xl:justify-end xl:gap-3 xl:bg-transparent xl:text-[11px] ${
+        className={`fixed inset-0 z-10 mr-10 flex h-[100vh]  w-[100vw]  items-center justify-center gap-6  bg-white p-8  text-center font-links text-[18px]  font-semibold uppercase text-black transition-all duration-500 xl:static xl:h-0 xl:flex-row  xl:justify-end xl:gap-3 xl:bg-transparent xl:text-[11px] ${
           showMenu ? "left-0" : "-left-full"
         }
         `}>

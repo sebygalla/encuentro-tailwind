@@ -5,7 +5,7 @@ import avatarAle from "../../assets/image/alePastora.png";
 function Vision() {
   return (
     <>
-      <div className="mb-10 grid  min-h-[100%] gap-20 p-10 text-justify md:grid-cols-2 md:p-10 xl:p-20">
+      <div className="mb-10 grid  min-h-[100%] gap-20 p-10 text-left md:grid-cols-2 md:p-10 xl:p-20">
         <p className="z-10 text-[16px] font-links font-light text-white md:text-[18px] md:leading-6">
           Una Iglesia que abrigue a todos los que se acerquen a ella con un
           fuerte y mnifiesto interés en el área social, una Iglesia formadora de
