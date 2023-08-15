@@ -24,7 +24,7 @@ const Spotify = () => {
           <h3 className="text-md font-extralight text-white">
             REPRODUCIENDO DESDE PLAYLIST
           </h3>
-          <h4 className="text-md font-bold text-white">
+          <h4 className="text-md font-title font-bold text-white">
             El Encuentro Tristán Suárez | TOP 2023
           </h4>
         </div>
@@ -39,7 +39,7 @@ const Spotify = () => {
 
       <div className="mx-auto mt-12 flex w-[85%] items-center justify-between">
         <div className="w-[80%] flex-col text-center">
-          <marquee className="text-[30px] font-bold text-white">
+          <marquee className="text-[30px] font-title font-bold text-white">
             Ministerio de Alabanza y Adoración- Live
           </marquee>
           <h4 className="text-left  text-sm font-extralight text-white">
