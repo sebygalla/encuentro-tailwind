@@ -130,8 +130,9 @@ Si está buscando un lugar donde su hijo pueda crecer espiritualmente y sentirse
       {/* SPOTIFY */}
       <div
         id="Spotify"
-        className="flex h-[100vh] w-[100vw] md:h-[70vh] flex-col items-center bg-cover">
-        <div className="mb-8 w-[90%]">
+        className="flex h-[1000px] w-[100vw] md:h-[70vh] flex-col items-center bg-cover bg-gradient-to-br from-yellow-600  to-red-600">
+
+        <div className="my-16 w-[90%] border">
           <TituloWeb title="Alabanza 🙌 " color="black" />
         </div>
 
