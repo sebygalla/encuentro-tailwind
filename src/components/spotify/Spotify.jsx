@@ -16,7 +16,7 @@ const Spotify = () => {
     // contenedor general
     <div className="mb-20 h-[100%] w-[90%] text-center  flex-col xl:w-[50%] xl:h-[100%] xl:-mb-[50%] md:p-12">
       {/* contenedor 1 */}
-      <div className="mb-16 flex w-full items-center justify-around">
+      <div className="mb-12 flex w-full items-center justify-around">
         <div className="flex items-center text-white text-[25px]">
           <FaChevronDown />
         </div>
@@ -42,7 +42,7 @@ const Spotify = () => {
           <marquee className="text-[30px] font-bold text-white">
             Ministerio de Alabanza y Adoración- Live
           </marquee>
-          <h4 className="text-left  text-lg font-extralight text-white">
+          <h4 className="text-left  text-sm font-extralight text-white">
             EL ENCUENTRO- TRISTAN SUAREZ.
           </h4>
         </div>
