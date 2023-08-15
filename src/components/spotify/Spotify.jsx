@@ -14,7 +14,7 @@ import {
 const Spotify = () => {
   return (
     // contenedor general
-    <div className="mb-[20%] h-[100%] w-[90%] text-center  flex-col xl:w-[50%] xl:h-[100%] xl:-mb-[50%] md:p-12">
+    <div className="mb-[20%] h-[100%] w-[95%] text-center  flex-col xl:w-[50%] xl:h-[100%] xl:-mb-[50%] md:p-12">
       {/* contenedor 1 */}
       <div className="mb-12 flex w-full items-center justify-around">
         <div className="flex items-center text-white text-[25px]">
@@ -46,7 +46,7 @@ const Spotify = () => {
             EL ENCUENTRO- TRISTAN SUAREZ.
           </h4>
         </div>
-        <FaHeart className="text-center text-[30px] text-white" />
+        <FaHeart className="text-[27px] text-white" />
       </div>
 
       {/* contenedor 4 */}
@@ -60,12 +60,12 @@ const Spotify = () => {
       </div>
 
       {/* contenedor 5 */}
-      <div className="mx-auto mt-2 flex w-[85%] items-center justify-around">
-        <FaRandom className="text-center text-[30px] text-gray-300" />
+      <div className="mx-auto flex w-[85%] items-center justify-around">
+        <FaRandom className="text-center text-[30px] text-gray-200" />
         <FaStepBackward className="text-center text-[25px] text-white" />
         <FaPlayCircle className="text-center text-6xl text-white" />
         <FaStepForward className="text-center text-[25px] text-white" />
-        <FaRetweet className="text-center text-[30px] text-gray-300" />
+        <FaRetweet className="text-center text-[30px] text-gray-200" />
       </div>
 
       {/* contenedor 6 */}

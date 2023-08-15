@@ -26,7 +26,7 @@ function Actividades(props) {
         </a>
         <div className="flex flex-col items-center justify-center p-5">
           <a href="#">
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+            <h5 className="mb-2 text-2xl font-title font-bold tracking-tight text-gray-900">
               {props.title}
             </h5>
           </a>
