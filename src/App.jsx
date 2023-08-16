@@ -13,17 +13,15 @@ import MatriJovenes from "../src/assets/image/cards actividades/card4.jpg";
 import MatriAdultos from "../src/assets/image/cards actividades/card5.jpg";
 import Hero3 from "./components/Hero/Hero3";
 
-
 import Rehma from "./components/rehma/Rehma";
 import About from "./components/Nosotros/About";
 import Carousel from "./components/Carousel/Carousel";
-
 
 import Vision from "./components/Vision/Vision";
 import Banner from "./components/Banner/Banner";
 import Cuarto from "./components/Cuarto/Cuarto";
 import Spotify from "./components/spotify/Spotify";
-
+import Galeria from "./components/galeria/galeria";
 
 function App() {
   return (
@@ -65,6 +63,12 @@ function App() {
 
           <Vision />
         </div>
+      </div>
+
+      {/* galeria */}
+      <div className="flex flex-col gap-10 my-20 p-10">
+        <TituloWeb title="Galeria 📷 " color="black" />
+        <Galeria />
       </div>
 
       {/* ACTIVIDADES */}
@@ -122,7 +126,6 @@ Si está buscando un lugar donde su hijo pueda crecer espiritualmente y sentirse
       {/* CUARTO */}
 
       <div className="mx-auto mb-10 flex w-[95%] flex-col">
-  
         <TituloWeb color="black" title="Cuarto de oración 🙌" />
         <Cuarto />
       </div>
@@ -130,35 +133,29 @@ Si está buscando un lugar donde su hijo pueda crecer espiritualmente y sentirse
       {/* SPOTIFY */}
       <div
         id="Spotify"
-        className="flex h-[1000px] w-[100vw] flex-col items-center bg-cover bg-gradient-to-br from-yellow-600  to-red-600 xl:grid xl:grid-cols-2 xl:place-items-baseline">
-
+        className="flex h-[1000px] w-[100vw] flex-col items-center bg-gradient-to-br from-yellow-600 to-red-600  bg-cover xl:grid xl:grid-cols-2 xl:place-items-baseline">
         <div className="my-16 w-[90%]">
           <TituloWeb title="Alabanza 🙌 " color="black" />
-          <p className="z-10 text-[16px] font-links font-light text-black/90 p-16 xl:grid hidden ">
-
-La iglesia, los que la formamos, no podemos vivir fuera de la bendición
-para disfrutar de todos los logros que esto representa para el caminar
-diario. Como solidificando nuestras relaciones, limpiándolas para que
-sean cristalinas, guardando cuidadosamente la unidad del Espíritu. Esto
-exige una conducta voluntaria que se comprometan a “mantener a pedido”,
-cuidar con cuidado , no dejar fisuras a la Unidad. Sólo así se edifica
-un cuerpo, o mejor dicho, crece un cuerpo, donde la cabeza es Cristo
-(Efesios 4:15) y se establece claramente la delegación de autoridad.
-Dios nos enseña cómo mantener el cuerpo unido ayudándonos unos a otros
-(Efesios 4:16).
-</p>
+          <p className="z-10 hidden p-16 font-links text-[16px] font-light text-black/90 xl:grid ">
+            La iglesia, los que la formamos, no podemos vivir fuera de la
+            bendición para disfrutar de todos los logros que esto representa
+            para el caminar diario. Como solidificando nuestras relaciones,
+            limpiándolas para que sean cristalinas, guardando cuidadosamente la
+            unidad del Espíritu. Esto exige una conducta voluntaria que se
+            comprometan a “mantener a pedido”, cuidar con cuidado , no dejar
+            fisuras a la Unidad. Sólo así se edifica un cuerpo, o mejor dicho,
+            crece un cuerpo, donde la cabeza es Cristo (Efesios 4:15) y se
+            establece claramente la delegación de autoridad. Dios nos enseña
+            cómo mantener el cuerpo unido ayudándonos unos a otros (Efesios
+            4:16).
+          </p>
         </div>
 
-
         <Spotify />
-
-        
-     
-        
       </div>
 
       {/* CAROUSEL */}
-      
+
       <div
         id="testimonios"
         className="flex h-[100vh] w-full flex-col items-center bg-slate-900 bg-cover md:h-[70vh] xl:h-[100vh] ">
@@ -167,12 +164,10 @@ Dios nos enseña cómo mantener el cuerpo unido ayudándonos unos a otros
         </div>
 
         <Carousel />
-
-        
       </div>
 
       {/* BANNER */}
-      <div className="flex p-5 h-[30vh] justify-center bg-gradient-to-br from-yellow-600 to-red-600 xl:h-[40vh] xl:py-[15%]">
+      <div className="flex h-[30vh] justify-center bg-gradient-to-br from-yellow-600 to-red-600 p-5 xl:h-[40vh] xl:py-[15%]">
         <Banner />
       </div>
 
