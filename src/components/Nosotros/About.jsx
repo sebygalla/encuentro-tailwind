@@ -11,7 +11,7 @@ function About() {
 
 
 
-      <p className="z-10 text-[16px] text-white font-links font-bold md:text-[18px] md:leading-6">
+      <p className="z-10 text-[16px] text-white font-links font-semibold md:text-[18px] md:leading-6">
         Cada persona que llega a la comunidad es desafiada a entregarse a Jesús
         y dejar que Él sea su Señor. Esto solo es posible por lo que Dios hizo
         con el hombre a través de Jesús. Nuestro nuevo nacimiento viene por un
@@ -30,7 +30,7 @@ function About() {
         de acabar con todo otro tipo de pactos que se han hecho.
       </p>
 
-      <p className="z-10 text-[16px] font-links font-bold text-white md:text-[18px] md:leading-6">
+      <p className="z-10 text-[16px] font-links font-semibold text-white md:text-[18px] md:leading-6">
 
         La iglesia, los que la formamos, no podemos vivir fuera de la bendición
         para disfrutar de todos los logros que esto representa para el caminar
