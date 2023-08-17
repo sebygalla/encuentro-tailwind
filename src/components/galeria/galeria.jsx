@@ -1,5 +1,5 @@
 import avatarAle from "../../assets/image/alePastora.png";
-import alabanzaSeba from "../../assets/image/alabanzaSeba.jpg";
+import alabanzaSeba from "../../assets/image/galeria1.png";
 import alabanzaCami from "../../assets/image/nosotros.jpg";
 
 const Galeria = () =>{
