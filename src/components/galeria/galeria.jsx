@@ -1,6 +1,6 @@
 // import fotoUno from "../../assets/image/galeria/1.jpg"
 // import fotoDos from "../../assets/image/galeria/2.jpg"
-import fotoTres from "../../assets/image/galeria/3.jpg"
+// import fotoTres from "../../assets/image/galeria/3.jpg"
 import fotoCuatro from "../../assets/image/galeria/4.jpg"
 import fotoCinco from "../../assets/image/galeria/5.jpg"
 // import fotoSeis from "../../assets/image/galeria/6.jpg"
@@ -31,7 +31,7 @@ const Galeria = () =>{
             <img className="h-auto max-w-full rounded-lg" src={fotoCinco} alt=""/>
         </div>
         <div>
-            <img className="h-auto max-w-full rounded-lg" src={fotoTres} alt=""/>
+            <img className="h-auto max-w-full rounded-lg" src={fotoCinco} alt=""/>
         </div>
     </div>
     <div className="grid gap-4">
