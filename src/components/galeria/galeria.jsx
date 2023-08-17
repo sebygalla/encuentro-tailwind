@@ -1,5 +1,5 @@
 // import fotoUno from "../../assets/image/galeria/1.jpg"
-import fotoDos from "../../assets/image/galeria/2.jpg"
+import fotoDos from "../../assets/image/2.jpg";
 // import fotoTres from "../../assets/image/galeria/3.jpg"
 // import fotoCuatro from "../../assets/image/galeria/4.jpg"
 // import fotoCinco from "../../assets/image/galeria/5.jpg"
