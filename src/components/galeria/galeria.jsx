@@ -1,19 +1,20 @@
 import avatarAle from "../../assets/image/alePastora.png";
 import alabanzaUno from "../../assets/image/galeria1.png";
 import alabanzaDos from "../../assets/image/galeria2.jpg";
-import alabanzaCami from "../../assets/image/nosotros.jpg";
+import alabanzaTres from "../../assets/image/galeria3.jpg";
+import alabanzaCuatro from "../../assets/image/galeria4.jpg";
 
 const Galeria = () =>{
     return (
 
         
-<div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+<div className="grid grid-cols md:grid-cols-2 xl:grid-cols-4 gap-4">
     <div className="grid gap-4">
         <div>
             <img className="h-auto max-w-full rounded-lg" src={alabanzaUno} alt=""/>
         </div>
         <div>
-            <img className="h-auto max-w-full rounded-lg" src={avatarAle} alt=""/>
+            <img className="h-auto max-w-full rounded-lg" src={alabanzaTres} alt=""/>
         </div>
         <div>
             <img className="h-auto max-w-full rounded-lg" src={alabanzaDos} alt=""/>
@@ -21,7 +22,7 @@ const Galeria = () =>{
     </div>
     <div className="grid gap-4">
         <div>
-            <img className="h-auto max-w-full rounded-lg" src={avatarAle} alt=""/>
+            <img className="h-auto max-w-full rounded-lg" src={alabanzaCuatro} alt=""/>
         </div>
         <div>
             <img className="h-auto max-w-full rounded-lg" src={avatarAle} alt=""/>
