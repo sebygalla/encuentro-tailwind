@@ -1,3 +1,8 @@
+import fotoUno from "../../assets/image/galeria/IMG_4428.jpg"
+import fotoDos from "../../assets/image/galeria/IMG_4452.jpg"
+import fotoTres from "../../assets/image/galeria/IMG_4492.jpg"
+import fotoCuatro from "../../assets/image/galeria/IMG_4485.jpg"
+
 const Galeria = () =>{
     return (
 
@@ -5,18 +10,18 @@ const Galeria = () =>{
 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
     <div className="grid gap-4">
         <div>
-            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt=""/>
+            <img className="h-auto max-w-full rounded-lg" src={fotoUno} alt=""/>
         </div>
         <div>
-            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt=""/>
+            <img className="h-auto max-w-full rounded-lg" src={fotoDos} alt=""/>
         </div>
         <div>
-            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" alt=""/>
+            <img className="h-auto max-w-full rounded-lg" src={fotoTres} alt=""/>
         </div>
     </div>
     <div className="grid gap-4">
         <div>
-            <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt=""/>
+            <img className="h-auto max-w-full rounded-lg" src={fotoCuatro} alt=""/>
         </div>
         <div>
             <img className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg" alt=""/>
