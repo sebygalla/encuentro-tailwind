@@ -1,8 +1,6 @@
-
-
 import avatarAle from "../../assets/image/alePastora.png";
-import alabanzaSeba from "../../assets/image/alabanzaSeba.jpg";
-import alabanzaCami from "../../assets/image/alabanzaCami.jpg";
+import alabanzaSeba from "../../assets/image/cristian.jpg";
+import alabanzaCami from "../../assets/image/nosotros.jpg";
 
 const Galeria = () =>{
     return (
