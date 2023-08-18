@@ -1,4 +1,3 @@
-import avatarAle from "../../assets/image/alePastora.png";
 import alabanzaUno from "../../assets/image/galeria1.png";
 import alabanzaDos from "../../assets/image/galeria2.jpg";
 import alabanzaTres from "../../assets/image/galeria3.jpg";
@@ -11,6 +10,7 @@ import alabanzaNueve from "../../assets/image/galeria9.jpg";
 import alabanzaDiez from "../../assets/image/galeria10.jpg";
 import alabanzaOnce from "../../assets/image/galeria11.jpg";
 import alabanzaDoce from "../../assets/image/galeria12.jpg";
+import alabanzaTrece from "../../assets/image/galeria13.jpg";
 
 
 
@@ -19,7 +19,7 @@ const Galeria = () =>{
     return (
 
         
-<div className="grid grid-cols md:grid-cols-2 xl:grid-cols-4 gap-4">
+<div className="grid grid-cols md:grid-cols-2 xl:grid-cols-4 gap-4 mt-10">
     <div className="grid gap-4">
         <div>
             <img className="h-auto max-w-full rounded-lg" src={alabanzaUno} alt=""/>
@@ -28,7 +28,7 @@ const Galeria = () =>{
             <img className="h-auto max-w-full rounded-lg" src={alabanzaTres} alt=""/>
         </div>
         <div>
-            <img className="h-auto max-w-full rounded-lg" src={alabanzaDos} alt=""/>
+            <img className="h-auto max-w-full rounded-lg" src={alabanzaTrece} alt=""/>
         </div>
     </div>
     <div className="grid gap-4">
