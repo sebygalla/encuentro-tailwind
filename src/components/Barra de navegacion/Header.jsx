@@ -34,7 +34,7 @@ const Header = () => {
 
   return (
     <header
-      className={`item-center fixed z-50 flex h-[70px] w-full justify-between bg-white shadow xl:h-[70px] xl:justify-end ${
+      className={`xl:w-[1200px] w-full  item-center fixed z-50 flex h-[70px] mx-auto justify-between bg-white shadow xl:h-[70px] xl:justify-end ${
         color
           ? "z-20 h-[50px] bg-white/50 backdrop-blur-sm transition-colors  duration-700 ease-in-out"
           : ""
@@ -46,7 +46,7 @@ const Header = () => {
         }}
         className="z-40 ml-[5%] text-3xl  text-slate-900 xl:hidden">
         {showMenu ? (
-          <BsX className=" text-2xl" />
+          <BsX className=" text-3xl" />
         ) : (
           <HiMenu className="text-2xl" />
         )}

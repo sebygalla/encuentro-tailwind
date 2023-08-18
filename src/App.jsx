@@ -135,8 +135,8 @@ Si está buscando un lugar donde su hijo pueda crecer espiritualmente y sentirse
         id="Spotify"
         className="flex h-[1000px] w-[100%] mx-auto flex-col items-center bg-gradient-to-br from-yellow-600 to-red-600  bg-cover xl:grid xl:grid-cols-2 xl:place-items-baseline">
         <div className="my-16 w-[90%]">
-          <TituloWeb title="Alabanza 🙌 " color="black" />
-          <p className="z-10 hidden p-16 font-links text-[16px] font-light text-black/90 xl:grid ">
+          <TituloWeb title="Alabanza 🙌 " color="white" />
+          <p className="z-10 hidden p-16 font-links text-[16px] font-light text-white/90 xl:grid ">
             La iglesia, los que la formamos, no podemos vivir fuera de la
             bendición para disfrutar de todos los logros que esto representa
             para el caminar diario. Como solidificando nuestras relaciones,
