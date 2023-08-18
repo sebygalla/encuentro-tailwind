@@ -12,7 +12,7 @@ module.exports = {
 
  
       backgroundImage: {
-        portada: "url('../src/assets/image/main2.png')",
+        portada: "url('../src/assets/image/galeria1.png')",
         "portada-dos": "url('../src/assets/image/1.jpg')",
         "portada-tres": "url('../src/assets/image/portada3.jpg')",
         "portada-cuatro": "url('../src/assets/image/portada29.png')",
