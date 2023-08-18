@@ -7,7 +7,7 @@ import avatarAle from "../../assets/image/alePastora.png";
 function About() {
   return (
     <>
-    <div className="grid min-h-[100%]  gap-10 p-10 md:p-10 xl:p-20 text-justify md:grid-cols-2 mb-10">
+    <div className="grid min-h-[100%]  gap-10 p-8 md:p-10 xl:p-20 text-justify md:grid-cols-2 mb-10">
 
 
 

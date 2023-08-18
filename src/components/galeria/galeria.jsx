@@ -5,6 +5,10 @@ import alabanzaTres from "../../assets/image/galeria3.jpg";
 import alabanzaCuatro from "../../assets/image/galeria4.jpg";
 import alabanzaCinco from "../../assets/image/galeria5.jpg";
 import alabanzaSeis from "../../assets/image/galeria6.jpg";
+import alabanzaSiete from "../../assets/image/galeria7.jpg";
+import alabanzaOcho from "../../assets/image/galeria8.jpg";
+
+
 
 const Galeria = () =>{
     return (
@@ -30,7 +34,7 @@ const Galeria = () =>{
             <img className="h-auto max-w-full rounded-lg" src={alabanzaCinco} alt=""/>
         </div>
         <div>
-            <img className="h-auto max-w-full rounded-lg" src={avatarAle} alt=""/>
+            <img className="h-auto max-w-full rounded-lg" src={alabanzaSiete} alt=""/>
         </div>
     </div>
     <div className="grid gap-4">
@@ -38,7 +42,7 @@ const Galeria = () =>{
             <img className="h-auto max-w-full rounded-lg" src={alabanzaSeis} alt=""/>
         </div>
         <div>
-            <img className="h-auto max-w-full rounded-lg" src={avatarAle} alt=""/>
+            <img className="h-auto max-w-full rounded-lg" src={alabanzaOcho} alt=""/>
         </div>
         <div>
             <img className="h-auto max-w-full rounded-lg" src={avatarAle} alt=""/>
