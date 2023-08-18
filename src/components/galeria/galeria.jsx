@@ -50,10 +50,11 @@ const Galeria = () =>{
             <img className="h-auto max-w-full rounded-lg" src={alabanzaOcho} alt=""/>
         </div>
         <div>
-            <img className="h-auto max-w-full rounded-lg" src={alabanzaNueve} alt=""/>
+            <img className="h-auto max-w-full rounded-lg" src={alabanzaDos} alt=""/>
         </div>
     </div>
     <div className="grid gap-4">
+        
         <div>
             <img className="h-auto max-w-full rounded-lg" src={alabanzaDiez} alt=""/>
         </div>
