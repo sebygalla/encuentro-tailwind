@@ -65,12 +65,6 @@ function App() {
         </div>
       </div>
 
-      {/* galeria */}
-      <div className="flex flex-col gap-10 my-20 p-10">
-        <TituloWeb title="Galeria 📷 " color="black" />
-        <Galeria />
-      </div>
-
       {/* ACTIVIDADES */}
       <div id="actividades" className="mt-[30%] xl:mt-[12%]"></div>
       <TituloWeb title="Actividades  ⛪ " color="black" />
@@ -121,6 +115,12 @@ Si está buscando un lugar donde su hijo pueda crecer espiritualmente y sentirse
             description="El Ministerio busca fortalecer y apoyar a las parejas en su matrimonio. Los programas pueden incluir clases, eventos y retiros diseñados para ayudar a las parejas a crecer juntas en su fe y aprender habilidades para manejar desafíos en su relación. El Ministerio de Matrimonios está diseñados para ayudar a las parejas a construir una relación basada en los principios cristianos y a encontrar apoyo en la comunidad de la iglesia. La intención es promover la unión y estabilidad de las parejas, fomentando el amor, la fidelidad y el compañerismo a través de su fe compartida en Jesucristo."
           />
         </div>
+      </div>
+
+      {/* galeria */}
+      <div className="my-20 flex flex-col gap-10 p-10">
+        <TituloWeb title="Galeria 📷 " color="black" />
+        <Galeria />
       </div>
 
       {/* CUARTO */}
