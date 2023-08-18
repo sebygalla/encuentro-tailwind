@@ -118,7 +118,7 @@ Si está buscando un lugar donde su hijo pueda crecer espiritualmente y sentirse
       </div>
 
       {/* galeria */}
-      <div className="my-20 flex flex-col gap-10 p-10">
+      <div className="m-20 flex flex-col gap-10 p-10">
         <TituloWeb title="Galeria 📷 " color="black" />
         <Galeria />
       </div>
