@@ -134,7 +134,7 @@ Si está buscando un lugar donde su hijo pueda crecer espiritualmente y sentirse
       <div
         id="Spotify"
         className="flex h-[1000px] w-[100%] mx-auto flex-col items-center bg-gradient-to-br from-yellow-600 to-red-600  bg-cover xl:grid xl:grid-cols-2 xl:place-items-baseline">
-        <div className="mt-20 w-[90%]">
+        <div className="mt-20 mb-10 w-[90%]">
           <TituloWeb title="Alabanza 🙌 " color="white" />
           <p className="z-10 hidden p-16 font-links text-[16px] font-light text-white/90 xl:grid ">
             La iglesia, los que la formamos, no podemos vivir fuera de la
