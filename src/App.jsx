@@ -44,7 +44,7 @@ function App() {
         id="nosotros"
         className="clipPath2 relative flex items-center justify-center">
         <div className=" flex flex-col items-center justify-start bg-about bg-cover bg-fixed bg-center bg-no-repeat py-32">
-          <div class="absolute inset-0 z-0 bg-gradient-to-br from-yellow-600 to-red-600 "></div>
+          <div class="absolute inset-0 z-0 bg-gradient-to-br from-yellow-600 to-red-600"></div>
 
           <TituloWeb title="Nosotros  ⛪ " color="white" />
 
@@ -66,7 +66,7 @@ function App() {
       </div>
 
       {/* ACTIVIDADES */}
-      <div id="actividades" className="mt-[30%] xl:mt-[12%]"></div>
+      <div id="actividades" className="mt-[30%] xl:mt-[150px]"></div>
       <TituloWeb title="Actividades  ⛪ " color="black" />
 
       <div className="container relative mx-auto mt-20 flex flex-col items-center justify-between overflow-hidden">
@@ -118,7 +118,7 @@ Si está buscando un lugar donde su hijo pueda crecer espiritualmente y sentirse
       </div>
 
       {/* galeria */}
-      <div className="mb-20 flex flex-col gap-10 p-5 md:p-10">
+      <div id="galeria" className="mb-20 flex flex-col gap-10 p-5 md:p-10 mt-10">
         <TituloWeb title="Galeria 📷 " color="black" />
         <Galeria />
       </div>
@@ -134,7 +134,7 @@ Si está buscando un lugar donde su hijo pueda crecer espiritualmente y sentirse
       <div
         id="Spotify"
         className="flex h-[1000px] w-[100%] mx-auto flex-col items-center bg-gradient-to-br from-yellow-600 to-red-600  bg-cover xl:grid xl:grid-cols-2 xl:place-items-baseline">
-        <div className="my-16 w-[90%]">
+        <div className="mt-20 w-[90%]">
           <TituloWeb title="Alabanza 🙌 " color="white" />
           <p className="z-10 hidden p-16 font-links text-[16px] font-light text-white/90 xl:grid ">
             La iglesia, los que la formamos, no podemos vivir fuera de la
@@ -158,9 +158,9 @@ Si está buscando un lugar donde su hijo pueda crecer espiritualmente y sentirse
 
       <div
         id="testimonios"
-        className="flex h-[100vh] w-full flex-col items-center bg-slate-900 bg-cover md:h-[70vh] xl:h-[100vh] ">
+        className="flex h-[100vh] w-full flex-col items-center bg-cover md:h-[70vh] xl:h-[100vh] ">
         <div className="my-20">
-          <TituloWeb title="Testimonios 📣 " color="white" />
+          <TituloWeb title="Testimonios 📣 " color="black" />
         </div>
 
         <Carousel />

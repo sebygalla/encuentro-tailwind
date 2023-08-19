@@ -28,6 +28,7 @@ const Header = () => {
     { name: "NOSOTROS", link: "#nosotros" },
     { name: "VISION", link: "#vision" },
     { name: "ACTIVIDADES", link: "#actividades" },
+    { name: "GALERIA", link: "#galeria" },
     { name: "TESTIMONIOS", link: "#testimonios" },
     { name: "CONTACTO", link: "#contacto" },
   ];
