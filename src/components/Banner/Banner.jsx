@@ -13,7 +13,8 @@ const Banner = () => {
 
   return (
     <div className="z-20 flex flex-col items-center justify-center gap-4 md:gap-5">
-          <h1 className="text-3xl font-title text-center mb-4 mt-6 text-white md:text-5xl">
+    
+          <h1 className="text-3xl font-title text-center text-white md:text-4xl">
               "No entres en pánico, Dios gobierna en tu tormenta"
           </h1>
           <AvataresMobile

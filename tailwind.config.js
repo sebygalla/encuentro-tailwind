@@ -23,7 +23,7 @@ module.exports = {
         rehma: "url('../src/assets/image/blob.svg')",
         patron: "url('../src/assets/image/patron.svg')",
         cuarto: "url('../src/assets/image/cuarto2.jpg')",
-        nubes: "url('../src/assets/image/nubes.jpg')",
+        nubes: "url('../src/assets/image/nube.jpg')",
         formulario: "url('../src/assets/image/formulario.png')",
       },
 

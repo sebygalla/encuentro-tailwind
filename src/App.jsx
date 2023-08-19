@@ -133,7 +133,7 @@ Si está buscando un lugar donde su hijo pueda crecer espiritualmente y sentirse
       {/* SPOTIFY */}
       <div
         id="Spotify"
-        className="flex h-[1000px] w-[100%] mx-auto flex-col items-center bg-gradient-to-br from-yellow-600 to-red-600  bg-cover xl:grid xl:grid-cols-2 xl:place-items-baseline">
+        className="flex h-[800px] w-[100%] mx-auto flex-col items-center bg-gradient-to-br from-yellow-600 to-red-600  bg-cover xl:grid xl:grid-cols-2 xl:place-items-baseline">
         <div className="mt-20 mb-10 w-[90%]">
           <TituloWeb title="Alabanza 🙌 " color="white" />
           <p className="z-10 hidden p-16 font-links text-[16px] font-light text-white/90 xl:grid ">
@@ -167,7 +167,9 @@ Si está buscando un lugar donde su hijo pueda crecer espiritualmente y sentirse
       </div>
 
       {/* BANNER */}
-      <div className="flex h-[30vh] justify-center bg-gradient-to-br from-yellow-600 to-red-600 p-5 xl:h-[40vh] xl:py-[15%]">
+      <div className="flex h-[30vh] mb-20 justify-center relative bg-nubes bg-center bg-cover p-5 xl:h-[10vh] xl:py-[15%]">
+      <div class="absolute inset-0 bg-gradient-to-br from-yellow-600/80 to-red-600/80"></div>
+     
         <Banner />
       </div>
 
