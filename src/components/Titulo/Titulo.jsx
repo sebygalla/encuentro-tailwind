@@ -1,6 +1,6 @@
 import BotonDos from "../boton/Boton";
 
-const HeroTitle = () => {
+const HeroTitl = () => {
   return (
     <section className="w-full ml-20 z-40">
       <div className="mx-auto max-w-4xl font-['Poppins'] md:gap-0 xl:gap-4 text-left flex flex-col ">

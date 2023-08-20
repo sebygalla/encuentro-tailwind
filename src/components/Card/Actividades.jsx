@@ -1,6 +1,7 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import React, {useState ,useEffect } from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 // import BotonDos from "../boton/BotonDos";
 
@@ -18,7 +19,7 @@ function Actividades(props) {
         data-aos="fade-right"
         className="max-w-sm rounded-lg border border-gray-200 bg-white shadow">
         <a href="#">
-          <img
+          <LazyLoadImage
             src={props.imagen}
             className="rounded-t-lg contrast-200"
             alt=""

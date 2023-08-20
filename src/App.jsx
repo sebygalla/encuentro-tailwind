@@ -69,7 +69,7 @@ function App() {
       <div id="actividades" className="mt-[30%] xl:mt-[150px]"></div>
       <TituloWeb title="Actividades  ⛪ " color="black" />
 
-      <div className="container relative mx-auto mt-20 flex flex-col items-center justify-between overflow-hidden">
+      <div className="container relative mx-auto mt-20 flex flex-col items-center justify-between overflow-hidden md:p-10">
         <div className="m-0 mb-36 grid gap-10 text-justify md:grid-cols-2 xl:grid-cols-3">
           <Actividades
             title="Niños"
@@ -167,7 +167,7 @@ Si está buscando un lugar donde su hijo pueda crecer espiritualmente y sentirse
       </div>
 
       {/* BANNER */}
-      <div className="flex h-[30vh] mb-20 justify-center relative bg-nubes bg-center bg-cover p-5 xl:h-[10vh] xl:py-[15%]">
+      <div className="flex h-[30vh] justify-center relative bg-nubes bg-center bg-cover p-5 xl:h-[10vh] xl:py-[15%]">
       <div class="absolute inset-0 bg-gradient-to-br from-yellow-600/80 to-red-600/80"></div>
      
         <Banner />

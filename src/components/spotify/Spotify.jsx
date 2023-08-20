@@ -1,7 +1,6 @@
 import {
   FaEllipsisV,
   FaChevronDown,
-  FaRegHeart,
   FaHeart,
   FaRandom,
   FaStepBackward,
@@ -10,6 +9,8 @@ import {
   FaPlayCircle,
   FaGitter,
 } from "react-icons/fa";
+
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Spotify = () => {
   return (
@@ -33,7 +34,7 @@ const Spotify = () => {
 
       {/* contenedor 2 */}
 
-      <img className="mx-auto h-[50%] w-[90%] bg-spotify bg-cover bg-center contrast-150" />
+      <LazyLoadImage className="mx-auto h-[90%] xl:h-[65%] w-[90%] bg-spotify bg-cover bg-center contrast-150" />
 
       {/* contenedor 3 */}
 
