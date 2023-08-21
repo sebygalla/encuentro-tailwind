@@ -73,7 +73,7 @@ function App() {
         <div className="m-0 mb-36 grid gap-10 text-justify md:grid-cols-2 xl:grid-cols-3">
           <Actividades
             title="Niños"
-            titleModal="Niños 👦👧"
+            titleModal="Niños"
             textButton="Ver más"
             imagen={Ninos}
             description="El Ministerio de Niños de nuestra Iglesia es un lugar donde los niños pueden crecer en su relación con Dios y conectarse con otros niños en la fe. Ofrecemos programas de aprendizaje y actividades interactivas para ayudar a los niños a aprender sobre la biblia y cómo aplicar sus enseñanzas en sus vidas diarias. Nuestro equipo de líderes basados en la enseñanza de la Palabra de Dios están comprometidos a brindar un ambiente seguro y divertido para todos los niños que asisten. ¡Esperamos verte pronto en nuestro Ministerio de Niños! Horario de reunion: Todos los domingos a las 10:30hs."
@@ -81,7 +81,7 @@ function App() {
 
           <Actividades
             title="Preadolescentes"
-            titleModal="Preadolescentes 👦👧"
+            titleModal="Preadolescentes"
             textButton="Ver más"
             imagen={Preadolescentes}
             description="Bienvenido a nuestro ministerio para preadolescentes. En nuestra iglesia cristiana, creemos que la etapa de la preadolescencia es un momento crucial en la vida de un joven y queremos estar allí para apoyarlos en su camino hacia la edad adulta.
@@ -93,7 +93,7 @@ Si está buscando un lugar donde su hijo pueda crecer espiritualmente y sentirse
 
           <Actividades
             title="Jovenes"
-            titleModal="Jovenes 🧑👩"
+            titleModal="Jovenes"
             textButton="Ver más"
             imagen={Jovenes}
             description="Un espacio donde cientos de chicos y chicas descubren su propósito divino para nunca más soltarlo. Cada sábado nos juntamos para acercarnos al corazón de nuestro Creador; para disfrutar de amistades que sacan lo mejor de nosotros, para soñar, reír y llorar juntos. Anhelamos que cada joven descubra el potencial que Dios depósito en él, que sueñe en grande y que deje huella en nuestra sociedad. Somos jóvenes con propósito, que desarrollan su potencial, predican a Jesús y sirven a los demás. Horario de reunion: Todos los sábados a las 20hs."
@@ -101,7 +101,7 @@ Si está buscando un lugar donde su hijo pueda crecer espiritualmente y sentirse
 
           <Actividades
             title="Matrimonios jovenes"
-            titleModal="Matrimonios jovenes 💑 "
+            titleModal="Matrimonios jovenes"
             textButton="Ver más"
             imagen={MatriJovenes}
             description="El Ministerio busca fortalecer y apoyar a las parejas en su matrimonio. Los programas pueden incluir clases, eventos y retiros diseñados para ayudar a las parejas a crecer juntas en su fe y aprender habilidades para manejar desafíos en su relación. El Ministerio de Matrimonios está diseñados para ayudar a las parejas a construir una relación basada en los principios cristianos y a encontrar apoyo en la comunidad de la iglesia. La intención es promover la unión y estabilidad de las parejas, fomentando el amor, la fidelidad y el compañerismo a través de su fe compartida en Jesucristo."
@@ -109,7 +109,7 @@ Si está buscando un lugar donde su hijo pueda crecer espiritualmente y sentirse
 
           <Actividades
             title="Matrimonios adultos"
-            titleModal="Matrimonios adultos 👪"
+            titleModal="Matrimonios adultos"
             textButton="Ver más"
             imagen={MatriAdultos}
             description="El Ministerio busca fortalecer y apoyar a las parejas en su matrimonio. Los programas pueden incluir clases, eventos y retiros diseñados para ayudar a las parejas a crecer juntas en su fe y aprender habilidades para manejar desafíos en su relación. El Ministerio de Matrimonios está diseñados para ayudar a las parejas a construir una relación basada en los principios cristianos y a encontrar apoyo en la comunidad de la iglesia. La intención es promover la unión y estabilidad de las parejas, fomentando el amor, la fidelidad y el compañerismo a través de su fe compartida en Jesucristo."

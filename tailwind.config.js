@@ -22,7 +22,7 @@ module.exports = {
         fondo: "url('../src/assets/image/fondo.webp')",
         rehma: "url('../src/assets/image/blob.svg')",
         patron: "url('../src/assets/image/patron.svg')",
-        cuarto: "url('../src/assets/image/cuarto2.jpg')",
+        cuarto: "url('../src/assets/image/cuarto.jpg')",
         nubes: "url('../src/assets/image/nube.jpg')",
         formulario: "url('../src/assets/image/formulario.png')",
       },
