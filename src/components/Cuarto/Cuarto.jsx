@@ -6,7 +6,7 @@ function Cuarto() {
     <div className="container w-[100%] md:w-[90%] xl:w-[70%] my-20 mx-auto flex flex-grow bg-gray-200 gap-6">
       <div className="w-1/3 bg-cuarto bg-cover bg-center md:w-1/3 contrast-150"></div>
 
-      <div className="flex flex-1 flex-col gap-10 p-8 md:items-end text-justify">
+      <div className="flex flex-1 flex-col gap-10 p-4 md:items-end text-justify">
         <h3 className="text-[16px] font-links font-light md:text-md text-black">
           Te animo a que seas parte de esta generación que siendo llenos por el
           Espiritu Santo claman día y noche, apasionados por ver a Jesús
