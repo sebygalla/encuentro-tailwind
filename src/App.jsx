@@ -57,7 +57,7 @@ function App() {
         id="vision"
         className="clipPath relative flex items-center justify-center">
         <div className=" flex flex-col items-center justify-start py-32">
-          <div class="to absolute inset-0 z-0 bg-slate-700 bg-gradient-to-br from-slate-900 "></div>
+          <div class="to absolute inset-0 z-0 bg-slate-700 bg-gradient-to-br from-slate-900"></div>
 
           <TituloWeb title="Visión 👓 " color="white" />
 
@@ -133,7 +133,7 @@ Si está buscando un lugar donde su hijo pueda crecer espiritualmente y sentirse
       {/* SPOTIFY */}
       <div
         id="Spotify"
-        className="flex h-[1000px] w-[100%] mx-auto flex-col items-center bg-gradient-to-br from-yellow-600 to-red-600  bg-cover xl:grid xl:grid-cols-2 xl:place-items-baseline">
+        className="flex h-[1000px] w-[100%] mx-auto flex-col items-center bg-slate-900  bg-cover xl:grid xl:grid-cols-2 xl:place-items-baseline">
         <div className="mt-20 mb-10 w-[90%]">
           <TituloWeb title="Alabanza 🙌 " color="white" />
           <p className="z-10 hidden p-16 font-links text-[16px] font-light text-white/90 xl:grid ">
@@ -167,7 +167,7 @@ Si está buscando un lugar donde su hijo pueda crecer espiritualmente y sentirse
       </div>
 
       {/* BANNER */}
-      <div className="flex h-[30vh] justify-center relative bg-nubes bg-center bg-cover p-5 xl:h-[10vh] xl:py-[15%]">
+      <div className="flex h-[30vh] justify-center relative bg-nubes bg-center bg-cover p-5 xl:h-[10vh] xl:py-[15%] mb-1">
       <div class="absolute inset-0 bg-gradient-to-br from-yellow-600/80 to-red-600/80"></div>
      
         <Banner />
@@ -175,8 +175,9 @@ Si está buscando un lugar donde su hijo pueda crecer espiritualmente y sentirse
 
       <div
         id="contacto"
-        className=" justify-cente flex flex-col items-center bg-formulario bg-cover bg-fixed bg-center bg-no-repeat py-[10%]">
-        <div className="mt-[10%] xl:mt-[6%]">
+        className="relative justify-cente flex flex-col items-center bg-formulario bg-cover bg-fixed bg-center bg-no-repeat py-[10%]">
+          <div class="to absolute inset-0 z-0 bg-slate-900/90"></div>
+        <div className="mt-[10%] xl:mt-[6%] z-10">
           <TituloWeb title="Contacto 📧" color="white" />
         </div>
 
