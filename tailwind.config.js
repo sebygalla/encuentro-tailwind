@@ -16,9 +16,8 @@ module.exports = {
         "portada-dos": "url('../src/assets/image/1.webp')",
     
         spotify: "url('../src/assets/image/spotify.jpg')",
-        fondo: "url('../src/assets/image/fondo.webp')",
-        rehma: "url('../src/assets/image/blob.svg')",
-        patron: "url('../src/assets/image/patron.svg')",
+     
+    
         cuarto: "url('../src/assets/image/cuarto.jpg')",
         nubes: "url('../src/assets/image/nube.jpg')",
         formulario: "url('../src/assets/image/formulario.png')",
