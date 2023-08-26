@@ -4,13 +4,14 @@ import Footer from "./components/Footer/Footer";
 import TituloWeb from "./components/TitulosWeb/tituloWeb";
 import Map from "./components/Ubicacion/Map";
 
-import Jorge from "../src/assets/image/avatarJorge.png";
+// import Jorge from "../src/assets/image/avatarJorge.png";
+import Jorge from "../src/assets/image/avatarJorge.webp";
 import Actividades from "./components/Card/Actividades";
-import Ninos from "../src/assets/image/cards actividades/card7.jpg";
-import Preadolescentes from "../src/assets/image/cards actividades/card8.jpg";
-import Jovenes from "../src/assets/image/cards actividades/card3.jpg";
-import MatriJovenes from "../src/assets/image/cards actividades/card4.jpg";
-import MatriAdultos from "../src/assets/image/cards actividades/card5.jpg";
+import Ninos from "../src/assets/image/cards actividades/card7.webp";
+import Preadolescentes from "../src/assets/image/cards actividades/card8.webp";
+import Jovenes from "../src/assets/image/cards actividades/card3.webp";
+import MatriJovenes from "../src/assets/image/cards actividades/card4.webp";
+import MatriAdultos from "../src/assets/image/cards actividades/card5.webp";
 import Hero3 from "./components/Hero/Hero3";
 
 import Rehma from "./components/rehma/Rehma";

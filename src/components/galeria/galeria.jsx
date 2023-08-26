@@ -1,18 +1,18 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
-import alabanzaUno from "../../assets/image/galeria1.png";
-import alabanzaDos from "../../assets/image/galeria2.jpg";
-import alabanzaTres from "../../assets/image/galeria3.jpg";
-import alabanzaCuatro from "../../assets/image/galeria4.jpg";
-import alabanzaCinco from "../../assets/image/galeria5.jpg";
-import alabanzaSeis from "../../assets/image/galeria6.jpg";
-import alabanzaSiete from "../../assets/image/galeria7.jpg";
-import alabanzaOcho from "../../assets/image/galeria8.jpg";
-import alabanzaNueve from "../../assets/image/galeria9.jpg";
-import alabanzaDiez from "../../assets/image/galeria10.jpg";
-import alabanzaOnce from "../../assets/image/galeria11.jpg";
-import alabanzaDoce from "../../assets/image/galeria12.jpg";
-import alabanzaTrece from "../../assets/image/galeria13.jpg";
+import alabanzaUno from "../../assets/image/galeria1.webp";
+import alabanzaDos from "../../assets/image/galeria2.webp";
+import alabanzaTres from "../../assets/image/galeria3.webp";
+import alabanzaCuatro from "../../assets/image/galeria4.webp";
+import alabanzaCinco from "../../assets/image/galeria5.webp";
+import alabanzaSeis from "../../assets/image/galeria6.webp";
+import alabanzaSiete from "../../assets/image/galeria7.webp";
+import alabanzaOcho from "../../assets/image/galeria8.webp";
+
+import alabanzaDiez from "../../assets/image/galeria10.webp";
+import alabanzaOnce from "../../assets/image/galeria11.webp";
+import alabanzaDoce from "../../assets/image/galeria12.webp";
+import alabanzaTrece from "../../assets/image/galeria13.webp";
 
 
 

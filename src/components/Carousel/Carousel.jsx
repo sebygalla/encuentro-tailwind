@@ -1,11 +1,11 @@
 import Card from "../Card/Card";
-import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
-import Javier from "../../assets/image/avatarJavier.png";
-import Nadia from "../../assets/image/nadia.jpg";
-import Alejandra from "../../assets/image/alePastora.png";
-import Bienvenida from "../../assets/image/bienvenida.png";
-import Richard from "../../assets/image/richard.png";
-import Angelito from "../../assets/image/angelito.png";
+
+import Javier from "../../assets/image/avatarJavier.webp";
+import Nadia from "../../assets/image/nadia.webp";
+import Alejandra from "../../assets/image/alePastora.webp";
+import Bienvenida from "../../assets/image/bienvenida.webp";
+import Richard from "../../assets/image/richard.webp";
+import Angelito from "../../assets/image/angelito.webp";
 
 function Carousel() {
   return (

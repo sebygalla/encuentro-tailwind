@@ -1,5 +1,5 @@
 import Avatares from "../Avatares/Avatares";
-import Jorge from "../../assets/image/avatarJorge.png";
+import Jorge from "../../assets/image/avatarJorge.webp";
 
 function Rehma(props) {
   return (

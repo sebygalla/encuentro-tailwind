@@ -1,5 +1,5 @@
 import AvataresMobile from "../Avatares/AvataresMobile";
-import avatarJavier from "../../assets/image/avatarJavier.png";
+import avatarJavier from "../../assets/image/avatarJavier.webp";
 
 
 

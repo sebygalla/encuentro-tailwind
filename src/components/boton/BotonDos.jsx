@@ -1,5 +1,3 @@
-import React from "react";
-
 const BotonDos = (props) => {
   const [showModal, setShowModal] = React.useState(false);
 

@@ -1,5 +1,5 @@
 import Avatar from "../Avatares/Avatares2";
-import avatarJavier from "../../assets/image/avatarJavier.png";
+import avatarJavier from "../../assets/image/avatarJavier.webp";
 import avatarAle from "../../assets/image/alePastora.webp";
 
 function Vision() {
