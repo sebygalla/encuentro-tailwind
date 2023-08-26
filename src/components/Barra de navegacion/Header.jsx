@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logoTipo from "../../assets/image/tomi-05.png";
+import logoTipo from "../../assets/image/tomi-05.webp";
 
 // iconos menu and close
 import { BsX } from "react-icons/bs";

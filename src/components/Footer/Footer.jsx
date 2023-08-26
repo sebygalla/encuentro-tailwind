@@ -1,4 +1,4 @@
-import logoTipo from "../../assets/image/tomi-04.png";
+import logoTipo from "../../assets/image/tomi-04.webp";
 
 const Footer = () => {
   return (

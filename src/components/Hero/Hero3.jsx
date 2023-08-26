@@ -4,7 +4,7 @@ import { HiLocationMarker, HiOutlineChevronDown } from "react-icons/hi";
 
 const Hero3 = () => {
   return (
-    <section class="clipPath relative grid h-[90vh] md:h-[90vh] place-items-center bg-portada-dos bg-cover bg-fixed bg-[40%]">
+    <section class="clipPath relative grid h-[90vh] md:h-[90vh] place-items-center bg-portadaDos bg-cover bg-fixed bg-[40%]">
       <div class="absolute inset-0 bg-gradient-to-br from-yellow-600/80 to-red-600/80"></div>
 
       <div className="mx-5 flex">
