@@ -1,10 +1,8 @@
 import Header from "./components/Barra de navegacion/Header";
-
 import Footer from "./components/Footer/Footer";
 import TituloWeb from "./components/TitulosWeb/tituloWeb";
 import Map from "./components/Ubicacion/Map";
 
-// import Jorge from "../src/assets/image/avatarJorge.png";
 import Jorge from "../src/assets/image/avatarJorge.webp";
 import Actividades from "./components/Card/Actividades";
 import Ninos from "../src/assets/image/cards actividades/card7.webp";

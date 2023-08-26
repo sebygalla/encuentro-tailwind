@@ -24,47 +24,47 @@ const Galeria = () =>{
 <div className="grid grid-cols md:grid-cols-2 xl:grid-cols-4 gap-4 mt-10 ">
     <div className="grid gap-4">
         <div>
-            <LazyLoadImage className="h-auto max-w-full rounded-lg" src={alabanzaUno} alt=""/>
+            <LazyLoadImage className="h-auto max-w-full rounded-lg" src={alabanzaUno} alt="Hombre alabando"/>
         </div>
         <div>
-            <LazyLoadImage className="h-auto max-w-full rounded-lg" src={alabanzaTres} alt=""/>
+            <LazyLoadImage className="h-auto max-w-full rounded-lg" src={alabanzaTres} alt="Pastores de la Iglesia"/>
         </div>
         <div>
-            <LazyLoadImage className="h-auto max-w-full rounded-lg" src={alabanzaTrece} alt=""/>
-        </div>
-    </div>
-    <div className="grid gap-4">
-        <div>
-            <LazyLoadImage className="h-auto max-w-full rounded-lg" src={alabanzaCuatro} alt=""/>
-        </div>
-        <div>
-            <LazyLoadImage className="h-auto max-w-full rounded-lg" src={alabanzaCinco} alt=""/>
-        </div>
-        <div>
-            <LazyLoadImage className="h-auto max-w-full rounded-lg" src={alabanzaSiete} alt=""/>
+            <LazyLoadImage className="h-auto max-w-full rounded-lg" src={alabanzaTrece} alt="Alejandra Pastora"/>
         </div>
     </div>
     <div className="grid gap-4">
         <div>
-            <LazyLoadImage className="h-auto max-w-full rounded-lg" src={alabanzaOnce} alt=""/>
+            <LazyLoadImage className="h-auto max-w-full rounded-lg" src={alabanzaCuatro} alt="Mujer tocando el piano"/>
         </div>
         <div>
-            <LazyLoadImage className="h-auto max-w-full rounded-lg" src={alabanzaOcho} alt=""/>
+            <LazyLoadImage className="h-auto max-w-full rounded-lg" src={alabanzaCinco} alt="Pastor Javier"/>
         </div>
         <div>
-            <LazyLoadImage className="h-auto max-w-full rounded-lg" src={alabanzaDos} alt=""/>
+            <LazyLoadImage className="h-auto max-w-full rounded-lg" src={alabanzaSiete} alt="Mujer alabando"/>
+        </div>
+    </div>
+    <div className="grid gap-4">
+        <div>
+            <LazyLoadImage className="h-auto max-w-full rounded-lg" src={alabanzaOnce} alt="Pastor Javier en pulpito "/>
+        </div>
+        <div>
+            <LazyLoadImage className="h-auto max-w-full rounded-lg" src={alabanzaOcho} alt="imagen de musicos en pulpito"/>
+        </div>
+        <div>
+            <LazyLoadImage className="h-auto max-w-full rounded-lg" src={alabanzaDos} alt="Hombre tocando el bajo"/>
         </div>
     </div>
     <div className="grid gap-4">
         
         <div>
-            <LazyLoadImage className="h-auto max-w-full rounded-lg" src={alabanzaDiez} alt=""/>
+            <LazyLoadImage className="h-auto max-w-full rounded-lg" src={alabanzaDiez} alt="Musicos alabando "/>
         </div>
         <div>
-            <LazyLoadImage className="h-auto max-w-full rounded-lg" src={alabanzaSeis} alt=""/>
+            <LazyLoadImage className="h-auto max-w-full rounded-lg" src={alabanzaSeis} alt="Mujer cantando"/>
         </div>
         <div>
-            <LazyLoadImage className="h-auto max-w-full rounded-lg" src={alabanzaDoce} alt=""/>
+            <LazyLoadImage className="h-auto max-w-full rounded-lg" src={alabanzaDoce} alt="Mujeres abrazadas"/>
         </div>
     </div>
 </div>

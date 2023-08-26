@@ -25,7 +25,7 @@ const Hero3 = () => {
 
       </div>
 
-      <HiOutlineChevronDown className="absolute top-[65%] text-white animate-ping" />
+      <HiOutlineChevronDown className="absolute top-[65%] text-white" />
 
  
 

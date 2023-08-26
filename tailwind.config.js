@@ -22,6 +22,6 @@ module.exports = {
       'links': ["Roboto", "sans-serif"],
   }
 },
-  plugins: [],
+  plugins: [require('tailwindcss-animated')],
 
 };
