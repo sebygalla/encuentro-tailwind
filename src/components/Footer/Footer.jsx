@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="grid grid-cols-1 text-center xl:text-left xl:grid-cols-4 xl:gap-[150px] gap-10 w-96 xl:w-auto mx-auto">
 
         
-            <a href="https://flowbite.com/" class="mx-auto mb-10">
+            <a href="#"  className="mx-auto mb-10">
               <img
                 src={logoTipo}
                 className="h-[70px] md:h-[100px] md:w-[100px]"

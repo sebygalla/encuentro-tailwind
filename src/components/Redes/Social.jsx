@@ -5,7 +5,7 @@ function Social() {
     <div className="h-[10vh] flex items-center justify-center w-full z-30 absolute bottom-16">
       <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
         <a
-          href="#"
+          href="https://www.facebook.com/iglesiaelencuentrotristansuarez"
           className="text-gray-200 hover:text-gray-900 dark:hover:text-white text-[25px]">
        
           <FaFacebook/>
@@ -13,7 +13,7 @@ function Social() {
         </a>
 
         <a
-          href="#"
+          href="https://www.youtube.com/@iglesiaelencuentrots-music8317"
           className="text-gray-200 hover:text-gray-900 dark:hover:text-white text-[25px]">
        
           <FaYoutube/>
@@ -21,7 +21,7 @@ function Social() {
         </a>
 
         <a
-          href="#"
+          href="https://www.instagram.com/igle.elencuentro.suarez/"
           className="text-gray-200 hover:text-gray-900 dark:hover:text-white text-[25px]">
        
           <FaInstagram/>

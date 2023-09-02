@@ -8,10 +8,10 @@ const Hero3 = () => {
       <div class="absolute inset-0 bg-gradient-to-br from-yellow-600/80 to-red-600/80"></div>
 
       <div className="mx-5 flex">
-        <div className="z-10 text-center text-white">
+        <div className="z-10 text-center text-white animate-fade-right animate-fill-both">
        
           <TituloWeb  title="EL ENCUENTRO 🙌" color="white" style="semibold" />
-          <h3 className="mt-3 text-sm font-normal tracking-[5px] flex text-white animate-wiggle">
+          <h3 className="mt-3 text-sm font-normal tracking-[5px] flex text-white">
           <HiLocationMarker className="
           mt-1 mr-7 text-white" /> Tristán Suárez - 2023
           </h3>
@@ -25,7 +25,7 @@ const Hero3 = () => {
 
       </div>
 
-      <HiOutlineChevronDown className="absolute top-[65%] text-white" />
+      <HiOutlineChevronDown className="absolute top-[65%] text-white animate-bounce animate-infinite animate-fill-both text-2xl" />
 
  
 

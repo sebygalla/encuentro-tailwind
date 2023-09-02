@@ -1,23 +1,18 @@
-import AOS from "aos";
-import "aos/dist/aos.css";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 // import BotonDos from "../boton/BotonDos";
 
 function Actividades(props) {
-  useEffect(() => {
-    AOS.init();
-  }, []);
 
-  const [showModal, setShowModal] = React.useState(false);
+
+  const [showModal, setShowModal] = useState(false);
 
   return (
     <>
       {/* card / imagen titulo y boton */}
       <div
-        data-aos="fade-right"
-        className="max-w-sm rounded-lg border border-gray-200 bg-white shadow">
+        className="max-w-sm rounded-lg border border-gray-200 bg-white shadow ">
         <a href="#">
           <LazyLoadImage
             src={props.imagen}
