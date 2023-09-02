@@ -10,8 +10,8 @@ const Hero3 = () => {
       <div className="mx-5 flex">
         <div className="z-10 text-center text-white">
        
-          <TituloWeb title="EL ENCUENTRO 🙌" color="white" style="semibold" />
-          <h3 className="mt-3 text-sm font-normal tracking-[5px] flex text-white">
+          <TituloWeb  title="EL ENCUENTRO 🙌" color="white" style="semibold" />
+          <h3 className="mt-3 text-sm font-normal tracking-[5px] flex text-white animate-wiggle">
           <HiLocationMarker className="
           mt-1 mr-7 text-white" /> Tristán Suárez - 2023
           </h3>
