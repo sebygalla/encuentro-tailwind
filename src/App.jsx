@@ -166,8 +166,8 @@ Si está buscando un lugar donde su hijo pueda crecer espiritualmente y sentirse
       </div>
 
       {/* BANNER */}
-      <div className="flex h-[30vh] justify-center relative bg-nubes bg-center bg-cover p-5 xl:h-[10vh] xl:py-[15%] mb-1">
-      <div class="absolute inset-0 bg-gradient-to-br from-yellow-600/80 to-red-600/80"></div>
+      <div className="flex h-[30vh] justify-center relative bg-portada bg-cover p-5 xl:h-[10vh] xl:py-[15%] mb-1">
+      <div class="absolute inset-0 bg-gradient-to-br from-yellow-600/80 to-red-600/90"></div>
      
         <Banner />
       </div>
