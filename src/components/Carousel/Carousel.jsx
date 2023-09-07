@@ -1,21 +1,25 @@
 import Card from "../Card/Card";
 
-import Javier from "../../assets/image/avatarJavier.webp";
 import Nadia from "../../assets/image/nadia.webp";
-import Alejandra from "../../assets/image/alePastora.webp";
 import Bienvenida from "../../assets/image/bienvenida.webp";
 import Richard from "../../assets/image/richard.webp";
 import Angelito from "../../assets/image/angelito.webp";
+
+import Nazarena from "../../assets/image/nazarena.webp";
+import anaYmario from "../../assets/image/anaymario.webp";
 
 function Carousel() {
   return (
     <div className="flex w-full snap-x snap-mandatory overflow-x-auto">
       <div className="snap-center">
         <Card
-          testimonio="Ut efficitur sapien quistaictumst. Pellentesque fringilla, tortor sit amet sodales gravida, sapien lectus dapibus augue, vitae luctus nisl elit sit amet felis. Mauris semper ipsum et lorem sollicitudin venenatis. Nulla facilisi. Cras convallis mauris ut odio pretium, ut volutpat tortor porttitor. In et congue neque."
-          nombre="Javier Corsi"
-          description="Pastor I.El Encuentro-T.Suárez"
-          imagen={Javier}
+          testimonio="Fuimos recibidos por el Pastor Javier con mucho amor. Estamos muy agradecidos porque nos ayudó con nuestro matrimonio. 
+En este lugar pudimos sentir como si se completaba algo que estaba incompleto en nosotros. Aquí nos sentimos hijos, comprendimos lo que era ser iglesia.
+Dios nos abrazó, nos llevó a comprender que el tiempo está en sus manos dándonos la oportunidad de servir ,de poner a su disposición nuestros dones y talentos. 
+"
+          nombre="Ana y Mario"
+          description="Iglesia El Encuentro-T.Suárez"
+          imagen={anaYmario}
           color="white"
        
         />
@@ -27,7 +31,7 @@ function Carousel() {
           Jesús cambió mi vida y hoy le pertenezco por completo!..."
           nombre="Nazarena Fernandez"
           description="Iglesia El Encuentro-T.Suárez"
-          imagen={Alejandra}
+          imagen={Nazarena}
           color="white"
         />
       </div>

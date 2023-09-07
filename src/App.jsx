@@ -9,6 +9,7 @@ import Ninos from "../src/assets/image/cards actividades/card7.webp";
 import Preadolescentes from "../src/assets/image/cards actividades/card8.webp";
 import Jovenes from "../src/assets/image/cards actividades/card3.webp";
 
+
 import MatriJovenes from "../src/assets/image/cards actividades/card4.webp";
 import MatriAdultos from "../src/assets/image/cards actividades/card5.webp";
 import Hero3 from "./components/Hero/Hero3";
