@@ -12,6 +12,8 @@ module.exports = {
         cuarto: "url('../src/assets/image/cuarto.webp')",
         nubes: "url('../src/assets/image/nube.webp')",
         formulario: "url('../src/assets/image/formulario.webp')",
+
+        bannerJov: "url('../src/assets/image/bannerJov.webp')",
       },
 
     },

@@ -23,9 +23,10 @@ function Carousel() {
 
       <div className="snap-center">
         <Card
-          testimonio="Ut efficitur sapien quistaictumst. Pellentesque fringilla, tortor sit amet sodales gravida, sapien lectus dapibus augue, vitae luctus nisl elit sit amet felis. Mauris semper ipsum et lorem sollicitudin venenatis. Nulla facilisi. Cras convallis mauris ut odio pretium, ut volutpat tortor porttitor. In et congue neque."
-          nombre="Alejandra Corsi"
-          description="Pastora I.El Encuentro-T.Suárez"
+          testimonio="Hace un año aproximadamente, conocí realmente a Dios en profundidad. Dejó de ser simplemente una idea en mi vida y comencé a tener una relación de intimidad con el. Mi vacío por primera vez comenzó a llenarse de paz y calidez.
+          Jesús cambió mi vida y hoy le pertenezco por completo!..."
+          nombre="Nazarena Fernandez"
+          description="Iglesia El Encuentro-T.Suárez"
           imagen={Alejandra}
           color="white"
         />
