@@ -9,7 +9,6 @@ import Ninos from "../src/assets/image/cards actividades/card7.webp";
 import Preadolescentes from "../src/assets/image/cards actividades/card8.webp";
 import Jovenes from "../src/assets/image/cards actividades/card3.webp";
 
-
 import MatriJovenes from "../src/assets/image/cards actividades/card4.webp";
 import MatriAdultos from "../src/assets/image/cards actividades/card5.webp";
 import Hero3 from "./components/Hero/Hero3";
@@ -26,7 +25,7 @@ import Galeria from "./components/galeria/galeria";
 
 function App() {
   return (
-    <div id="inicio" className="max-w-[1200px] mx-auto">
+    <div id="inicio" className="mx-auto max-w-[1200px]">
       <Header />
       <Hero3 />
 
@@ -44,7 +43,7 @@ function App() {
       <div
         id="nosotros"
         className="clipPath2 relative flex items-center justify-center">
-        <div className=" flex flex-col items-center justify-start bg-about bg-cover bg-fixed bg-center bg-no-repeat py-32">
+        <div className=" bg-about flex flex-col items-center justify-start bg-cover bg-fixed bg-center bg-no-repeat py-32">
           <div class="absolute inset-0 z-0 bg-gradient-to-br from-yellow-600 to-red-600"></div>
 
           <TituloWeb title="Nosotros  ⛪ " color="white" />
@@ -119,7 +118,9 @@ Nuestro objetivo es enseñarles la Palabra de Dios y ayudarlos a desarrollar una
       </div>
 
       {/* galeria */}
-      <div id="galeria" className="mb-20 flex flex-col gap-10 p-5 md:p-10 mt-10">
+      <div
+        id="galeria"
+        className="mb-20 mt-10 flex flex-col gap-10 p-5 md:p-10">
         <TituloWeb title="Galeria 📷 " color="black" />
         <Galeria />
       </div>
@@ -134,8 +135,8 @@ Nuestro objetivo es enseñarles la Palabra de Dios y ayudarlos a desarrollar una
       {/* SPOTIFY */}
       <div
         id="Spotify"
-        className="flex h-[1000px] w-[100%] mx-auto flex-col items-center bg-slate-900  bg-cover xl:grid xl:grid-cols-2 xl:place-items-baseline">
-        <div className="mt-20 mb-10 w-[90%]">
+        className="mx-auto flex h-[1000px] w-[100%] flex-col items-center bg-slate-900  bg-cover xl:grid xl:grid-cols-2 xl:place-items-baseline">
+        <div className="mb-10 mt-20 w-[90%]">
           <TituloWeb title="Alabanza 🙌 " color="white" />
           <p className="z-10 hidden p-16 font-links text-[16px] font-light text-white/90 xl:grid ">
             La iglesia, los que la formamos, no podemos vivir fuera de la
@@ -168,21 +169,23 @@ Nuestro objetivo es enseñarles la Palabra de Dios y ayudarlos a desarrollar una
       </div>
 
       {/* BANNER */}
-      <div className="flex h-[30vh] justify-center relative bg-portada xl:bg-cover bg-[51%] p-5 xl:h-[10vh] xl:py-[15%] mb-1">
-      <div class="absolute inset-0 bg-gradient-to-br from-yellow-600/80 to-red-600/90"></div>
-     
+      <div className="relative mb-1 flex h-[30vh] justify-center bg-portada bg-[51%] p-5 xl:h-[10vh] xl:bg-cover xl:py-[15%]">
+        <div class="absolute inset-0 bg-gradient-to-br from-yellow-600/80 to-red-600/90"></div>
+
         <Banner />
       </div>
 
       <div
         id="contacto"
-        className="relative justify-cente flex flex-col items-center bg-formulario bg-cover bg-fixed bg-center bg-no-repeat py-[10%]">
-          <div class="to absolute inset-0 z-0 bg-slate-900/90"></div>
-        <div className="mt-[10%] xl:mt-[6%] z-10">
+        className="justify-cente relative flex flex-col items-center bg-formulario bg-cover bg-fixed bg-center bg-no-repeat py-[10%]">
+        <div class="to absolute inset-0 z-0 bg-slate-900/90"></div>
+        <div className="z-10 mt-[10%] xl:mt-[6%]">
           <TituloWeb title="Contacto 📧" color="white" />
         </div>
 
-        <Map />
+        <Map textButton="ENVIAR"
+        titleModal="ENVIADO!"
+        description="Pronto nos comunicaremos con vos!" />
       </div>
 
       <Footer />
