@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import verificado from "../../assets/image/verificado.png"
 
 function Map(props) {
 
@@ -58,20 +59,25 @@ function Map(props) {
                    onClick={() => setShowModal(false)}>
                     {/*header*/}
                   
-                      <button
+                      {/* <button
                         className="float-right ml-auto border-0 bg-transparent p-1 text-3xl font-semibold leading-none text-black opacity-5 outline-none focus:outline-none"
                        >
                         <span className="block h-6 w-6 bg-transparent text-2xl text-black opacity-5 outline-none focus:outline-none">
                           ×
                         </span>
-                      </button>
+                      </button> */}
                    
                     {/*body*/}
                     <div className="flex-1 p-5">
 
+                      <div className='flex '>
                       <h3 className="text-center text-3xl font-semibold">
-                        {props.titleModal}
+                        {props.titleModal} 
                       </h3>
+                      <img className='w-7 h-7 mt-2 ml-5' src={verificado}/>
+                      </div>
+
+
                       <p className="my-5 font-links text-[15px] font-light leading-6 text-slate-900 md:text-sm">
                         {props.description}
                       </p>
@@ -81,7 +87,8 @@ function Map(props) {
                         <button
                           className="w-full rounded bg-gradient-to-br from-yellow-600 to-red-600 px-6 py-3 text-[16px] font-bold uppercase text-white shadow outline-none transition-all duration-150 ease-linear hover:shadow-lg focus:outline-none"
                           type="button"
-                          onClick={() => setShowModal(false)}>
+                          onClick={() => setShowModal(false)
+                          }>
                           CERRAR
                         </button>
                       </div>
