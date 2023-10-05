@@ -29,7 +29,7 @@ const Footer = () => {
                 <li className="mb-4 font-links font-extralight leading-5">
                   
                   <p>Natta 362, Tristán Suárez, Prov. Bs. As./ Argentina</p>
-                  <a href="mailto:iglesiaelencuentrotsuarez@gmail.com" target="blank">
+                  <a className="font-semibold" href="mailto:iglesiaelencuentrotsuarez@gmail.com" target="blank">
                   iglesiaelencuentrotsuarez@gmail.com
                   </a>
             
