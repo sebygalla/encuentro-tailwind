@@ -42,7 +42,7 @@ function Actividades(props) {
                   {/*content*/}
                   <div className="relative mx-auto flex rounded-lg  border-0 bg-white p-3 shadow-lg outline-none focus:outline-none">
                     {/*header*/}
-                    <div className="bg-bannerJov bg-cover bg-left w-[20%]">
+                    <div className="bg-fondo bg-cover bg-left w-[20%]">
                       <button
                         className="float-right ml-auto border-0 bg-transparent p-1 text-3xl font-semibold leading-none text-black opacity-5 outline-none focus:outline-none"
                         onClick={() => setShowModal(false)}>

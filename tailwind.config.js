@@ -9,11 +9,10 @@ module.exports = {
         portada: "url('../src/assets/image/galeria1.webp')",
         portadaDos: "url('../src/assets/image/1.webp')",
         spotify: "url('../src/assets/image/spotify.webp')",
-        cuarto: "url('../src/assets/image/cuarto.webp')",
+        cuarto: "url('../src/assets/image/cuartoUno.webp')",
         nubes: "url('../src/assets/image/nube.webp')",
         formulario: "url('../src/assets/image/formulario.webp')",
-
-        bannerJov: "url('../src/assets/image/bannerJov.webp')",
+        fondo: "url('../src/assets/image/fondo.webp')",
       },
 
     },

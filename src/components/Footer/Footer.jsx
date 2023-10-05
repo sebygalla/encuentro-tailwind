@@ -28,8 +28,11 @@ const Footer = () => {
               <ul className="font-light text-sm md:text-md text-gray-200 dark:text-gray-400">
                 <li className="mb-4 font-links font-extralight leading-5">
                   
-                  Natta 362, Tristán Suárez, Prov. Bs. As./ Argentina
-                  javier@iglesiaelencuentro.org.ar
+                  <p>Natta 362, Tristán Suárez, Prov. Bs. As./ Argentina</p>
+                  <a href="mailto:iglesiaelencuentrotsuarez@gmail.com" target="blank">
+                  iglesiaelencuentrotsuarez@gmail.com
+                  </a>
+            
                   
                 </li>
                 <li className="leading-5 font-links font-extralight">
