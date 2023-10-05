@@ -34,7 +34,7 @@ const Hero3 = () => {
   
       
 
-      <Redes />
+      {/* <Redes /> */}
     </section>
   );
 };
