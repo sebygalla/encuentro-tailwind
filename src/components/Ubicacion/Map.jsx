@@ -10,7 +10,7 @@ function Map(props) {
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('service_xr46d76', 'template_oa7rdcr', form.current, 'EfURhEcfcD4UIrkkQ')
+      emailjs.sendForm('service_f5oc7ct', 'template_oa7rdcr', form.current, 'EfURhEcfcD4UIrkkQ')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
