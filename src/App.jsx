@@ -13,6 +13,8 @@ import MatriJovenes from "../src/assets/image/cards actividades/card4.webp";
 import MatriAdultos from "../src/assets/image/cards actividades/card5.webp";
 import Hero3 from "./components/Hero/Hero3";
 
+import whatsappIcon from "../src/assets/image/whatsapp.png";
+
 import Rehma from "./components/rehma/Rehma";
 import About from "./components/Nosotros/About";
 import Carousel from "./components/Carousel/Carousel";
@@ -23,11 +25,24 @@ import Cuarto from "./components/Cuarto/Cuarto";
 import Spotify from "./components/spotify/Spotify";
 import Galeria from "./components/galeria/galeria";
 
+
+
+
+
 function App() {
   return (
     <div id="inicio" className="mx-auto max-w-[1200px]">
+    
       <Header />
       <Hero3 />
+
+      {/* whatsapp */}
+      <div className="w-10 fixed md:right-[10vw] top-[74vh] right-8 z-30 cursor-pointer ">
+      <a href="https://api.whatsapp.com/send?phone=5491155924565&text=%C2%A1Bienvenido%20a%20El%20Encuentro%20Trist%C3%A1n%20Su%C3%A1rez!%20%C2%BFC%C3%B3mo%20puedo%20ayudarte?%20estamos%20para%20servirte!" target="blank">
+        <img src={whatsappIcon}/>
+        </a>
+      </div>
+    
 
       {/* REHMA */}
       <div id="rehma" className="my-20">
