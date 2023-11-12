@@ -35,7 +35,7 @@ Dios nos abrazó, nos llevó a comprender que el tiempo está en sus manos dánd
           color="white"
         />
       </div>
-
+{/* 
       <div className="snap-center">
         <Card
         testimonio="Ut efficitur sapien quistaictumst. Pellentesque fringilla, tortor sit amet sodales gravida, sapien lectus dapibus augue, vitae luctus nisl elit sit amet felis. Mauris semper ipsum et lorem sollicitudin venenatis. Nulla facilisi. Cras convallis mauris ut odio pretium, ut volutpat tortor porttitor. In et congue neque."
@@ -74,7 +74,7 @@ Dios nos abrazó, nos llevó a comprender que el tiempo está en sus manos dánd
           imagen={Richard}
           color="white"
         />
-      </div>
+      </div> */}
     </div>
   );
 }
