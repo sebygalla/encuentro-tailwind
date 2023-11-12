@@ -154,17 +154,11 @@ Nuestro objetivo es enseñarles la Palabra de Dios y ayudarlos a desarrollar una
         <div className="mb-10 mt-20 w-[90%]">
           <TituloWeb title="Alabanza 🙌 " color="white" />
           <p className="z-10 hidden p-16 font-links text-[16px] font-light text-white/90 xl:grid ">
-            La iglesia, los que la formamos, no podemos vivir fuera de la
-            bendición para disfrutar de todos los logros que esto representa
-            para el caminar diario. Como solidificando nuestras relaciones,
-            limpiándolas para que sean cristalinas, guardando cuidadosamente la
-            unidad del Espíritu. Esto exige una conducta voluntaria que se
-            comprometan a “mantener a pedido”, cuidar con cuidado , no dejar
-            fisuras a la Unidad. Sólo así se edifica un cuerpo, o mejor dicho,
-            crece un cuerpo, donde la cabeza es Cristo (Efesios 4:15) y se
-            establece claramente la delegación de autoridad. Dios nos enseña
-            cómo mantener el cuerpo unido ayudándonos unos a otros (Efesios
-            4:16).
+          Somos equipo de personas que se dedica a dirigir y participar en la adoración a Dios a través de la música y la alabanza. Este ministerio tiene como objetivo principal glorificar a Dios y conducir a la congregación a una experiencia de adoración íntima y significativa.
+
+          El ministerio de Alabanza no solo se trata de la música, sino también de vivir una vida de adoración en todas las áreas de la vida diaria. Los miembros de este ministerio buscan ser modelos de adoración y testimonios vivientes de la fe en Jesucristo.
+
+
           </p>
         </div>
 
@@ -203,7 +197,7 @@ Nuestro objetivo es enseñarles la Palabra de Dios y ayudarlos a desarrollar una
                   
                   <p className="m-5">SI QUERES QUE NOS CONTACTEMOS CON VOS, HACE CLICK ACA 👇</p>
               
-                  <a href="">
+                  <a href="https://forms.gle/1WVru16MxFGv3xdn9">
                     <button
                       className="mb-1 mr-1 rounded bg-gradient-to-br from-yellow-600 to-red-600 px-6 py-3 text-sm font-bold uppercase text-white shadow outline-none transition-all duration-150 ease-linear hover:shadow-lg focus:outline-none"
                       type="button">
