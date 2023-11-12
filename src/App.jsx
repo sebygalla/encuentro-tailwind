@@ -197,10 +197,28 @@ Nuestro objetivo es enseñarles la Palabra de Dios y ayudarlos a desarrollar una
         <div className="z-10 mt-[10%] xl:mt-[6%]">
           <TituloWeb title="Contacto 📧" color="white" />
         </div>
+        <div className="font-light text-sm md:text-md text-gray-200 dark:text-gray-400 z-10">
+        
+                <div className="m-9 font-links font-extralight leading-5 text-center">
+                  
+                  <p className="m-5">SI QUERES QUE NOS CONTACTEMOS CON VOS, HACE CLICK ACA 👇</p>
+              
+                  <a href="">
+                    <button
+                      className="mb-1 mr-1 rounded bg-gradient-to-br from-yellow-600 to-red-600 px-6 py-3 text-sm font-bold uppercase text-white shadow outline-none transition-all duration-150 ease-linear hover:shadow-lg focus:outline-none"
+                      type="button">
+                      CONTACTANOS!
+                    </button>
+                  </a>
+            
+                  
+                </div>
+              
+        </div>
 
-        <Map textButton="ENVIAR"
+        {/* <Map textButton="ENVIAR"
         titleModal="ENVIADO!"
-        description="Pronto nos comunicaremos con vos!" />
+        description="Pronto nos comunicaremos con vos!" /> */}
       </div>
 
       <Footer />
