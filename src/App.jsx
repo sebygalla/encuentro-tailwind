@@ -46,7 +46,7 @@ function App() {
 
       {/* REHMA */}
       <div id="rehma" className="my-20">
-        <TituloWeb title="Rehma 2023 📖" />
+        <TituloWeb title="Rehma 2024 📖" />
         <Rehma
           imagen={Jorge}
           nombre="Jorge Sennewald"
