@@ -1,14 +1,19 @@
-import Redes from "../Redes/Social";
+// import Redes from "../Redes/Social";
 import TituloWeb from "../TitulosWeb/tituloWeb";
 import { HiLocationMarker, HiOutlineChevronDown } from "react-icons/hi";
+import Video from "../../assets/video/principal.mp4";
+
 
 const Hero3 = () => {
   return (
-    <section class="clipPath relative grid h-[90vh] md:h-[90vh] place-items-center bg-portadaDos bg-cover bg-fixed bg-[40%]">
-      <div class="absolute inset-0 bg-gradient-to-br from-yellow-600/80 to-red-600/80"></div>
+    <section className="clipPath relative grid h-[90vh] md:h-[90vh] place-items-center bg-portadaDos bg-cover bg-fixed bg-[40%]">
+      <div class="absolute inset-0 bg-gradient-to-r from-slate-900/80 to-slate-700/80"></div>
+
+      <video className="w-full shadow-lg aspect-video" autoPlay loop >        <source src={Video} type="video/mp4" />
+      </video>
 
       <div className="mx-5 flex">
-        <div className="z-10 text-center text-white animate-fade-right animate-fill-both">
+        <div className="z-50 text-center text-white animate-fade-right animate-fill-both">
        
           <TituloWeb  title="EL ENCUENTRO 🙌" color="white" style="semibold" />
           <h3 className="mt-3 text-sm font-normal tracking-[5px] flex text-white">
