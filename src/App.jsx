@@ -34,6 +34,7 @@ function App() {
     <div id="inicio" className="mx-auto max-w-[1200px]">
     
       <Header />
+      
       <Hero3 />
 
       {/* whatsapp */}
