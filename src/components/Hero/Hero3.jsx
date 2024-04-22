@@ -9,7 +9,7 @@ const Hero3 = () => {
     <section className="clipPath relative grid h-[90vh] md:h-[90vh] place-items-center">
        <video src={Video} autoPlay loop muted className="w-full h-full object-cover overflow-hidden "/>      
       
-      {/* <div class="absolute inset-0 bg-gradient-to-r from-slate-900/80 to-slate-700/80"></div> */}
+      <div class="absolute inset-0 bg-gradient-to-r from-slate-900/30 to-slate-700/30"></div>
 
    
 
