@@ -7,6 +7,7 @@ import Jorge from "../src/assets/image/avatarJorge.webp";
 import Actividades from "./components/Card/Actividades";
 import Ninos from "../src/assets/image/cards actividades/card7.webp";
 import Preadolescentes from "../src/assets/image/cards actividades/card8.webp";
+import Adolescentes from "../src/assets/image/cards actividades/card9.webp";
 import Jovenes from "../src/assets/image/cards actividades/card3.webp";
 
 import MatriJovenes from "../src/assets/image/cards actividades/card4.webp";
@@ -111,8 +112,12 @@ Nuestro objetivo es enseñarles la Palabra de Dios y ayudarlos a desarrollar una
             title="Adolescentes"
             titleModal="Adolescentes"
             textButton="Ver más"
-            imagen={Jovenes}
-            description="Un lugar donde los niños pueden crecer en su relación con Dios y conectarse con otros niños en la fe. Nuestro equipo de líderes basados en la enseñanza de la Palabra de Dios están comprometidos a brindar un ambiente seguro y divertido para todos los niños que asisten. ¡Esperamos verte pronto en nuestro Ministerio! Horario de reunion: Todos los domingos a las 10:30hs."
+            imagen={Adolescentes}
+            description="Creemos que la etapa de la adolescencia es un momento crucial en la vida de un joven y queremos estar allí para apoyarlos en su camino hacia la edad adulta.
+
+Nuestro objetivo es enseñarles la Palabra de Dios y ayudarlos a desarrollar una relación cercana con Jesús mientras los ayudamos a navegar los desafíos de la vida.
+
+¡Visítenos pronto! Horario de reunion: Todos los sábados a las 17hs."
           />
 
           <Actividades
