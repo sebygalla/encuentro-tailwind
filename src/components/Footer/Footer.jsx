@@ -92,7 +92,7 @@ const Footer = () => {
 
         <div className="text-center sm:flex sm:items-center sm:justify-center">
           <span className="text-sm text-gray-200 dark:text-gray-400">
-            © 2023{" "}
+            © 2024{" "}
             <a href="#" className="hover:underline">
               Iglesia El Encuentro- Tristán Suárez 
             </a>

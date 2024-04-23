@@ -107,6 +107,14 @@ Nuestro objetivo es enseñarles la Palabra de Dios y ayudarlos a desarrollar una
 ¡Visítenos pronto! Horario de reunion: Todos los sábados a las 16hs."
           />
 
+<Actividades
+            title="Adolescentes"
+            titleModal="Adolescentes"
+            textButton="Ver más"
+            imagen={Jovenes}
+            description="Un lugar donde los niños pueden crecer en su relación con Dios y conectarse con otros niños en la fe. Nuestro equipo de líderes basados en la enseñanza de la Palabra de Dios están comprometidos a brindar un ambiente seguro y divertido para todos los niños que asisten. ¡Esperamos verte pronto en nuestro Ministerio! Horario de reunion: Todos los domingos a las 10:30hs."
+          />
+
           <Actividades
             title="Jovenes"
             titleModal="Jovenes"
