@@ -7,7 +7,7 @@ import Video from "../../assets/video/principal.mp4";
 const Hero3 = () => {
   return (
     <section className="clipPath relative grid h-[90vh] md:h-[90vh] place-items-center">
-       <video src={Video} autoPlay loop muted className="w-full h-full object-cover overflow-hidden "/>      
+       <video src={Video} autoPlay loop muted playsInline className="w-full h-full object-cover overflow-hidden "/>      
       
       <div class="absolute inset-0 bg-black/60"></div>
 
