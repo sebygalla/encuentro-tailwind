@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logoTipo from "../../assets/image/tomi-05.webp";
+import logoTipo from "../../assets/image/tomi-04.webp";
 
 // iconos menu and close
 import { BsX } from "react-icons/bs";
@@ -36,9 +36,9 @@ const Header = () => {
 
   return (
     <header
-      className={`xl:w-[1200px] w-full  item-center fixed z-50 flex h-[70px] mx-auto justify-between bg-white shadow xl:h-[70px] xl:justify-end ${
+      className={`xl:w-[1200px] w-full  item-center fixed z-50 flex h-[70px] mx-auto justify-between bg-black shadow xl:h-[70px] xl:justify-end ${
         color
-          ? "z-20 h-[50px] bg-white/50 backdrop-blur-sm transition-colors  duration-700 ease-in-out"
+          ? "z-20 h-[50px] bg-white/10 backdrop-blur-sm transition-colors  duration-300 ease-in-out"
           : ""
       }`}>
       {/* open and close hamburguer */}
@@ -46,7 +46,7 @@ const Header = () => {
         onClick={() => {
           setShowMenu(!showMenu);
         }}
-        className="z-40 ml-[5%] text-3xl  text-slate-900 xl:hidden">
+        className="z-40 ml-[5%] text-2xl  text-white xl:hidden">
         {showMenu ? (
           <BsX className=" text-3xl" />
         ) : (
@@ -67,7 +67,7 @@ const Header = () => {
 
       {/* navegacion */}
       <nav
-        className={`fixed inset-0 z-10 mr-1 flex h-[100vh]  w-[100vw]  items-center justify-center gap-6  bg-white p-8  text-center font-links text-[18px]  font-semibold uppercase text-black transition-all duration-500 xl:static xl:h-0 xl:flex-row  xl:justify-end xl:gap-3 xl:bg-transparent xl:text-[11px] ${
+        className={`fixed inset-0 z-10 mr-1 flex h-[100vh]  w-[100vw]  items-center justify-center gap-6  bg-black p-8  text-center font-links text-[18px]  font-semibold uppercase text-white transition-all duration-500 xl:static xl:h-0 xl:flex-row  xl:justify-end xl:gap-3 xl:bg-transparent xl:text-[11px] ${
           showMenu ? "left-0" : "-left-full"
         }
         `}>
