@@ -200,7 +200,7 @@ Nuestro objetivo es enseñarles la Palabra de Dios y ayudarlos a desarrollar una
       </div>
 
       {/* SANANDO IDENTIDADES */}
-      <div className="relative mb-1 flex h-[30vh] justify-center bg-sanando bg-[51%] p-5 xl:h-[10vh] xl:bg-contain xl:py-[15%] w-full">
+      <div className="relative mb-1 flex h-[40vh] bg-cover justify-center bg-sanando bg-[51%] p-5 xl:h-[10vh] xl:bg-contain xl:py-[15%] w-full">
         <div class="absolute inset-0"></div>
 
         <BannerDos />
