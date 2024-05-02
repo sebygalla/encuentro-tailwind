@@ -2,6 +2,7 @@ import Header from "./components/Barra de navegacion/Header";
 import Footer from "./components/Footer/Footer";
 import TituloWeb from "./components/TitulosWeb/tituloWeb";
 import Map from "./components/Ubicacion/Map";
+import BannerDos from "./components/Banner/BannerDos";
 
 import Jorge from "../src/assets/image/avatarJorge.webp";
 import Actividades from "./components/Card/Actividades";
@@ -196,6 +197,13 @@ Nuestro objetivo es enseñarles la Palabra de Dios y ayudarlos a desarrollar una
         <div class="absolute inset-0 bg-gradient-to-br from-yellow-600/80 to-red-600/90"></div>
 
         <Banner />
+      </div>
+
+      {/* SANANDO IDENTIDADES */}
+      <div className="relative mb-1 flex h-[30vh] justify-center bg-sanando bg-[51%] p-5 xl:h-[10vh] xl:bg-contain xl:py-[15%] w-full">
+        <div class="absolute inset-0"></div>
+
+        <BannerDos />
       </div>
 
       <div

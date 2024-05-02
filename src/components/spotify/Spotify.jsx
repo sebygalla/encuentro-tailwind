@@ -26,7 +26,7 @@ const Spotify = () => {
             REPRODUCIENDO DESDE PLAYLIST
           </h3>
           <h4 className="text-md font-title font-bold text-white">
-            El Encuentro Tristán Suárez | TOP 2023
+            El Encuentro Tristán Suárez | TOP 2024
           </h4>
         </div>
         <FaEllipsisV className="text-center text-white text-[25px]" />
