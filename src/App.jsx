@@ -193,14 +193,14 @@ Nuestro objetivo es enseñarles la Palabra de Dios y ayudarlos a desarrollar una
       </div>
 
       {/* BANNER */}
-      <div className="relative mb-1 flex h-[30vh] justify-center bg-portada bg-[51%] p-5 xl:h-[10vh] xl:bg-cover xl:py-[15%]">
+      <div className="relative mb-4 flex h-[30vh] justify-center bg-portada bg-[51%] p-5 xl:h-[10vh] xl:bg-cover xl:py-[15%]">
         <div class="absolute inset-0 bg-gradient-to-br from-yellow-600/80 to-red-600/90"></div>
 
         <Banner />
       </div>
 
       {/* SANANDO IDENTIDADES */}
-      <div className="relative mb-1 flex h-[40vh] bg-cover justify-center bg-sanando bg-[51%] p-5 xl:h-[10vh] xl:bg-contain xl:py-[15%] w-full">
+      <div className="relative mb-4 flex h-[40vh] bg-cover justify-center bg-sanando bg-[51%] p-5 xl:h-[10vh] xl:bg-contain xl:py-[15%] w-full">
         <div class="absolute inset-0"></div>
 
         <BannerDos />

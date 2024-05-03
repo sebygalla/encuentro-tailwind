@@ -38,7 +38,7 @@ const Header = () => {
     <header
       className={`xl:w-[1200px] w-full  item-center fixed z-50 flex h-[70px] mx-auto justify-between bg-black shadow xl:h-[70px] xl:justify-end ${
         color
-          ? "z-20 h-[50px] bg-white/10 backdrop-blur-sm transition-colors  duration-300 ease-in-out"
+          ? "z-20 h-[50px] bg-black/60 backdrop-blur-sm transition-colors  duration-300 ease-in-out"
           : ""
       }`}>
       {/* open and close hamburguer */}
