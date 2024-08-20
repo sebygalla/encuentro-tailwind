@@ -31,7 +31,10 @@ module.exports = {
   colors: {
     colorUno: '#04aec7',
     secondary: '#c7fe05',
+    terciary: '#04rfc9',
     // ...
   },
+
+
 
 };
