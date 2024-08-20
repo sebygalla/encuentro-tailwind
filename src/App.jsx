@@ -31,6 +31,8 @@ import Galeria from "./components/galeria/galeria";
 
 
 
+
+
 function App() {
   return (
     <div id="inicio" className="mx-auto max-w-[1200px]">
@@ -165,7 +167,7 @@ Nuestro objetivo es enseñarles la Palabra de Dios y ayudarlos a desarrollar una
       {/* SPOTIFY */}
       <div
         id="Spotify"
-        className="mx-auto flex h-[1000px] w-[100%] flex-col items-center bg-slate-900  bg-cover xl:grid xl:grid-cols-2 xl:place-items-baseline">
+        className="mx-auto flex h-[1000px] w-[100%] flex-col items-center bg-slate-900 bg-cover xl:grid xl:grid-cols-2 xl:place-items-baseline">
         <div className="mb-10 mt-20 w-[90%]">
           <TituloWeb title="Alabanza 🙌 " color="white" />
           <p className="z-10 hidden p-16 font-links text-[16px] font-light text-white/90 xl:grid ">

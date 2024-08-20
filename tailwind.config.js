@@ -18,6 +18,8 @@ module.exports = {
 
     },
 
+
+
     fontFamily: {
       'sub': ["Borel", "cursive"],
       'title': ["Lato", "sans-serif"],
@@ -25,5 +27,11 @@ module.exports = {
   }
 },
   plugins: [require('tailwindcss-animated')],
+
+  colors: {
+    colorUno: '#04aec7',
+    secondary: '#c7fe05',
+    // ...
+  },
 
 };
