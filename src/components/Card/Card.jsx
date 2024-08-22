@@ -2,7 +2,7 @@ import { FaQuoteRight } from "react-icons/fa";
 
 function Card(props) {
   return (
-    <div className="md:w-[600px] w-[350px] flex flex-col justify-between m-2 md:p-12 p-8 rounded-lg bg-gradient-to-br from-yellow-600 to-red-600 shadow cursor-pointer hover:shadowHover hover:transition-shadow relative">
+    <div className="md:w-[600px] w-[350px] flex flex-col justify-between m-2 md:p-12 p-8 rounded-lg bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% shadow cursor-pointer hover:shadowHover hover:transition-shadow relative">
 
       <p className="text-white mb-10">{props.testimonio}</p>
 

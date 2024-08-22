@@ -62,11 +62,11 @@ function App() {
       {/* NOSOTROS */}
       <div
         id="nosotros"
-        className="clipPath2 relative flex items-center justify-center">
+        className="clipPath2 relative flex items-center justify-center mb-3">
         <div className=" bg-about flex flex-col items-center justify-start bg-cover bg-fixed bg-center bg-no-repeat py-32">
-          <div class="absolute inset-0 z-0 bg-gradient-to-br from-yellow-600 to-red-600"></div>
+          <div class="absolute inset-0 z-0 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%"></div>
 
-          <TituloWeb title="Nosotros  ⛪ " color="white" />
+          <TituloWeb title="Nosotros" color="white" />
 
           <About />
         </div>
@@ -77,9 +77,9 @@ function App() {
         id="vision"
         className="clipPath relative flex items-center justify-center">
         <div className=" flex flex-col items-center justify-start py-32">
-          <div class="to absolute inset-0 z-0 bg-slate-700 bg-gradient-to-br from-slate-900"></div>
+          <div class="to absolute inset-0 z-0 bg-gradient-to-r from-emerald-500 from-10% via-sky-500 via-50% to-indigo-500 to-90%"></div>
 
-          <TituloWeb title="Visión 👓 " color="white" />
+          <TituloWeb title="Visión" color="white" />
 
           <Vision />
         </div>
@@ -153,14 +153,14 @@ Nuestro objetivo es enseñarles la Palabra de Dios y ayudarlos a desarrollar una
       <div
         id="galeria"
         className="mb-20 mt-10 flex flex-col gap-10 p-5 md:p-10">
-        <TituloWeb title="Galeria 📷 " color="black" />
+        <TituloWeb title="Galeria" color="black" />
         <Galeria />
       </div>
 
       {/* CUARTO */}
 
       <div className="mx-auto mb-10 flex w-[95%] flex-col">
-        <TituloWeb color="black" title="Cuarto de oración 🙌" />
+        <TituloWeb color="black" title="Cuarto de oración" />
         <Cuarto />
       </div>
 
@@ -169,7 +169,7 @@ Nuestro objetivo es enseñarles la Palabra de Dios y ayudarlos a desarrollar una
         id="Spotify"
         className="mx-auto flex h-[1000px] w-[100%] flex-col items-center bg-slate-900 bg-cover xl:grid xl:grid-cols-2 xl:place-items-baseline">
         <div className="mb-10 mt-20 w-[90%]">
-          <TituloWeb title="Alabanza 🙌 " color="white" />
+          <TituloWeb title="Alabanza" color="white" />
           <p className="z-10 hidden p-16 font-links text-[16px] font-light text-white/90 xl:grid ">
           Somos equipo de personas que se dedica a dirigir y participar en la adoración a Dios a través de la música y la alabanza. Este ministerio tiene como objetivo principal glorificar a Dios y conducir a la congregación a una experiencia de adoración íntima y significativa.
 
@@ -186,9 +186,9 @@ Nuestro objetivo es enseñarles la Palabra de Dios y ayudarlos a desarrollar una
 
       <div
         id="testimonios"
-        className="flex h-[100vh] w-full flex-col items-center bg-cover md:h-[70vh] xl:h-[100vh] ">
+        className="flex h-[100vh] w-full flex-col items-center bg-cover md:h-[70vh] xl:h-[100vh]">
         <div className="my-20">
-          <TituloWeb title="Testimonios 📣 " color="black" />
+          <TituloWeb title="Testimonios" color="black" />
         </div>
 
         <Carousel />
@@ -196,7 +196,7 @@ Nuestro objetivo es enseñarles la Palabra de Dios y ayudarlos a desarrollar una
 
       {/* BANNER */}
       <div className="relative mb-4 flex h-[30vh] justify-center bg-portada bg-[51%] p-5 xl:h-[10vh] xl:bg-cover xl:py-[15%]">
-        <div class="absolute inset-0 bg-gradient-to-br from-yellow-600/80 to-red-600/90"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-indigo-500/80 from-10% via-sky-500 via-30% to-emerald-500/90 to-90%"></div>
 
         <Banner />
       </div>
@@ -213,7 +213,7 @@ Nuestro objetivo es enseñarles la Palabra de Dios y ayudarlos a desarrollar una
         className="justify-cente relative flex flex-col items-center bg-formulario bg-cover bg-fixed bg-center bg-no-repeat py-[10%]">
         <div class="to absolute inset-0 z-0 bg-slate-900/90"></div>
         <div className="z-10 mt-[10%] xl:mt-[6%]">
-          <TituloWeb title="Contacto 📧" color="white" />
+          <TituloWeb title="Contacto" color="white" />
         </div>
         <div className="font-light text-sm md:text-md text-gray-200 dark:text-gray-400 z-10">
         
@@ -223,7 +223,7 @@ Nuestro objetivo es enseñarles la Palabra de Dios y ayudarlos a desarrollar una
               
                   <a href="https://forms.gle/1WVru16MxFGv3xdn9">
                     <button
-                      className="mb-1 mr-1 rounded bg-gradient-to-br from-yellow-600 to-red-600 px-6 py-3 text-sm font-bold uppercase text-white shadow outline-none transition-all duration-150 ease-linear hover:shadow-lg focus:outline-none"
+                      className="mb-1 mr-1 rounded bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% px-6 py-3 text-sm font-bold uppercase text-white shadow outline-none transition-all duration-150 ease-linear hover:shadow-lg focus:outline-none"
                       type="button">
                       CONTACTANOS!
                     </button>

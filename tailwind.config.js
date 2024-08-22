@@ -5,6 +5,21 @@ module.exports = {
 
     extend: {
 
+      colors:{
+
+        //color principal de la web
+        'color-principal': '#04AEC7',
+
+         //color secundariio de la web
+        'color-secundario': '#C7FE05',
+
+        //color button
+        'color-button': '#00497D',
+
+        //colorn degradado
+        'color-degradado': 'bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%',
+      },
+
       backgroundImage: {
         portada: "url('../src/assets/image/galeria1.webp')",
         portadaDos: "url('../src/assets/image/1.webp')",
@@ -14,6 +29,8 @@ module.exports = {
         formulario: "url('../src/assets/image/formulario.webp')",
         fondo: "url('../src/assets/image/fondo.webp')",
         sanando: "url('../src/assets/image/sanando.webp')",
+
+        iglesia: "url('../src/assets/image/iglesia.webp')",
       },
 
     },
@@ -28,12 +45,7 @@ module.exports = {
 },
   plugins: [require('tailwindcss-animated')],
 
-  colors: {
-    colorUno: '#04aec7',
-    secondary: '#c7fe05',
-    terciary: '#04rfc9',
-    // ...
-  },
+
 
 
 
