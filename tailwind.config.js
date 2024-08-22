@@ -23,7 +23,7 @@ module.exports = {
       backgroundImage: {
         portada: "url('../src/assets/image/galeria1.webp')",
         portadaDos: "url('../src/assets/image/1.webp')",
-        spotify: "url('../src/assets/image/alabanza.webp')",
+        spotify: "url('../src/assets/image/piano.webp')",
         cuarto: "url('../src/assets/image/cuartoUno.webp')",
         nubes: "url('../src/assets/image/nube.webp')",
         formulario: "url('../src/assets/image/formulario.webp')",
