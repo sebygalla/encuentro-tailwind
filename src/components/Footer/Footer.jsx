@@ -26,7 +26,7 @@ const Footer = () => {
                 Comunidad
               </h2>
               <ul className="font-light text-sm md:text-md text-gray-200 dark:text-gray-400">
-                <li className="mb-4 font-links font-extralight leading-5">
+                <li className="mb-4 font-links font-normal leading-5">
                   
                   <p>Natta 362, Tristán Suárez, Prov. Bs. As./ Argentina</p>
                   <a className="font-semibold" href="mailto:iglesiaelencuentrotsuarez@gmail.com" target="blank">
@@ -35,7 +35,7 @@ const Footer = () => {
             
                   
                 </li>
-                <li className="leading-5 font-links font-extralight">
+                <li className="leading-5 font-links font-normal">
 
                     <strong className="font-semibold">Reuniones centrales:</strong> Miercoles 19:00hs y Domingos 10:30hs Consultorio Pastoral: Martes 17hs a 20hs. Miercoles 17hs a 19hs
                   
@@ -47,8 +47,8 @@ const Footer = () => {
               <h2 className="mb-4 font-title text-3xl font-semibold uppercase text-gray-200 dark:text-white">
               SOBRE NOSOTROS
               </h2>
-              <ul className="font-light text-sm text-gray-200 dark:text-gray-400">
-                <li className="mb-4 font-links font-extralight leading-5">
+              <ul className="font-normal text-sm text-gray-200 dark:text-gray-400">
+                <li className="mb-4 font-links font-normal leading-5">
                   
                   Iglesia El Encuentro Tristán Suárez ¡Bienvenido al lugar de tu encuentro con Dios, gracias por acompañarnos!
                 
@@ -61,21 +61,21 @@ const Footer = () => {
                 Seguinos
               </h2>
               <ul className="font-light text-sm text-gray-200 dark:text-gray-400">
-                <li className="mb-4 leading-5 font-links font-extralight">
+                <li className="mb-4 leading-5 font-links font-normal">
                   <a
                     href="https://www.facebook.com/iglesiaelencuentrotristansuarez"
                     className="hover:underline ">
                     Facebook
                   </a>
                 </li>
-                <li className="mb-4 leading-5 font-links font-extralight">
+                <li className="mb-4 leading-5 font-links font-normal">
                   <a
                     href="https://www.youtube.com/@iglesiaelencuentrots-music8317"
                     className="hover:underline">
                     YouTube
                   </a>
                 </li>
-                <li className="mb-4 leading-5 font-links font-extralight">
+                <li className="mb-4 leading-5 font-links font-normal">
                   <a
                     href="https://www.instagram.com/igle.elencuentro.suarez/"
                     className="hover:underline">
@@ -94,9 +94,9 @@ const Footer = () => {
           <span className="text-sm text-gray-200 dark:text-gray-400">
             © 2024{" "}
             <a href="#" className="hover:underline">
-              Iglesia El Encuentro- Tristán Suárez 
+              Iglesia El Encuentro Tristán Suárez  
             </a>
-             -Todos los derechos reservados.
+             - Todos los derechos reservados.
           </span>
 
         </div>
