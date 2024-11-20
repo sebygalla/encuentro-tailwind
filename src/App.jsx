@@ -75,7 +75,7 @@ function App() {
       {/* VISION */}
       <div
         id="vision"
-        className="clipPath relative flex items-center justify-center">
+        className="relative flex items-center justify-center">
         <div className=" flex flex-col items-center justify-start py-32">
           <div class="to absolute inset-0 z-0 bg-gradient-to-r from-red-500 to-orange-500"></div>
 
