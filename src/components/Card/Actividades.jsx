@@ -28,7 +28,7 @@ function Actividades(props) {
           </a>
 
           <button
-            className="mx-auto my-5 mb-1 w-full rounded bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% px-6 py-3 text-sm font-bold uppercase text-white shadow outline-none transition-all duration-150 ease-linear hover:shadow-lg focus:outline-none active:bg-pink-600"
+            className="mx-auto my-5 mb-1 w-full rounded bg-gradient-to-r from-red-500 to-orange-500 px-6 py-3 text-sm font-bold uppercase text-white shadow outline-none transition-all duration-150 ease-linear hover:shadow-lg focus:outline-none active:bg-pink-600"
             type="button"
             onClick={(e) => setShowModal(true)}>
             {props.textButton}
@@ -64,7 +64,7 @@ function Actividades(props) {
                       {/*footer*/}
                       <div className="flex items-center justify-center rounded-b">
                         <button
-                          className="w-full rounded bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% px-6 py-3 text-[16px] font-bold uppercase text-white shadow outline-none transition-all duration-150 ease-linear hover:shadow-lg focus:outline-none"
+                          className="w-full rounded bg-gradient-to-r from-red-500 to-orange-500 px-6 py-3 text-[16px] font-bold uppercase text-white shadow outline-none transition-all duration-150 ease-linear hover:shadow-lg focus:outline-none"
                           type="button"
                           onClick={() => setShowModal(false)}>
                           CERRAR

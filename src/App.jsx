@@ -51,7 +51,7 @@ function App() {
 
       {/* REHMA */}
       <div id="rehma" className="my-20">
-        <TituloWeb title="Rehma 2024 📖" />
+        <TituloWeb title="Rehma 2025 📖" />
         <Rehma
           imagen={Jorge}
           nombre="Jorge Sennewald"
@@ -64,7 +64,7 @@ function App() {
         id="nosotros"
         className="clipPath2 relative flex items-center justify-center mb-3">
         <div className=" bg-about flex flex-col items-center justify-start bg-cover bg-fixed bg-center bg-no-repeat py-32">
-          <div class="absolute inset-0 z-0 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%"></div>
+          <div class="absolute inset-0 z-0 bg-gradient-to-r from-slate-900 to-slate-700"></div>
 
           <TituloWeb title="Nosotros" color="white" />
 
@@ -77,7 +77,7 @@ function App() {
         id="vision"
         className="clipPath relative flex items-center justify-center">
         <div className=" flex flex-col items-center justify-start py-32">
-          <div class="to absolute inset-0 z-0 bg-gradient-to-r from-emerald-500 from-10% via-sky-500 via-50% to-indigo-500 to-90%"></div>
+          <div class="to absolute inset-0 z-0 bg-gradient-to-r from-red-500 to-orange-500"></div>
 
           <TituloWeb title="Visión" color="white" />
 
@@ -167,7 +167,7 @@ Nuestro objetivo es enseñarles la Palabra de Dios y ayudarlos a desarrollar una
       {/* SPOTIFY */}
       <div
         id="Spotify"
-        className="mx-auto flex h-[1000px] w-[100%] flex-col items-center bg-slate-900 bg-cover xl:grid xl:grid-cols-2 xl:place-items-baseline">
+        className="mx-auto flex h-[1000px] w-[100%] flex-col items-center bg-gradient-to-r from-slate-900 to-slate-700 bg-cover xl:grid xl:grid-cols-2 xl:place-items-baseline">
         <div className="mb-10 mt-20 w-[90%]">
           <TituloWeb title="Alabanza" color="white" />
           <p className="z-10 hidden p-16 font-links text-[16px] font-light text-white/90 xl:grid ">
@@ -196,7 +196,7 @@ Nuestro objetivo es enseñarles la Palabra de Dios y ayudarlos a desarrollar una
 
       {/* BANNER */}
       <div className="relative mb-4 flex h-[30vh] justify-center bg-portada bg-[51%] p-5 xl:h-[10vh] xl:bg-cover xl:py-[15%]">
-        <div class="absolute inset-0 bg-gradient-to-r from-indigo-500/80 from-10% via-sky-500 via-30% to-emerald-500/90 to-90%"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-red-500 to-orange-500"></div>
 
         <Banner />
       </div>

@@ -2,7 +2,7 @@ import logoTipo from "../../assets/image/tomi-04.webp";
 
 const Footer = () => {
   return (
-    <footer className=" bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% border-t-2
+    <footer className="bg-gradient-to-r from-slate-900 to-slate-700 border-t-2
     ">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex">
