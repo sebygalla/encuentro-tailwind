@@ -223,7 +223,7 @@ Nuestro objetivo es enseñarles la Palabra de Dios y ayudarlos a desarrollar una
               
                   <a href="https://forms.gle/1WVru16MxFGv3xdn9">
                     <button
-                      className="mb-1 mr-1 rounded bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% px-6 py-3 text-sm font-bold uppercase text-white shadow outline-none transition-all duration-150 ease-linear hover:shadow-lg focus:outline-none"
+                      className="mb-1 mr-1 rounded bg-gradient-to-r from-red-500 to-orange-500 px-6 py-3 text-sm font-bold uppercase text-white shadow outline-none transition-all duration-150 ease-linear hover:shadow-lg focus:outline-none"
                       type="button">
                       CONTACTANOS!
                     </button>
