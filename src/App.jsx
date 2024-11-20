@@ -62,7 +62,7 @@ function App() {
       {/* NOSOTROS */}
       <div
         id="nosotros"
-        className="clipPath2 relative flex items-center justify-center mb-3">
+        className="relative flex items-center justify-center mb-0">
         <div className=" bg-about flex flex-col items-center justify-start bg-cover bg-fixed bg-center bg-no-repeat py-32">
           <div class="absolute inset-0 z-0 bg-gradient-to-r from-slate-900 to-slate-700"></div>
 
