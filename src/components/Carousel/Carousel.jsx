@@ -7,6 +7,7 @@ import Angelito from "../../assets/image/angelito.webp";
 
 import Nazarena from "../../assets/image/nazarena.webp";
 import anaYmario from "../../assets/image/anaymario.webp";
+import nuria from "../../assets/image/nuria.jpg";
 
 function Carousel() {
   return (
@@ -32,6 +33,16 @@ Dios nos abrazó, nos llevó a comprender que el tiempo está en sus manos dánd
           nombre="Nazarena Fernandez"
           description="Iglesia El Encuentro-T.Suárez"
           imagen={Nazarena}
+          color="white"
+        />
+      </div>
+
+      <div className="snap-center">
+        <Card
+          testimonio="Mi nombre es Nuria, quiero dar gracias a Dios por sanar mi corazon, por sacarme de la tristeza, por restaurarme,por la salud de mi familia, por cada uno de ellos que a pesar de que nos arrebataron la vida de mi hermano mayor Dios nos sostiene, nos contiene. hace un año y cuatro meses conoci a Dios y en junio me bautize!... "
+          nombre="Nuria Colman"
+          description="Iglesia El Encuentro-T.Suárez"
+          imagen={nuria}
           color="white"
         />
       </div>

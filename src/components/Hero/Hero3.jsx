@@ -19,7 +19,7 @@ const Hero3 = () => {
           <TituloWeb  title="EL ENCUENTRO" color="white" style="semibold" />
           <h3 className="mt-3 text-sm font-normal md:tracking-[10px] flex text-white">
           <HiLocationMarker className=" ml-5
-          mt-1 mr-[40px] text-white text-center" /> Tristán Suárez - 2024
+          mt-1 mr-[40px] text-white text-center" /> Tristán Suárez - 2025
           </h3>
 
       
