@@ -7,7 +7,7 @@ import Angelito from "../../assets/image/angelito.webp";
 
 import Nazarena from "../../assets/image/nazarena.webp";
 import anaYmario from "../../assets/image/anaymario.webp";
-import nuria from "../../assets/image/nuria.jpg";
+import Nuria from "../../assets/image/nuria.jpg";
 
 function Carousel() {
   return (
@@ -22,7 +22,6 @@ Dios nos abrazó, nos llevó a comprender que el tiempo está en sus manos dánd
           description="Iglesia El Encuentro-T.Suárez"
           imagen={anaYmario}
           color="white"
-       
         />
       </div>
 
@@ -42,11 +41,11 @@ Dios nos abrazó, nos llevó a comprender que el tiempo está en sus manos dánd
           testimonio="Mi nombre es Nuria, quiero dar gracias a Dios por sanar mi corazon, por sacarme de la tristeza, por restaurarme,por la salud de mi familia, por cada uno de ellos que a pesar de que nos arrebataron la vida de mi hermano mayor Dios nos sostiene, nos contiene. hace un año y cuatro meses conoci a Dios y en junio me bautize!... "
           nombre="Nuria Colman"
           description="Iglesia El Encuentro-T.Suárez"
-          imagen={nuria}
+          imagen={Nuria}
           color="white"
         />
       </div>
-{/* 
+      {/* 
       <div className="snap-center">
         <Card
         testimonio="Ut efficitur sapien quistaictumst. Pellentesque fringilla, tortor sit amet sodales gravida, sapien lectus dapibus augue, vitae luctus nisl elit sit amet felis. Mauris semper ipsum et lorem sollicitudin venenatis. Nulla facilisi. Cras convallis mauris ut odio pretium, ut volutpat tortor porttitor. In et congue neque."

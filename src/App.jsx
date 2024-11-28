@@ -51,7 +51,7 @@ function App() {
 
       {/* REHMA */}
       <div id="rehma" className="my-20">
-        <TituloWeb title="Rehma 2025 📖" />
+        <TituloWeb title="Rehma 2025" />
         <Rehma
           imagen={Jorge}
           nombre="Jorge Sennewald"
@@ -87,7 +87,7 @@ function App() {
 
       {/* ACTIVIDADES */}
       <div id="actividades" className="mt-[30%] xl:mt-[150px]"></div>
-      <TituloWeb title="Actividades  ⛪ " color="black" />
+      <TituloWeb title="Actividades" color="black" />
 
       <div className="container relative mx-auto mt-20 flex flex-col items-center justify-between overflow-hidden md:p-10">
         <div className="m-0 mb-36 grid gap-10 text-justify md:grid-cols-2 xl:grid-cols-3">
